@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+  <Product Name="Pho-noodle Soup" Text="Pho-noodle Soup" ID="1" />
+  <Product Name="Com-rice Dishes" Text="Com-rice Dishes" ID="2" />
+  <Product Name="Appetizer and Bánh Mì" Text="Appetizer and Bánh Mì" ID="3" />
+  <Product Name="Bún and Bánh Hỏi" Text="Bún and Bánh Hỏi" ID="4" />
+  <Product Name="Vegitarian" Text="Vegitarian" ID="5" />
+  <Product Name="Vegitarian" Text="Vegitarian" ID="5" />
+  <Product Name="Vegitarian" Text="Vegitarian" ID="5" />
+  <Product Name="Vegitarian" Text="Vegitarian" ID="5" />
+  <Product Name="Vegitarian" Text="Vegitarian" ID="5" />
+</Products>

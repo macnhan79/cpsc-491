@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{379F4A16-CE7B-4FFC-A412-ECE50964A18B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhoMac.Business</RootNamespace>
+    <AssemblyName>PhoMac.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Dao.cs" />
+    <Compile Include="Data\IDao.cs" />
+    <Compile Include="Factory\AbstractFactory.cs" />
+    <Compile Include="Factory\EntityFactory.cs" />
+    <Compile Include="Presenter\AttendancePresenter.cs" />
+    <Compile Include="Presenter\Entity\CategoryPresenter.cs" />
+    <Compile Include="Presenter\Entity\CustomerPresenter.cs" />
+    <Compile Include="Presenter\Entity\CustomerTypePresenter.cs" />
+    <Compile Include="Presenter\Entity\EmployeePresenter.cs" />
+    <Compile Include="Presenter\Entity\DictionaryPresenter.cs" />
+    <Compile Include="Presenter\Entity\PSizeDetailPresenter.cs" />
+    <Compile Include="Presenter\Entity\PSizePresenter.cs" />
+    <Compile Include="Presenter\Permission\SystemPermission.cs" />
+    <Compile Include="Presenter\Kitchen\PhoHa7_ProcSaleItemPresenter.cs" />
+    <Compile Include="Presenter\Kitchen\PhoHa7_ProcTicketsPresenter.cs" />
+    <Compile Include="Presenter\Tickets\ProcSaleItemPresenter.cs" />
+    <Compile Include="Presenter\Tickets\ProcTicketPresenter.cs" />
+    <Compile Include="Presenter\Entity\ProductPresenter.cs" />
+    <Compile Include="Presenter\Entity\ProductTypePresenter.cs" />
+    <Compile Include="Presenter\Tickets\SaleItemPresenter.cs" />
+    <Compile Include="Presenter\Permission\PhoHa7_Sys_User_PermissionPresenter.cs" />
+    <Compile Include="Presenter\Sys\SysParameterPresenter.cs" />
+    <Compile Include="Presenter\Permission\SysRolePresenter.cs" />
+    <Compile Include="Presenter\Entity\UserPresenter.cs" />
+    <Compile Include="Presenter\Entity\TabCategoryPresenter.cs" />
+    <Compile Include="Presenter\Entity\TablePresenter.cs" />
+    <Compile Include="Presenter\Tickets\TicketPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhoHa7.Model\PhoMac.Model.csproj">
+      <Project>{2df8326f-6b8f-445e-a12f-1280ef366efb}</Project>
+      <Name>PhoMac.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sumen.Library\PhoHa7.Library.csproj">
+      <Project>{17d65bfe-82ef-4fda-a47e-00494e3ed53e}</Project>
+      <Name>PhoHa7.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

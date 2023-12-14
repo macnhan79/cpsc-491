@@ -1,0 +1,96 @@
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\Resources\ErrorMessages.mdb
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll.config
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.pdb
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.dll
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.dll
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.dll
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\Chuoi.dll
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.pdb
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.pdb
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.xml
+D:\Aptech\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Aptech\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.csprojResolveAssemblyReference.cache
+D:\Aptech\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.dll
+D:\Aptech\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\Resources\ErrorMessages.mdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll.config
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\Chuoi.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.xml
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.csprojResolveAssemblyReference.cache
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.pdb
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\Resources\ErrorMessages.mdb
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll.config
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.pdb
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.dll
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.dll
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.dll
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\Chuoi.dll
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.pdb
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.pdb
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.xml
+D:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Google Drive\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.csprojResolveAssemblyReference.cache
+D:\Google Drive\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.dll
+D:\Google Drive\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.pdb
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\Resources\ErrorMessages.mdb
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll.config
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.pdb
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.dll
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.dll
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.dll
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\Chuoi.dll
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.pdb
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.pdb
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.xml
+C:\GoogleDrive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\GoogleDrive\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.csprojResolveAssemblyReference.cache
+C:\GoogleDrive\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.dll
+C:\GoogleDrive\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.pdb
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\Resources\ErrorMessages.mdb
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll.config
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.pdb
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.dll
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.dll
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.dll
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.dll
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\Chuoi.dll
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.pdb
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.pdb
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.xml
+G:\Google Drive\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.xml
+G:\Google Drive\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.csprojResolveAssemblyReference.cache
+G:\Google Drive\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.dll
+G:\Google Drive\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.pdb
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\Resources\ErrorMessages.mdb
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll.config
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.dll
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Business.pdb
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.dll
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.dll
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.dll
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\Chuoi.dll
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\PhoMac.Model.pdb
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\Sumen.Library.pdb
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.xml
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.csprojResolveAssemblyReference.cache
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.dll
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Business\obj\Debug\PhoMac.Business.pdb

@@ -1,0 +1,168 @@
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Resources\ErrorMessages.mdb
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll.config
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.pdb
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Microsoft.CSharp.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Data.DataSetExtensions.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Data.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Data.Entity.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Runtime.Serialization.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Security.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.Linq.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Chuoi.dll
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.pdb
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.xml
+E:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Aptech\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.csprojResolveAssemblyReference.cache
+E:\Aptech\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.dll
+E:\Aptech\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.pdb
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Resources\ErrorMessages.mdb
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll.config
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.pdb
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Microsoft.CSharp.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Data.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Data.Entity.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Runtime.Serialization.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Security.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.Linq.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Chuoi.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.pdb
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.xml
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Aptech\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.csprojResolveAssemblyReference.cache
+D:\Aptech\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.dll
+D:\Aptech\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Resources\ErrorMessages.mdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll.config
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Data.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Data.Entity.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Security.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.Linq.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Chuoi.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.xml
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.csprojResolveAssemblyReference.cache
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.pdb
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Resources\ErrorMessages.mdb
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll.config
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.pdb
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Microsoft.CSharp.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Data.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Data.Entity.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Runtime.Serialization.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Security.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.Linq.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Chuoi.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.pdb
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.xml
+D:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Google Drive\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.csprojResolveAssemblyReference.cache
+D:\Google Drive\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.dll
+D:\Google Drive\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.pdb
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\Resources\ErrorMessages.mdb
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll.config
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.pdb
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\Microsoft.CSharp.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\System.Data.DataSetExtensions.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\System.Data.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\System.Data.Entity.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\System.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\System.Runtime.Serialization.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\System.Security.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.Linq.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\Chuoi.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.pdb
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.xml
+C:\GoogleDrive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\GoogleDrive\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.csprojResolveAssemblyReference.cache
+C:\GoogleDrive\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.dll
+C:\GoogleDrive\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.pdb
+G:\Google Drive\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.csprojResolveAssemblyReference.cache
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Resources\ErrorMessages.mdb
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll.config
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.pdb
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Microsoft.CSharp.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.ComponentModel.DataAnnotations.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Data.DataSetExtensions.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Data.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Data.Entity.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Runtime.Serialization.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Security.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.Linq.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Chuoi.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.pdb
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.xml
+G:\Google Drive\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.xml
+G:\Google Drive\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.dll
+G:\Google Drive\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.pdb
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Resources\ErrorMessages.mdb
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll.config
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\PhoMac.Model.pdb
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Data.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Data.Entity.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Security.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\System.Xml.Linq.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Chuoi.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.pdb
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.xml
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.csprojResolveAssemblyReference.cache
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.dll
+C:\Users\Kira\Desktop\PhoHa\PhoHa7.Model\obj\Debug\PhoMac.Model.pdb

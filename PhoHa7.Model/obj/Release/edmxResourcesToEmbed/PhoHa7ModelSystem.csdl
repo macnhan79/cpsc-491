@@ -1,0 +1,1259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbProviderModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="DbProviderModel.Category" />
+    <EntitySet Name="DelItems" EntityType="DbProviderModel.DelItem" />
+    <EntitySet Name="Employees" EntityType="DbProviderModel.Employee" />
+    <EntitySet Name="PhoHa7_Attendance" EntityType="DbProviderModel.PhoHa7_Attendance" />
+    <EntitySet Name="PhoHa7_FilterSaleItem" EntityType="DbProviderModel.PhoHa7_FilterSaleItem" />
+    <EntitySet Name="PhoHa7_ProcSaleItem" EntityType="DbProviderModel.PhoHa7_ProcSaleItem" />
+    <EntitySet Name="PhoHa7_ProcTickets" EntityType="DbProviderModel.PhoHa7_ProcTickets" />
+    <EntitySet Name="PhoHa7_ProductType" EntityType="DbProviderModel.PhoHa7_ProductType" />
+    <EntitySet Name="PhoHa7_Sys_Object" EntityType="DbProviderModel.PhoHa7_Sys_Object" />
+    <EntitySet Name="PhoHa7_Sys_Option" EntityType="DbProviderModel.PhoHa7_Sys_Option" />
+    <EntitySet Name="PhoHa7_Sys_Role" EntityType="DbProviderModel.PhoHa7_Sys_Role" />
+    <EntitySet Name="PhoHa7_Sys_Role_Permission" EntityType="DbProviderModel.PhoHa7_Sys_Role_Permission" />
+    <EntitySet Name="PhoHa7_Sys_User_Permission" EntityType="DbProviderModel.PhoHa7_Sys_User_Permission" />
+    <EntitySet Name="PhoHa7_UserRole" EntityType="DbProviderModel.PhoHa7_UserRole" />
+    <EntitySet Name="ProcSaleItems" EntityType="DbProviderModel.ProcSaleItem" />
+    <EntitySet Name="ProcTickets" EntityType="DbProviderModel.ProcTicket" />
+    <EntitySet Name="Products" EntityType="DbProviderModel.Product" />
+    <EntitySet Name="ProductTypes" EntityType="DbProviderModel.ProductType" />
+    <EntitySet Name="SaleItems" EntityType="DbProviderModel.SaleItem" />
+    <EntitySet Name="TabCategories" EntityType="DbProviderModel.TabCategory" />
+    <EntitySet Name="Tables" EntityType="DbProviderModel.Table" />
+    <EntitySet Name="Tickets" EntityType="DbProviderModel.Ticket" />
+    <AssociationSet Name="FK_PhoHa7_Attendance_Employees" Association="DbProviderModel.FK_PhoHa7_Attendance_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="PhoHa7_Attendance" EntitySet="PhoHa7_Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_Sys_User_Permission_Employees" Association="DbProviderModel.FK_PhoHa7_Sys_User_Permission_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="PhoHa7_Sys_User_Permission" EntitySet="PhoHa7_Sys_User_Permission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_UserRole_Employees" Association="DbProviderModel.FK_PhoHa7_UserRole_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="PhoHa7_UserRole" EntitySet="PhoHa7_UserRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Object" Association="DbProviderModel.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Object">
+      <End Role="PhoHa7_Sys_Object" EntitySet="PhoHa7_Sys_Object" />
+      <End Role="PhoHa7_Sys_Role_Permission" EntitySet="PhoHa7_Sys_Role_Permission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_Sys_User_Permission_PhoHa7_Sys_Object" Association="DbProviderModel.FK_PhoHa7_Sys_User_Permission_PhoHa7_Sys_Object">
+      <End Role="PhoHa7_Sys_Object" EntitySet="PhoHa7_Sys_Object" />
+      <End Role="PhoHa7_Sys_User_Permission" EntitySet="PhoHa7_Sys_User_Permission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Role" Association="DbProviderModel.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Role">
+      <End Role="PhoHa7_Sys_Role" EntitySet="PhoHa7_Sys_Role" />
+      <End Role="PhoHa7_Sys_Role_Permission" EntitySet="PhoHa7_Sys_Role_Permission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_UserRole_PhoHa7_Sys_Role" Association="DbProviderModel.FK_PhoHa7_UserRole_PhoHa7_Sys_Role">
+      <End Role="PhoHa7_Sys_Role" EntitySet="PhoHa7_Sys_Role" />
+      <End Role="PhoHa7_UserRole" EntitySet="PhoHa7_UserRole" />
+    </AssociationSet>
+    <EntitySet Name="PhoHa7_Machine" EntityType="DbProviderModel.PhoHa7_Machine" />
+    <EntitySet Name="PhoHa7_CardProcess" EntityType="DbProviderModel.PhoHa7_CardProcess" />
+  </EntityContainer>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="Page" Type="Int32" />
+    <Property Name="Col" Type="Int32" />
+    <Property Name="Row" Type="Int32" />
+    <Property Name="ChoicPage" Type="Int32" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="iPage" Type="Int32" />
+    <Property Name="iRow" Type="Int32" />
+    <Property Name="iCol" Type="Int32" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="DelItem">
+    <Key>
+      <PropertyRef Name="DelItemID" />
+    </Key>
+    <Property Name="DelItemID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DelDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TicketID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="TicketNum" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="EmployeeID" Type="Int32" />
+    <Property Name="EmployeeName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="TableID" Type="Int32" />
+    <Property Name="TableName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Reason" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="Int32" />
+    <Property Name="Qty" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="RewardPoints" Type="Int32" />
+    <Property Name="ProdNo" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="QBuy" Type="Int32" />
+    <Property Name="QFree" Type="Int32" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="EditTimestamp" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CurTicketNum" Type="Int32" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="FullName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="HireDate" Type="DateTime" Precision="3" />
+    <Property Name="Address" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="State" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="ZipCode" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="HomePhone" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="CellPhone" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="SSN" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="ContractType" Type="Int32" />
+    <Property Name="Limit" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CPercent" Type="Single" />
+    <Property Name="ImageID" Type="Int32" />
+    <Property Name="ImageFPath" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Page" Type="Int32" />
+    <Property Name="Row" Type="Int32" />
+    <Property Name="Col" Type="Int32" />
+    <Property Name="ButtonColor" Type="Int32" />
+    <Property Name="TextColor" Type="Int32" />
+    <Property Name="SecurityCode" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="BirthDay" Type="DateTime" Precision="3" />
+    <Property Name="ShowName" Type="Boolean" />
+    <Property Name="CannotOpenDrawer" Type="Boolean" />
+    <Property Name="ApplyTipCheck" Type="Boolean" />
+    <Property Name="NoAppointment" Type="Boolean" />
+    <Property Name="NoPicture" Type="Boolean" />
+    <Property Name="RealName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Tittle" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="DepartmentID" Type="Int32" />
+    <Property Name="ZOrder" Type="Int32" />
+    <Property Name="PayrollOptions" Type="Int32" />
+    <Property Name="WorkDays" Type="Int32" />
+    <Property Name="TOrder" Type="Int32" />
+    <Property Name="BorrowCash" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Rate" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CheckPayRate" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CheckPayAmt" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Rate2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MonStartTime" Type="DateTime" Precision="3" />
+    <Property Name="MonEndedTime" Type="DateTime" Precision="3" />
+    <Property Name="TueStartTime" Type="DateTime" Precision="3" />
+    <Property Name="CommPercent" Type="Single" />
+    <Property Name="CurDTicketNum" Type="Int32" />
+    <Property Name="StartTime" Type="DateTime" Precision="3" />
+    <Property Name="TActive" Type="Boolean" />
+    <Property Name="NoReceipt" Type="Boolean" />
+    <Property Name="YouGotMail" Type="Boolean" />
+    <Property Name="OtherApp" Type="Boolean" />
+    <Property Name="MemoMailID" Type="Int32" />
+    <Property Name="BatchNumber" Type="Int32" />
+    <Property Name="ItemsNumber" Type="Int32" />
+    <Property Name="LogIn" Type="Boolean" />
+    <Property Name="LogTimeI" Type="DateTime" Precision="3" />
+    <Property Name="LogOut" Type="Boolean" />
+    <Property Name="LogTimeO" Type="DateTime" Precision="3" />
+    <Property Name="LogTimeID" Type="Int32" />
+    <Property Name="Template1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Template2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="LUserName" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="LPassword" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Administrator" Type="Boolean" />
+    <Property Name="PayrollID" Type="Int32" />
+    <Property Name="OMID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="MID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="TID" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="DeviceID" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="DID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="DIDATL" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="IsHasMerchant" Type="Boolean" />
+    <Property Name="FirstName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="MidName" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="LastName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="NickName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="FileAs" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="ShowNick" Type="Boolean" />
+    <Property Name="ShowBirth" Type="Boolean" />
+    <Property Name="Email" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="SecureLevel" Type="Int32" />
+    <Property Name="iPage" Type="Int32" />
+    <Property Name="ixPos" Type="Single" />
+    <Property Name="iyPos" Type="Single" />
+    <Property Name="iWidth" Type="Single" />
+    <Property Name="iHeight" Type="Single" />
+    <Property Name="iFontSize" Type="Single" />
+    <Property Name="iButColor" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="iTextColor" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="TueEndedTime" Type="DateTime" Precision="3" />
+    <Property Name="WedStartTime" Type="DateTime" Precision="3" />
+    <Property Name="WedEndedTime" Type="DateTime" Precision="3" />
+    <Property Name="ThuStartTime" Type="DateTime" Precision="3" />
+    <Property Name="ThuEndedTime" Type="DateTime" Precision="3" />
+    <Property Name="FriStartTime" Type="DateTime" Precision="3" />
+    <Property Name="FriEndedTime" Type="DateTime" Precision="3" />
+    <Property Name="SatStartTime" Type="DateTime" Precision="3" />
+    <Property Name="SatEndedTime" Type="DateTime" Precision="3" />
+    <Property Name="SunStartTime" Type="DateTime" Precision="3" />
+    <Property Name="SunEndedTime" Type="DateTime" Precision="3" />
+    <Property Name="IsAUGST" Type="Boolean" />
+    <Property Name="MarriedStatus" Type="Int32" />
+    <Property Name="Dependent" Type="Int32" />
+    <Property Name="Withheld" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Examption" Type="Boolean" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="TIDATL" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="AddtionFee" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AvailableTime" Type="Int32" />
+    <Property Name="Username" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="PhoHa7_Attendance" Relationship="DbProviderModel.FK_PhoHa7_Attendance_Employees" FromRole="Employees" ToRole="PhoHa7_Attendance" />
+    <NavigationProperty Name="PhoHa7_Sys_User_Permission" Relationship="DbProviderModel.FK_PhoHa7_Sys_User_Permission_Employees" FromRole="Employees" ToRole="PhoHa7_Sys_User_Permission" />
+    <NavigationProperty Name="PhoHa7_UserRole" Relationship="DbProviderModel.FK_PhoHa7_UserRole_Employees" FromRole="Employees" ToRole="PhoHa7_UserRole" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Attendance">
+    <Key>
+      <PropertyRef Name="Att_AttendanceID" />
+    </Key>
+    <Property Name="Att_AttendanceID" Type="Int32" Nullable="false" />
+    <Property Name="Att_EmployeeID" Type="Int32" />
+    <Property Name="Att_EmployeeName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Day1" Type="Double" />
+    <Property Name="Day2" Type="Double" />
+    <Property Name="Day3" Type="Double" />
+    <Property Name="Day4" Type="Double" />
+    <Property Name="Day5" Type="Double" />
+    <Property Name="Day6" Type="Double" />
+    <Property Name="Day7" Type="Double" />
+    <Property Name="Day8" Type="Double" />
+    <Property Name="Day9" Type="Double" />
+    <Property Name="Day10" Type="Double" />
+    <Property Name="Day11" Type="Double" />
+    <Property Name="Day12" Type="Double" />
+    <Property Name="Day13" Type="Double" />
+    <Property Name="Day14" Type="Double" />
+    <Property Name="Day15" Type="Double" />
+    <Property Name="Day16" Type="Double" />
+    <Property Name="Day17" Type="Double" />
+    <Property Name="Day18" Type="Double" />
+    <Property Name="Day19" Type="Double" />
+    <Property Name="Day20" Type="Double" />
+    <Property Name="Day21" Type="Double" />
+    <Property Name="Day22" Type="Double" />
+    <Property Name="Day23" Type="Double" />
+    <Property Name="Day24" Type="Double" />
+    <Property Name="Day25" Type="Double" />
+    <Property Name="Day26" Type="Double" />
+    <Property Name="Day27" Type="Double" />
+    <Property Name="Day28" Type="Double" />
+    <Property Name="Day29" Type="Double" />
+    <Property Name="Day30" Type="Double" />
+    <Property Name="Day31" Type="Double" />
+    <Property Name="Att_TotalDays" Type="Double" />
+    <Property Name="Att_Month" Type="Int32" />
+    <Property Name="Att_Year" Type="Int32" />
+    <Property Name="Att_AmountCheck" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Att_AmountCash" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Att_AmountExtra" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Att_AmountSubtract" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Att_AmountTotal" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Att_Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Att_Rate" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Employee" Relationship="DbProviderModel.FK_PhoHa7_Attendance_Employees" FromRole="PhoHa7_Attendance" ToRole="Employees" />
+  </EntityType>
+  <EntityType Name="PhoHa7_FilterSaleItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="BarCode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PhoHa7_ProcSaleItem">
+    <Key>
+      <PropertyRef Name="SaleItemID" />
+    </Key>
+    <Property Name="SaleItemID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="TicketID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="TicketNum" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Qty" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Extra" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Employee" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Done" Type="Boolean" />
+    <Property Name="ToKitchen" Type="Boolean" />
+    <Property Name="TakeOut" Type="Boolean" />
+    <Property Name="NotSaleItem" Type="Boolean" />
+    <Property Name="Done1" Type="Boolean" />
+    <Property Name="Category" Type="Int32" />
+    <Property Name="Cancel" Type="Boolean" />
+    <Property Name="IsChange" Type="Boolean" />
+    <Property Name="BarCode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ExtraName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ExtraPrice" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OptionRequire" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="IsSmall" Type="Boolean" />
+    <Property Name="MType" Type="Int32" />
+    <Property Name="SaleItemID_Root" Type="Int32" />
+    <Property Name="ExtraWith" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ExtraWithout" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="CustomSelect" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PhoHa7_ProcTickets">
+    <Key>
+      <PropertyRef Name="TicketID" />
+    </Key>
+    <Property Name="TicketID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="EmployeeName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="TicketNum" Type="Int32" />
+    <Property Name="DateTimeIssue" Type="DateTime" Precision="3" />
+    <Property Name="Tax" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Total" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Discount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TableName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DTicketNum" Type="Int32" />
+    <Property Name="TakeOut" Type="Boolean" />
+    <Property Name="Done" Type="Boolean" />
+    <Property Name="ToKitchen" Type="Boolean" />
+    <Property Name="IsChange" Type="Boolean" />
+    <Property Name="TicketID_Root" Type="Int32" />
+    <Property Name="TableID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PhoHa7_ProductType">
+    <Key>
+      <PropertyRef Name="ProductTypeID" />
+    </Key>
+    <Property Name="ProductTypeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductTypeName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ProductTypeCode" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_Object">
+    <Key>
+      <PropertyRef Name="Syso_ID" />
+    </Key>
+    <Property Name="Syso_ID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Syso_Name" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Syso_NameEn" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Syso_Parent_ID" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Syso_Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Syso_Actived" Type="Boolean" />
+    <NavigationProperty Name="PhoHa7_Sys_Role_Permission" Relationship="DbProviderModel.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Object" FromRole="PhoHa7_Sys_Object" ToRole="PhoHa7_Sys_Role_Permission" />
+    <NavigationProperty Name="PhoHa7_Sys_User_Permission" Relationship="DbProviderModel.FK_PhoHa7_Sys_User_Permission_PhoHa7_Sys_Object" FromRole="PhoHa7_Sys_Object" ToRole="PhoHa7_Sys_User_Permission" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_Option">
+    <Key>
+      <PropertyRef Name="Opt_ID" />
+    </Key>
+    <Property Name="Opt_ID" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Opt_Value" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Opt_System" Type="Int32" />
+    <Property Name="Opt_Group" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Opt_Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_Role">
+    <Key>
+      <PropertyRef Name="Role_ID" />
+    </Key>
+    <Property Name="Role_ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Role_Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Role_IsSystem" Type="Boolean" />
+    <Property Name="Role_Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="PhoHa7_Sys_Role_Permission" Relationship="DbProviderModel.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Role" FromRole="PhoHa7_Sys_Role" ToRole="PhoHa7_Sys_Role_Permission" />
+    <NavigationProperty Name="PhoHa7_UserRole" Relationship="DbProviderModel.FK_PhoHa7_UserRole_PhoHa7_Sys_Role" FromRole="PhoHa7_Sys_Role" ToRole="PhoHa7_UserRole" />
+    <Property Type="Int32" Name="Role_Level" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_Role_Permission">
+    <Key>
+      <PropertyRef Name="RP_Role_ID" />
+      <PropertyRef Name="RP_Object_ID" />
+    </Key>
+    <Property Name="RP_Role_ID" Type="Int32" Nullable="false" />
+    <Property Name="RP_Object_ID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="RP_Permission" Type="Int32" />
+    <NavigationProperty Name="PhoHa7_Sys_Object" Relationship="DbProviderModel.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Object" FromRole="PhoHa7_Sys_Role_Permission" ToRole="PhoHa7_Sys_Object" />
+    <NavigationProperty Name="PhoHa7_Sys_Role" Relationship="DbProviderModel.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Role" FromRole="PhoHa7_Sys_Role_Permission" ToRole="PhoHa7_Sys_Role" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_User_Permission">
+    <Key>
+      <PropertyRef Name="UP_User_ID" />
+      <PropertyRef Name="UP_Object_ID" />
+    </Key>
+    <Property Name="UP_User_ID" Type="Int32" Nullable="false" />
+    <Property Name="UP_Object_ID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="UP_Permission" Type="Int32" />
+    <NavigationProperty Name="Employee" Relationship="DbProviderModel.FK_PhoHa7_Sys_User_Permission_Employees" FromRole="PhoHa7_Sys_User_Permission" ToRole="Employees" />
+    <NavigationProperty Name="PhoHa7_Sys_Object" Relationship="DbProviderModel.FK_PhoHa7_Sys_User_Permission_PhoHa7_Sys_Object" FromRole="PhoHa7_Sys_User_Permission" ToRole="PhoHa7_Sys_Object" />
+  </EntityType>
+  <EntityType Name="PhoHa7_UserRole">
+    <Key>
+      <PropertyRef Name="UR_Username" />
+      <PropertyRef Name="UR_Role_Id" />
+    </Key>
+    <Property Name="UR_Username" Type="Int32" Nullable="false" />
+    <Property Name="UR_Role_Id" Type="Int32" Nullable="false" />
+    <Property Name="UR_Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Employee" Relationship="DbProviderModel.FK_PhoHa7_UserRole_Employees" FromRole="PhoHa7_UserRole" ToRole="Employees" />
+    <NavigationProperty Name="PhoHa7_Sys_Role" Relationship="DbProviderModel.FK_PhoHa7_UserRole_PhoHa7_Sys_Role" FromRole="PhoHa7_UserRole" ToRole="PhoHa7_Sys_Role" />
+  </EntityType>
+  <EntityType Name="ProcSaleItem">
+    <Key>
+      <PropertyRef Name="SaleItemID" />
+    </Key>
+    <Property Name="SaleItemID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="TicketID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="TicketNum" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="Int32" />
+    <Property Name="Qty" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Extra" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ByWho" Type="Int32" />
+    <Property Name="ProcDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TeenDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SeniorDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ComProd" Type="Boolean" />
+    <Property Name="PrintBoth" Type="Boolean" />
+    <Property Name="SmallSize" Type="Boolean" />
+    <Property Name="Done" Type="Boolean" />
+    <Property Name="ChociceNo" Type="Boolean" />
+    <Property Name="ResString0" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString1" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="SizeChoiceTxt" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="ResString3" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString4" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="TranID" Type="Int32" />
+    <Property Name="MType" Type="Int32" />
+    <Property Name="WorkTimeSec" Type="Int32" />
+    <Property Name="ItemPos" Type="Int32" />
+    <Property Name="ResInt4" Type="Int32" />
+    <Property Name="ComTotal" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="OrgPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TCost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CoGDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ResDate0" Type="DateTime" Precision="3" />
+    <Property Name="ResDate1" Type="DateTime" Precision="3" />
+    <Property Name="ResDate2" Type="DateTime" Precision="3" />
+    <Property Name="CPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TakeOut" Type="Boolean" />
+    <Property Name="Printed" Type="Boolean" />
+    <Property Name="PrintStation" Type="Int32" />
+    <Property Name="NotSaleItem" Type="Boolean" />
+    <Property Name="ItemCode" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="KitchenName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="TabParty" Type="Int32" />
+    <Property Name="NoTax" Type="Boolean" />
+    <Property Name="CoG" Type="Boolean" />
+    <Property Name="Voided" Type="Boolean" />
+    <Property Name="IsHLProductSale" Type="Boolean" />
+    <Property Name="IsHLMemberSale" Type="Boolean" />
+    <Property Name="ResString5" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString6" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString7" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString8" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString9" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResMoney5" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ResMoney6" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ResMoney7" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ResMoney8" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ResMoney9" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MemberType" Type="Int32" />
+    <Property Name="MealsType" Type="Int32" />
+    <Property Name="ResInt7" Type="Int32" />
+    <Property Name="ResInt8" Type="Int32" />
+    <Property Name="ResInt9" Type="Int32" />
+    <Property Name="RewardPoints" Type="Int32" />
+    <Property Name="ProdNo" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="QBuy" Type="Int32" />
+    <Property Name="QFree" Type="Int32" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="OrgAmount" Type="Single" />
+    <Property Name="TotAmount" Type="Single" />
+    <Property Name="UnitAmount" Type="Single" />
+    <Property Name="EmployeeID" Type="Int32" />
+    <Property Name="EmployeeName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CoachID" Type="Int32" />
+    <Property Name="CoachName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="SaleRepID" Type="Int32" />
+    <Property Name="SaleRepName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="PaidType" Type="Byte" />
+    <Property Name="QtyAdj" Type="Int32" />
+    <Property Name="IsGiftItem" Type="Boolean" />
+    <Property Name="GiftItems" Type="Int32" />
+    <Property Name="FreeItems" Type="Int32" />
+    <Property Name="VendorID" Type="Int32" />
+    <Property Name="VendorName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="PAccountType" Type="Int32" />
+    <Property Name="PAccountID" Type="Int32" />
+    <Property Name="PAccountName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="ProductName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="BarCode" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Location" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Serial" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="SerialNeeded" Type="Boolean" />
+    <Property Name="StockHold" Type="Int32" />
+    <Property Name="QuotedItem" Type="Boolean" />
+    <Property Name="bReserved" Type="Boolean" />
+    <Property Name="bAccessory" Type="Boolean" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="EditTimestamp" Type="DateTime" Precision="3" />
+    <Property Name="AdminID" Type="Int32" />
+    <Property Name="Weight" Type="Single" />
+    <Property Name="FoodTypeName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="FoodTypeID" Type="Int32" />
+    <Property Name="ExtraName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ExtraPrice" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OptionRequire" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ExtraWith" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ExtraWithout" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="CustomSelect" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ProcTicket">
+    <Key>
+      <PropertyRef Name="TicketID" />
+    </Key>
+    <Property Name="TicketID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="TicketNum" Type="Int32" Nullable="false" />
+    <Property Name="DateTimeIssue" Type="DateTime" Precision="3" />
+    <Property Name="PaidType" Type="Byte" />
+    <Property Name="ContractType" Type="Int32" />
+    <Property Name="Tax" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalS" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalP" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalG" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalE" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ShareOwn" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ShareEmp" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidCash" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidGift" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Discount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ByWho" Type="Int32" />
+    <Property Name="TimeSpan" Type="Int32" />
+    <Property Name="DriverLicense" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CardCode" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="GiftCode" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Tips" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalT" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalC" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidCredit" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidCheck" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Voided" Type="Boolean" />
+    <Property Name="SkipTax" Type="Boolean" />
+    <Property Name="JackPot" Type="Boolean" />
+    <Property Name="VNDisComm" Type="Boolean" />
+    <Property Name="TableDone" Type="Boolean" />
+    <Property Name="Delivery" Type="Boolean" />
+    <Property Name="XferTo" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CustomerName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="TableName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="BarCode" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="VoiDelReason" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="MemberType" Type="Int32" />
+    <Property Name="MealsType" Type="Int32" />
+    <Property Name="TabNum" Type="Int32" />
+    <Property Name="SeatNum" Type="Int32" />
+    <Property Name="ResInt4" Type="Int32" />
+    <Property Name="Tax2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ProdDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidMember" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CoGDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CoGDiscountP" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ResDate0" Type="DateTime" Precision="3" />
+    <Property Name="ResDate1" Type="DateTime" Precision="3" />
+    <Property Name="ResDate2" Type="DateTime" Precision="3" />
+    <Property Name="CommPercent" Type="Single" />
+    <Property Name="CommProduct" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalO" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TranID" Type="Int32" />
+    <Property Name="DTicketNum" Type="Int32" />
+    <Property Name="TakeOut" Type="Boolean" />
+    <Property Name="TableID" Type="Int32" />
+    <Property Name="TabCatID" Type="Int32" />
+    <Property Name="TabParties" Type="Int32" />
+    <Property Name="SplitCheck" Type="Boolean" />
+    <Property Name="CoG" Type="Boolean" />
+    <Property Name="ServerCard" Type="Boolean" />
+    <Property Name="IsHLProductSale" Type="Boolean" />
+    <Property Name="IsHLMemberSale" Type="Boolean" />
+    <Property Name="ResBool9" Type="Boolean" />
+    <Property Name="ResString5" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString6" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString7" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString8" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="ResString9" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="LibProduct" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DHLMealCharge" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DHLCCardCharge" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DHLMCardCharge" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DUpGrade" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ResInt5" Type="Int32" />
+    <Property Name="ResInt6" Type="Int32" />
+    <Property Name="ResInt7" Type="Int32" />
+    <Property Name="ResInt8" Type="Int32" />
+    <Property Name="ResInt9" Type="Int32" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="PaidGCard" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidMisc" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AdminID" Type="Int32" />
+    <Property Name="PayrollID" Type="Int32" />
+    <Property Name="EmployeeName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CoachID" Type="Int32" />
+    <Property Name="CoachName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="SaleRepID" Type="Int32" />
+    <Property Name="SaleRepName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="ModDate" Type="DateTime" Precision="3" />
+    <Property Name="CardID" Type="Int32" />
+    <Property Name="IsExterm" Type="Boolean" />
+    <Property Name="EditTimestamp" Type="DateTime" Precision="3" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Done" Type="Boolean" />
+    <Property Name="ToGo" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="UnitsInStock" Type="Int32" />
+    <Property Name="InStockLimit" Type="Int32" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="Type" Type="Int32" />
+    <Property Name="ToDate" Type="DateTime" Precision="3" />
+    <Property Name="Discount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TeenDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SeniorDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DiscountDays" Type="Int32" />
+    <Property Name="TeenSeniorDays" Type="Int32" />
+    <Property Name="ButtonColor" Type="Int32" />
+    <Property Name="TextColor" Type="Int32" />
+    <Property Name="Page" Type="Int32" />
+    <Property Name="Col" Type="Int32" />
+    <Property Name="Row" Type="Int32" />
+    <Property Name="ProductImage" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TeenDays" Type="Int32" />
+    <Property Name="SeniorDays" Type="Int32" />
+    <Property Name="InItem" Type="Boolean" />
+    <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="InCatID" Type="Int32" />
+    <Property Name="StockedDate" Type="DateTime" Precision="3" />
+    <Property Name="RecordLevel" Type="Int32" />
+    <Property Name="BarCode" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="PrintBoth" Type="Boolean" />
+    <Property Name="NoTax" Type="Boolean" />
+    <Property Name="StockMatch" Type="Boolean" />
+    <Property Name="ChoiceProd" Type="Boolean" />
+    <Property Name="NoPicture" Type="Boolean" />
+    <Property Name="Location" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="VendorName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SizeChoiceTxt" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CategoryName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="VendorID" Type="Int32" />
+    <Property Name="MType" Type="Int32" />
+    <Property Name="StockCount" Type="Int32" />
+    <Property Name="WorkTimeSec" Type="Int32" />
+    <Property Name="BPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="LPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Price1" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Price2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ComProd" Type="Boolean" />
+    <Property Name="CPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NotSaleItem" Type="Boolean" />
+    <Property Name="PrintStation" Type="Int32" />
+    <Property Name="KitchenName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="OutOrder" Type="Boolean" />
+    <Property Name="Price3" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Price4" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Price5" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Price6" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Price7" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Units" Type="Int32" />
+    <Property Name="LinkProduct" Type="Int32" />
+    <Property Name="RewardPoints" Type="Int32" />
+    <Property Name="ProdNo" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="QBuy" Type="Int32" />
+    <Property Name="QFree" Type="Int32" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="InitAmount" Type="Single" />
+    <Property Name="CurrAmount" Type="Single" />
+    <Property Name="MiniAmount" Type="Single" />
+    <Property Name="UnitAmount" Type="Single" />
+    <Property Name="JarWeight" Type="Single" />
+    <Property Name="ImageID" Type="Int32" />
+    <Property Name="QAccountType" Type="Int32" />
+    <Property Name="QAccountID" Type="Int32" />
+    <Property Name="QAccountName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="ProdImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="ProdActImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="OrderPending" Type="Boolean" />
+    <Property Name="InstallUnit" Type="Boolean" />
+    <Property Name="VendorNo" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Reserved" Type="Int32" />
+    <Property Name="ReservedStock" Type="Int32" />
+    <Property Name="SerialNeeded" Type="Boolean" />
+    <Property Name="ProductUrl" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PType" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="SubLevel" Type="Int32" />
+    <Property Name="ParentID" Type="Int32" />
+    <Property Name="ParentName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="EditSequence" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="iPage" Type="Int32" />
+    <Property Name="ixPos" Type="Single" />
+    <Property Name="iyPos" Type="Single" />
+    <Property Name="iWidth" Type="Single" />
+    <Property Name="iHeight" Type="Single" />
+    <Property Name="iFontSize" Type="Single" />
+    <Property Name="iButColor" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="iTextColor" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="EditTimestamp" Type="DateTime" Precision="3" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="LType" Type="Int32" />
+    <Property Name="FoodTypeName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="FoodTypeID" Type="Int32" />
+    <Property Name="OrderBy" Type="Int32" />
+    <Property Name="ExpandCategoryID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ProductType">
+    <Key>
+      <PropertyRef Name="ProductTypeID" />
+    </Key>
+    <Property Name="ProductTypeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="PTName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Code" Type="Int32" />
+    <Property Name="CodeStr" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="Selected" Type="Boolean" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="SaleItem">
+    <Key>
+      <PropertyRef Name="SaleItemID" />
+    </Key>
+    <Property Name="SaleItemID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="TicketID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="TicketNum" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="Int32" />
+    <Property Name="Qty" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Extra" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ByWho" Type="Int32" />
+    <Property Name="ProcDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TeenDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SeniorDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ComProd" Type="Boolean" />
+    <Property Name="PrintBoth" Type="Boolean" />
+    <Property Name="SmallSize" Type="Boolean" />
+    <Property Name="Done" Type="Boolean" />
+    <Property Name="ChociceNo" Type="Boolean" />
+    <Property Name="SizeChoiceTxt" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="TranID" Type="Int32" />
+    <Property Name="MType" Type="Int32" />
+    <Property Name="WorkTimeSec" Type="Int32" />
+    <Property Name="ItemPos" Type="Int32" />
+    <Property Name="ComTotal" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="OrgPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TCost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CoGDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TakeOut" Type="Boolean" />
+    <Property Name="Printed" Type="Boolean" />
+    <Property Name="PrintStation" Type="Int32" />
+    <Property Name="NotSaleItem" Type="Boolean" />
+    <Property Name="ItemCode" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="KitchenName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="TabParty" Type="Int32" />
+    <Property Name="NoTax" Type="Boolean" />
+    <Property Name="CoG" Type="Boolean" />
+    <Property Name="Voided" Type="Boolean" />
+    <Property Name="IsHLProductSale" Type="Boolean" />
+    <Property Name="IsHLMemberSale" Type="Boolean" />
+    <Property Name="MemberType" Type="Int32" />
+    <Property Name="MealsType" Type="Int32" />
+    <Property Name="RewardPoints" Type="Int32" />
+    <Property Name="ProdNo" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="QBuy" Type="Int32" />
+    <Property Name="QFree" Type="Int32" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="OrgAmount" Type="Single" />
+    <Property Name="TotAmount" Type="Single" />
+    <Property Name="UnitAmount" Type="Single" />
+    <Property Name="EmployeeID" Type="Int32" />
+    <Property Name="EmployeeName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CoachID" Type="Int32" />
+    <Property Name="CoachName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="SaleRepID" Type="Int32" />
+    <Property Name="SaleRepName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="PaidType" Type="Byte" />
+    <Property Name="QtyAdj" Type="Int32" />
+    <Property Name="IsGiftItem" Type="Boolean" />
+    <Property Name="GiftItems" Type="Int32" />
+    <Property Name="FreeItems" Type="Int32" />
+    <Property Name="ProductName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="BarCode" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Location" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Serial" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="SerialNeeded" Type="Boolean" />
+    <Property Name="StockHold" Type="Int32" />
+    <Property Name="QuotedItem" Type="Boolean" />
+    <Property Name="bReserved" Type="Boolean" />
+    <Property Name="bAccessory" Type="Boolean" />
+    <Property Name="PAccountType" Type="Int32" />
+    <Property Name="PAccountID" Type="Int32" />
+    <Property Name="PAccountName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="VendorName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="VendorID" Type="Int32" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="EditTimestamp" Type="DateTime" Precision="3" />
+    <Property Name="AdminID" Type="Int32" />
+    <Property Name="Weight" Type="Single" />
+    <Property Name="FoodTypeName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="FoodTypeID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TabCategory">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="Page" Type="Int32" />
+    <Property Name="Col" Type="Int32" />
+    <Property Name="Row" Type="Int32" />
+    <Property Name="TickNumber" Type="Int32" />
+    <Property Name="TickNumDay" Type="Int32" />
+    <Property Name="Rows" Type="Int32" />
+    <Property Name="Cols" Type="Int32" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="Color" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Table">
+    <Key>
+      <PropertyRef Name="TableID" />
+    </Key>
+    <Property Name="TableID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="CurTicketNum" Type="Int32" />
+    <Property Name="CurDTicketNum" Type="Int32" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="TableName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="ImageID" Type="Int32" />
+    <Property Name="ImageFPath" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="Page" Type="Int32" />
+    <Property Name="Row" Type="Int32" />
+    <Property Name="Col" Type="Int32" />
+    <Property Name="ButtonColor" Type="Int32" />
+    <Property Name="TextColor" Type="Int32" />
+    <Property Name="Delivery" Type="Boolean" />
+    <Property Name="ZOrder" Type="Int32" />
+    <Property Name="TabNum" Type="Int32" />
+    <Property Name="SeatNum" Type="Int32" />
+    <Property Name="TakeOut" Type="Boolean" />
+    <Property Name="StartTime" Type="DateTime" Precision="3" />
+    <Property Name="TActive" Type="Boolean" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="BottleOff" Type="Single" />
+    <Property Name="objType" Type="Int32" />
+    <Property Name="oName" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="oTextAlign" Type="Int32" />
+    <Property Name="oFontName" Type="String" MaxLength="64" Unicode="true" FixedLength="false" />
+    <Property Name="oFontPoint" Type="Single" />
+    <Property Name="oFontStyle" Type="Int32" />
+    <Property Name="oForeColor" Type="Int32" />
+    <Property Name="oBackColor" Type="Int32" />
+    <Property Name="oLocX" Type="Int32" />
+    <Property Name="oLocY" Type="Int32" />
+    <Property Name="oWidth" Type="Int32" />
+    <Property Name="oHeight" Type="Int32" />
+    <Property Name="oTableStyle" Type="Int32" />
+    <Property Name="oUpperColor" Type="Int32" />
+    <Property Name="oLowerColor" Type="Int32" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="TableType" Type="Int32" />
+    <Property Name="TableStatus" Type="Int32" />
+    <Property Name="BarTab" Type="Boolean" />
+    <Property Name="FastCash" Type="Boolean" />
+    <Property Name="EmployeeID" Type="Int32" />
+    <Property Name="EmployeeName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="OrderBy" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="TicketID" />
+    </Key>
+    <Property Name="TicketID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="TicketNum" Type="Int32" Nullable="false" />
+    <Property Name="DateTimeIssue" Type="DateTime" Precision="3" />
+    <Property Name="PaidType" Type="Byte" />
+    <Property Name="ContractType" Type="Int32" />
+    <Property Name="Tax" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalS" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalP" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalG" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalE" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ShareOwn" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ShareEmp" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidCash" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidGift" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Discount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ByWho" Type="Int32" />
+    <Property Name="TimeSpan" Type="Int32" />
+    <Property Name="DriverLicense" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CardCode" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="GiftCode" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Tips" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalT" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalC" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidCredit" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidCheck" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Voided" Type="Boolean" />
+    <Property Name="SkipTax" Type="Boolean" />
+    <Property Name="JackPot" Type="Boolean" />
+    <Property Name="VNDisComm" Type="Boolean" />
+    <Property Name="TableDone" Type="Boolean" />
+    <Property Name="Delivery" Type="Boolean" />
+    <Property Name="XferTo" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CustomerName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="TableName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="BarCode" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="VoiDelReason" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="MemberType" Type="Int32" />
+    <Property Name="MealsType" Type="Int32" />
+    <Property Name="TabNum" Type="Int32" />
+    <Property Name="SeatNum" Type="Int32" />
+    <Property Name="Tax2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ProdDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PaidMember" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CoGDiscount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CoGDiscountP" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CommPercent" Type="Single" />
+    <Property Name="CommProduct" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalO" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TranID" Type="Int32" />
+    <Property Name="DTicketNum" Type="Int32" />
+    <Property Name="TakeOut" Type="Boolean" />
+    <Property Name="TableID" Type="Int32" />
+    <Property Name="TabCatID" Type="Int32" />
+    <Property Name="TabParties" Type="Int32" />
+    <Property Name="SplitCheck" Type="Boolean" />
+    <Property Name="CoG" Type="Boolean" />
+    <Property Name="ServerCard" Type="Boolean" />
+    <Property Name="IsHLProductSale" Type="Boolean" />
+    <Property Name="IsHLMemberSale" Type="Boolean" />
+    <Property Name="LibProduct" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DHLMealCharge" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DHLCCardCharge" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DHLMCardCharge" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DUpGrade" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="OnDay" Type="Int32" />
+    <Property Name="OnMonth" Type="Int32" />
+    <Property Name="OnYear" Type="Int32" />
+    <Property Name="OnDate" Type="DateTime" Precision="3" />
+    <Property Name="DateKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnWeek" Type="Int32" />
+    <Property Name="WeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnBiWeek" Type="Int32" />
+    <Property Name="BiWeekKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnSimMonth" Type="Int32" />
+    <Property Name="SimMonthKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="OnQuarter" Type="Int32" />
+    <Property Name="QuarterKey" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="NewObj" Type="Boolean" />
+    <Property Name="ChgeObj" Type="Boolean" />
+    <Property Name="SentObj" Type="Boolean" />
+    <Property Name="PaidMisc" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AdminID" Type="Int32" />
+    <Property Name="PaidGCard" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PayrollID" Type="Int32" />
+    <Property Name="EmployeeName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CoachID" Type="Int32" />
+    <Property Name="CoachName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="SaleRepID" Type="Int32" />
+    <Property Name="SaleRepName" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+    <Property Name="CardID" Type="Int32" />
+    <Property Name="IsExterm" Type="Boolean" />
+    <Property Name="ModDate" Type="DateTime" Precision="3" />
+    <Property Name="EditTimestamp" Type="DateTime" Precision="3" />
+    <Property Name="RecordState" Type="Int32" />
+    <Property Name="RecordGUID" Type="String" MaxLength="512" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_PhoHa7_Attendance_Employees">
+    <End Role="Employees" Type="DbProviderModel.Employee" Multiplicity="0..1" />
+    <End Role="PhoHa7_Attendance" Type="DbProviderModel.PhoHa7_Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Attendance">
+        <PropertyRef Name="Att_EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_Sys_User_Permission_Employees">
+    <End Role="Employees" Type="DbProviderModel.Employee" Multiplicity="1" />
+    <End Role="PhoHa7_Sys_User_Permission" Type="DbProviderModel.PhoHa7_Sys_User_Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Sys_User_Permission">
+        <PropertyRef Name="UP_User_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_UserRole_Employees">
+    <End Role="Employees" Type="DbProviderModel.Employee" Multiplicity="1" />
+    <End Role="PhoHa7_UserRole" Type="DbProviderModel.PhoHa7_UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="PhoHa7_UserRole">
+        <PropertyRef Name="UR_Username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Object">
+    <End Role="PhoHa7_Sys_Object" Type="DbProviderModel.PhoHa7_Sys_Object" Multiplicity="1" />
+    <End Role="PhoHa7_Sys_Role_Permission" Type="DbProviderModel.PhoHa7_Sys_Role_Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoHa7_Sys_Object">
+        <PropertyRef Name="Syso_ID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Sys_Role_Permission">
+        <PropertyRef Name="RP_Object_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_Sys_User_Permission_PhoHa7_Sys_Object">
+    <End Role="PhoHa7_Sys_Object" Type="DbProviderModel.PhoHa7_Sys_Object" Multiplicity="1" />
+    <End Role="PhoHa7_Sys_User_Permission" Type="DbProviderModel.PhoHa7_Sys_User_Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoHa7_Sys_Object">
+        <PropertyRef Name="Syso_ID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Sys_User_Permission">
+        <PropertyRef Name="UP_Object_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Role">
+    <End Role="PhoHa7_Sys_Role" Type="DbProviderModel.PhoHa7_Sys_Role" Multiplicity="1" />
+    <End Role="PhoHa7_Sys_Role_Permission" Type="DbProviderModel.PhoHa7_Sys_Role_Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoHa7_Sys_Role">
+        <PropertyRef Name="Role_ID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Sys_Role_Permission">
+        <PropertyRef Name="RP_Role_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_UserRole_PhoHa7_Sys_Role">
+    <End Role="PhoHa7_Sys_Role" Type="DbProviderModel.PhoHa7_Sys_Role" Multiplicity="1" />
+    <End Role="PhoHa7_UserRole" Type="DbProviderModel.PhoHa7_UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoHa7_Sys_Role">
+        <PropertyRef Name="Role_ID" />
+      </Principal>
+      <Dependent Role="PhoHa7_UserRole">
+        <PropertyRef Name="UR_Role_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="PhoHa7_Machine">
+    <Key>
+      <PropertyRef Name="MachineID" />
+    </Key>
+    <Property Type="Int32" Name="MachineID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="MachineIpAdress" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MachineName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="MachineActive" />
+  </EntityType>
+  <EntityType Name="PhoHa7_CardProcess">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Decimal" Name="Amount" Precision="19" Scale="4" />
+    <Property Type="String" Name="CardNumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CardName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CardExpire" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CardCVV" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TransactionID" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CardType" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Entry" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="Tip" Precision="19" Scale="4" />
+  </EntityType>
+</Schema>

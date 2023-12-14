@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="507c19629d644a5aa10df7ded0690b24" Name="Diagram1" ZoomLevel="44">
+        <EntityTypeShape EntityType="DbProviderModel.Category" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.DelItem" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.Employee" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_Attendance" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_FilterSaleItem" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_ProcSaleItem" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_ProcTickets" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_ProductType" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_Sys_Object" Width="1.5" PointX="3.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_Sys_Option" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_Sys_Role" Width="1.875" PointX="3.375" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_Sys_Role_Permission" Width="2" PointX="6" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_Sys_User_Permission" Width="1.5" PointX="6" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_UserRole" Width="1.5" PointX="6" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.ProcSaleItem" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.ProcTicket" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.Product" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.ProductType" Width="1.5" PointX="5.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.SaleItem" Width="1.5" PointX="7.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.TabCategory" Width="1.5" PointX="9.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.Table" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbProviderModel.Ticket" Width="1.5" PointX="18.75" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="DbProviderModel.FK_PhoHa7_Attendance_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="DbProviderModel.FK_PhoHa7_Sys_User_Permission_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="DbProviderModel.FK_PhoHa7_UserRole_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="DbProviderModel.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Object" ManuallyRouted="false" />
+        <AssociationConnector Association="DbProviderModel.FK_PhoHa7_Sys_User_Permission_PhoHa7_Sys_Object" ManuallyRouted="false" />
+        <AssociationConnector Association="DbProviderModel.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="DbProviderModel.FK_PhoHa7_UserRole_PhoHa7_Sys_Role" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_Machine" Width="1.5" PointX="20.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbProviderModel.PhoHa7_CardProcess" Width="1.5" PointX="26.75" PointY="8" />
+        <EntityTypeShape EntityType="DbProviderModel.Appointment" Width="1.5" PointX="20.75" PointY="8" />
+        <EntityTypeShape EntityType="DbProviderModel.CardInfo" Width="1.5" PointX="20.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DbProviderModel.Customer" Width="1.5" PointX="22.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbProviderModel.CustomerType" Width="1.5" PointX="22.75" PointY="22.75" />
+        <EntityTypeShape EntityType="DbProviderModel.DailyDraw" Width="1.5" PointX="2.75" PointY="23.75" />
+        <EntityTypeShape EntityType="DbProviderModel.Error" Width="1.5" PointX="4.75" PointY="23.75" />
+        <EntityTypeShape EntityType="DbProviderModel.ExpCategory" Width="1.5" PointX="24.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbProviderModel.ExpProduct" Width="1.5" PointX="24.75" PointY="7.75" />
+        <EntityTypeShape EntityType="DbProviderModel.GiftCert" Width="1.5" PointX="24.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DbProviderModel.GiftHistory" Width="1.5" PointX="9.75" PointY="25.75" />
+        <EntityTypeShape EntityType="DbProviderModel.Message" Width="1.5" PointX="14.75" PointY="25.75" />
+        <EntityTypeShape EntityType="DbProviderModel.PaymentType" Width="1.5" PointX="26.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbProviderModel.ReasonItem" Width="1.5" PointX="26.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DbProviderModel.DaySale" Width="1.5" PointX="29.25" PointY="9.25" />
+        <EntityTypeShape EntityType="DbProviderModel.Dictionary" Width="1.5" PointX="5.9161613965016615" PointY="30.58722989195363" />
+        <EntityTypeShape EntityType="DbProviderModel.Product_Size" Width="1.5" PointX="10.375" PointY="3.125" />
+        <EntityTypeShape EntityType="DbProviderModel.Product_SizeDetails" Width="1.5" PointX="10.187801526015532" PointY="30.712751536961996" />
+        <AssociationConnector Association="DbProviderModel.FK_Product_SizeDetails_Product_Size" />
+        <AssociationConnector Association="DbProviderModel.FK_Product_SizeDetails_Products" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

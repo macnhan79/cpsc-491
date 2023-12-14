@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="gr__restaurant_sansoftwareindia_com">
+<head runat="Server">
+    <title>Pho Minh</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="HandheldFriendly" content="true">
+
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/components-md.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="css/rwd_demo.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="table_responsive/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style_table.css" />
+    <link rel="stylesheet" href="css/food.css" />
+    <%--<link href="css/style_002.css" type="text/css" rel="stylesheet"/>--%>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/hide-address-bar.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <script type="text/javascript">
+        document.documentElement.addEventListener('touchstart', function (event) {
+            if (event.touches.length > 1) {
+                event.preventDefault();
+            }
+        }, false);
+        document.documentElement.addEventListener('touchmove', function (event) {
+            event.preventDefault();
+        }, false);
+    </script>
+    <style type="text/css">
+        .btnLogout {
+            border: 1px solid #FFF;
+            border-radius: 14px;
+            top: 0px;
+            right: 8px;
+            background: #3598db;
+            height: 39px;
+            color: #FFF;
+            padding: 9px 7px 8px 9px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="page-container-bg-solid page-md" data-gr-c-s-loaded="true" style="touch-action: manipulation">
+    <form id="form2" runat="server">
+        <%--       <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                <asp:UpdatePanel ID="UpdatePanel1" runat="server"><ContentTemplate>--%>
+        <div id="overlay">
+            <div id="modalcontainer"></div>
+        </div>
+        <div>
+
+            <!-- <h4 class="left" style="margin-bottom:-30px; padding:10px;">Your IP is : 45.23.127.158</h4>-->
+
+        </div>
+
+        <div class="clearfix "></div>
+        <div id="main_panel_container" class="left">
+            <div id="dashboard" style="padding: 0px!important;">
+                <div class="btn-group btn-group-justified" style="height: 9%;">
+                    <a class="btn btn-primary" style="background: #3598db; border: #00c0ef; font-size: 17px" href="/table.aspx">Tables</a>
+                    <a class="btn btn-primary" style="background: #3598db; border: #00c0ef; font-size: 17px" href="/MyOrders.aspx">My Order</a>
+                    <a class="btn btn-primary" style="background: #3598db; border: #00c0ef; font-size: 17px" href="/MyAccount.aspx">My Account</a>
+                    <a class="btn btn-primary" style="background: #3598db!important; border: none;">
+                        <div class="input-group-btn">
+                            <asp:Button ID="btnLogout" runat="server" CssClass="btn btn-default btnLogout"
+                                Text='HI' OnClick="btnLogout_Click" UseSubmitBehavior="False" />
+                        </div>
+                    </a>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+
+        <div id="Div2" style="padding: 0px!important;" class="left">
+            <asp:ContentPlaceHolder ID="ContentPlaceMenu" runat="server">
+
+                <%-- <div id="wb_Shape2" style="position: absolute; width: 53%; height: 91%; z-index: 1;">
+                <div id="" style="position: absolute; width: 100%; height: 100%">
+                    
+                    
+                </div>
+            </div>--%>
+
+                <%--<div id="wb_Shape3" style="position: absolute; left: 53%; width: 47%; height: 91%; z-index: 2;">
+                <div id="Shape3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceGirdItem" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="Div1" style="height: 40%; background-color: #ffc50026">
+                    <div style="float: left;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceFunctionGrid" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>--%>
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div style="clear: left;"></div>
+    </form>
+</body>
+
+</html>
+

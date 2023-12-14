@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E339F74-1845-483F-88B0-037669056373}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhoMac.Main.POS</RootNamespace>
+    <AssemblyName>PhoMac.Main.POS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.BonusSkins.v12.2" />
+    <Reference Include="DevExpress.Dashboard.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.2" />
+    <Reference Include="DevExpress.DataAccess.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DemoData.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DemoReports.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2" />
+    <Reference Include="DevExpress.XtraBars.v12.2" />
+    <Reference Include="DevExpress.XtraEditors.v12.2" />
+    <Reference Include="DevExpress.XtraGauges.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v12.2.Win, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.2" />
+    <Reference Include="DevExpress.Pdf.v12.2.Core" />
+    <Reference Include="DevExpress.Printing.v12.2.Core" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Class1.cs" />
+    <Compile Include="Data\ClsPublic.cs" />
+    <Compile Include="Data\ImageManager.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.Designer.cs">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm1.Designer.cs">
+      <DependentUpon>RibbonForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\RawPrinterHelper.cs" />
+    <Compile Include="Test\XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCTest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCTest1.Designer.cs">
+      <DependentUpon>UCTest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCTest2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCTest2.Designer.cs">
+      <DependentUpon>UCTest2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewManager.cs" />
+    <Compile Include="Views\Class1.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Pos_MainView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pos_MainView.Designer.cs">
+      <DependentUpon>Pos_MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pos_Payment_Split_Event.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pos_Payment_Split_Event.Designer.cs">
+      <DependentUpon>Pos_Payment_Split_Event.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pos_Payment_Split_Guests.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pos_Payment_Split_Guests.Designer.cs">
+      <DependentUpon>Pos_Payment_Split_Guests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pos_Payment_Split_Items.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pos_Payment_Split_Items.Designer.cs">
+      <DependentUpon>Pos_Payment_Split_Items.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pos_TableView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pos_TableView.Designer.cs">
+      <DependentUpon>Pos_TableView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pos_TicketView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pos_TicketView.Designer.cs">
+      <DependentUpon>Pos_TicketView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TableEditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TableEditView.Designer.cs">
+      <DependentUpon>TableEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCCashInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCCashInput.Designer.cs">
+      <DependentUpon>UCCashInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCPassCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCPassCode.Designer.cs">
+      <DependentUpon>UCPassCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCGridCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCGridCategory.Designer.cs">
+      <DependentUpon>UCGridCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCTicketView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCTicketView.Designer.cs">
+      <DependentUpon>UCTicketView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCObject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCObject.Designer.cs">
+      <DependentUpon>UCObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCPanelLayoutTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCPanelLayoutTable.Designer.cs">
+      <DependentUpon>UCPanelLayoutTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCKeyboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCKeyboard.Designer.cs">
+      <DependentUpon>UCKeyboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCKeypadItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCKeypadItem.Designer.cs">
+      <DependentUpon>UCKeypadItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCProduct.Designer.cs">
+      <DependentUpon>UCProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCTable.Designer.cs">
+      <DependentUpon>UCTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCPaymentButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCPaymentButton.Designer.cs">
+      <DependentUpon>UCPaymentButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCPaymentType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCPaymentType.Designer.cs">
+      <DependentUpon>UCPaymentType.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="RibbonForm1.resx">
+      <DependentUpon>RibbonForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\XtraForm1.resx">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCTest1.resx">
+      <DependentUpon>UCTest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCTest2.resx">
+      <DependentUpon>UCTest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\Pos_MainView.resx">
+      <DependentUpon>Pos_MainView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pos_Payment_Split_Event.resx">
+      <DependentUpon>Pos_Payment_Split_Event.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pos_Payment_Split_Guests.resx">
+      <DependentUpon>Pos_Payment_Split_Guests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pos_Payment_Split_Items.resx">
+      <DependentUpon>Pos_Payment_Split_Items.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pos_TableView.resx">
+      <DependentUpon>Pos_TableView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pos_TicketView.resx">
+      <DependentUpon>Pos_TicketView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TableEditView.resx">
+      <DependentUpon>TableEditView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCCashInput.resx">
+      <DependentUpon>UCCashInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCPassCode.resx">
+      <DependentUpon>UCPassCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCGridCategory.resx">
+      <DependentUpon>UCGridCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCTicketView.resx">
+      <DependentUpon>UCTicketView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCObject.resx">
+      <DependentUpon>UCObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCPanelLayoutTable.resx">
+      <DependentUpon>UCPanelLayoutTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCKeyboard.resx">
+      <DependentUpon>UCKeyboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCKeypadItem.resx">
+      <DependentUpon>UCKeypadItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCProduct.resx">
+      <DependentUpon>UCProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCTable.resx">
+      <DependentUpon>UCTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCPaymentButton.resx">
+      <DependentUpon>UCPaymentButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCPaymentType.resx">
+      <DependentUpon>UCPaymentType.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\DarkGray.png" />
+    <EmbeddedResource Include="Assets\LightGray.png" />
+    <EmbeddedResource Include="Assets\MediumGray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhoHa7.Model\PhoMac.Model.csproj">
+      <Project>{2df8326f-6b8f-445e-a12f-1280ef366efb}</Project>
+      <Name>PhoMac.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhoMac.Business\PhoMac.Business.csproj">
+      <Project>{379f4a16-ce7b-4ffc-a412-ece50964a18b}</Project>
+      <Name>PhoMac.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sumen.Library\PhoHa7.Library.csproj">
+      <Project>{17d65bfe-82ef-4fda-a47e-00494e3ed53e}</Project>
+      <Name>PhoHa7.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3floppy_unmount 16 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_vnd_ms_excel.png 16 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic_data_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_64x64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contract.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy v2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correct-mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documenti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit 16 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gift-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconmanageroder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconmanageroder32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyboard %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log out_16 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log out_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new %281 16 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\point-of-service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prepaid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentation_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_blue 16 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secrecy-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-up32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task-complete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volume-up-interface-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doiban.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

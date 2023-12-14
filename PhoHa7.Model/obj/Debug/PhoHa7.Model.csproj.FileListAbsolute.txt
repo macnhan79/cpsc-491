@@ -1,0 +1,14 @@
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Resources\ErrorMessages.mdb
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\PhoHa7.Model.dll.config
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\PhoHa7.Model.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\PhoHa7.Model.pdb
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Chuoi.dll
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\Sumen.Library.pdb
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.xml
+D:\Aptech\PhoHa\PhoHa7.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Aptech\PhoHa\PhoHa7.Model\obj\Debug\PhoHa7.Model.csprojResolveAssemblyReference.cache
+D:\Aptech\PhoHa\PhoHa7.Model\obj\Debug\PhoHa7.Model.dll
+D:\Aptech\PhoHa\PhoHa7.Model\obj\Debug\PhoHa7.Model.pdb

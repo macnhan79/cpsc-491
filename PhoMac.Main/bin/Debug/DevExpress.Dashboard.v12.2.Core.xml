@@ -1,0 +1,5078 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.Dashboard.v12.2.Core</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.DashboardCommon.SimpleSeriesType">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.Area">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.Bar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.FullStackedArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.FullStackedBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.FullStackedLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.FullStackedSplineArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.Line">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.Point">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.Spline">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.SplineArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.StackedArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.StackedBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.StackedLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.StackedSplineArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.StepArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SimpleSeriesType.StepLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.RangeSeriesType">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.RangeSeriesType.RangeArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.RangeSeriesType.SideBySideRangeBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.PieType">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieType.Donut">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieType.Pie">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.OpenHighLowCloseSeriesType">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.OpenHighLowCloseSeriesType.CandleStick">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.OpenHighLowCloseSeriesType.Stock">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.SummaryType">
+
+            <summary>
+                <para>Lists values that specify the summary function types. 
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SummaryType.Average">
+            <summary>
+                <para>The average of the values.
+<para>
+
+</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SummaryType.Count">
+            <summary>
+                <para>The number of values (excluding <b>Null</b> and <b>DBNull</b> values).
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SummaryType.Max">
+            <summary>
+                <para>The largest value.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SummaryType.Min">
+            <summary>
+                <para>The smallest value.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SummaryType.StdDev">
+            <summary>
+                <para>An estimate of the standard deviation of a population, where the sample is a subset of the entire population.
+<para>
+
+</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SummaryType.StdDevp">
+            <summary>
+                <para>The standard deviation of a population, where the population is all of the data to be summarized.
+<para>
+
+</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SummaryType.Sum">
+            <summary>
+                <para>The sum of the values.
+<para>
+
+</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SummaryType.Var">
+            <summary>
+                <para>An estimate of the variance of a population, where the sample is a subset of the entire population.
+<para>
+
+</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.SummaryType.Varp">
+            <summary>
+                <para>The variance of a population, where the population is all of the data to be summarized.
+<para>
+
+</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ImageVerticalAlignment">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageVerticalAlignment.Bottom">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageVerticalAlignment.Center">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageVerticalAlignment.Top">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ImageSizeMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageSizeMode.Clip">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageSizeMode.Squeeze">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageSizeMode.Stretch">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageSizeMode.Zoom">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ImageHorizontalAlignment">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageHorizontalAlignment.Center">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageHorizontalAlignment.Left">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ImageHorizontalAlignment.Right">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DimensionSortOrder">
+
+            <summary>
+                <para>Lists values that specify the sort order for dimension values.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DimensionSortOrder.Ascending">
+            <summary>
+                <para>Sort dimension values in ascending order.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DimensionSortOrder.Descending">
+            <summary>
+                <para>Sort dimension values in descending order.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DateTimeGroupInterval">
+
+            <summary>
+                <para>Lists values that specify the group interval for date-time values.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DateHour">
+            <summary>
+                <para>Values are grouped by the date part with the hour value.
+<para><b>Example:</b> 3/4/2012 0, 3/4/2012 1, 3/4/2012 2, ...</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DateHourMinute">
+            <summary>
+                <para>Values are grouped by the date part with the hour and minute values.
+<para><b>Example:</b> 3/4/2012 0:00, 3/4/2012 0:01, 3/4/2012 0:02, ...</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DateHourMinuteSecond">
+            <summary>
+                <para>Values are grouped by the date part with the hour, minute and second values.
+<para><b>Example:</b> 3/4/2012 0:00:00, 3/4/2012 0:00:01, 3/4/2012 0:00:02, ...</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Day">
+            <summary>
+                <para>Values are grouped by the day of the month.
+<para><b>Example:</b> 1, 2, 3, ... 31</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DayMonthYear">
+            <summary>
+                <para>Values are grouped by the date part.
+<para><b>Example:</b> 3/4/2012, 3/5/2012, 3/6/2012, ...</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DayOfWeek">
+            <summary>
+                <para>Values are grouped by the day of the week.
+<para><b>Example:</b> Sunday, Monday, Tuesday, ... Saturday</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DayOfYear">
+            <summary>
+                <para>Values are grouped by the day of the year.
+<para><b>Example:</b> 1, 2, 3, ... 365 (366 in a leap year)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Hour">
+            <summary>
+                <para>Values are grouped by the hour.
+<para><b>Example:</b> 0, 1, 2, ... 23</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Minute">
+            <summary>
+                <para>Values are grouped by the minute.
+<para><b>Example:</b> 0, 1, 2, ... 59</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Month">
+            <summary>
+                <para>Values are grouped by the month.
+<para><b>Example:</b> January, February, March, ... December</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.MonthYear">
+            <summary>
+                <para>Values are grouped by the year and month.
+<para><b>Example:</b> January 2012, February 2012, ... December 2012, January 2013, ...</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Quarter">
+            <summary>
+                <para>Values are grouped by the quarter.
+<para><b>Example:</b> Q1, Q2, Q3, Q4</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.QuarterYear">
+            <summary>
+                <para>Values are grouped by the year and quarter.
+<para><b>Example:</b> Q3 2012, Q4 2012, Q1 2013, Q2 2013, ...</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Second">
+            <summary>
+                <para>Values are grouped by the second.
+<para><b>Example:</b> 0, 1, 2, ... 59</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.WeekOfMonth">
+            <summary>
+                <para>Values are grouped by the week of the month.
+<para><b>Example:</b> 1, 2, 3, 4, 5</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.WeekOfYear">
+            <summary>
+                <para>Values are grouped by the week of the year.
+<para><b>Example:</b> 1, 2, 3, ... 52</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Year">
+            <summary>
+                <para>Values are grouped by the year.
+<para><b>Example:</b> 2010, 2011, 2012</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.TextGroupInterval">
+
+            <summary>
+                <para>Lists values that specify the group interval for string values.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.TextGroupInterval.Alphabetical">
+            <summary>
+                <para>Values are grouped alphabetically.
+<para><b>Example:</b> A, B, C, ... Z</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.TextGroupInterval.None">
+            <summary>
+                <para>No grouping. Each value is displayed individually.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DashboardItemInteractivityOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DashboardItemInteractivityOptions.IsDrillDownEnabled">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DashboardItemInteractivityOptions.IsMasterFilter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ContentArrangementMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ContentArrangementMode.Auto">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ContentArrangementMode.FixedColumCount">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.ContentArrangementMode.FixedRowCount">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.YearFormat">
+
+            <summary>
+                <para>Lists values that specify format types for years.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.YearFormat.Abbreviated">
+            <summary>
+                <para>The year, from 00 to 99.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; 09 (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.YearFormat.Default">
+            <summary>
+                <para>The default year pattern.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.YearFormat.Full">
+            <summary>
+                <para>The full year pattern.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; 2009 (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.QuarterFormat">
+
+            <summary>
+                <para>Lists values that specify format types for quarters.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.QuarterFormat.Default">
+            <summary>
+                <para>The default quarter pattern.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.QuarterFormat.Full">
+            <summary>
+                <para>The full quarter pattern.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; Q2 (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.QuarterFormat.Numeric">
+            <summary>
+                <para>The quarter, from 1 through 4.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; 2 (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.PieValueType">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieValueType.Argument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieValueType.ArgumentAndPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieValueType.ArgumentAndValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieValueType.ArgumentValueAndPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieValueType.None">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieValueType.Percent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieValueType.Value">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieValueType.ValueAndPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GridColumnBase">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.MonthFormat">
+
+            <summary>
+                <para>Lists values that specify format types for months.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.MonthFormat.Abbreviated">
+            <summary>
+                <para>The abbreviated name of the month.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; Jun (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.MonthFormat.Default">
+            <summary>
+                <para>The default month pattern.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.MonthFormat.Full">
+            <summary>
+                <para>The full name of the month.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; June (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.MonthFormat.Numeric">
+            <summary>
+                <para>The month, from 1 through 12.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; 6 (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DeltaIndicationThresholdType">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaIndicationThresholdType.Absolute">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaIndicationThresholdType.Percent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DeltaIndicationMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaIndicationMode.GreaterIsGood">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaIndicationMode.LessIsGood">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaIndicationMode.NoIndication">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaIndicationMode.WarningIfGreater">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaIndicationMode.WarningIfLess">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DayOfWeekFormat">
+
+            <summary>
+                <para>Lists values that specify format types for days of the week.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DayOfWeekFormat.Abbreviated">
+            <summary>
+                <para>The abbreviated name of the day of the week.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; Mon (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DayOfWeekFormat.Default">
+            <summary>
+                <para>The default day-of-week pattern.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DayOfWeekFormat.Full">
+            <summary>
+                <para>The full name of the day of the week.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; Monday (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DayOfWeekFormat.Numeric">
+            <summary>
+                <para>The day of the week, from 1 through 7.
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; 2 (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DisposableObject">
+
+            <summary>
+                <para>Serves as the base for classes whose instances can be disposed of on request.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DisposableObject.Dispose">
+            <summary>
+                <para>Disposes of the object.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DisposableObject.IsDisposed">
+            <summary>
+                <para>Gets whether the object has been disposed of.
+</para>
+            </summary>
+            <value><b>true</b>, if the object has been disposed of; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.WeightedSeries">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.WeightedSeries.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.WeightedSeries.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <param name="weight">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.WeightedSeries.Value">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.WeightedSeries.Weight">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.SimpleSeries">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.SimpleSeries.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.SimpleSeries.#ctor(DevExpress.DashboardCommon.SimpleSeriesType)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="seriesType">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.SimpleSeries.#ctor(DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.SimpleSeries.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.SimpleSeriesType)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <param name="seriesType">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.SimpleSeries.SeriesType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.SimpleSeries.Value">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.RangeSeries">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.RangeSeries.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.RangeSeries.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.RangeSeriesType)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value1">
+		 [To be supplied] 
+            </param>
+            <param name="value2">
+		 [To be supplied] 
+            </param>
+            <param name="seriesType">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.RangeSeries.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value1">
+		 [To be supplied] 
+            </param>
+            <param name="value2">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.RangeSeries.#ctor(DevExpress.DashboardCommon.RangeSeriesType)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="seriesType">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.RangeSeries.SeriesType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.RangeSeries.Value1">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.RangeSeries.Value2">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.OpenHighLowCloseSeries">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.OpenHighLowCloseSeries.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="open">
+		 [To be supplied] 
+            </param>
+            <param name="high">
+		 [To be supplied] 
+            </param>
+            <param name="low">
+		 [To be supplied] 
+            </param>
+            <param name="close">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.OpenHighLowCloseSeries.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.OpenHighLowCloseSeriesType)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="open">
+		 [To be supplied] 
+            </param>
+            <param name="high">
+		 [To be supplied] 
+            </param>
+            <param name="low">
+		 [To be supplied] 
+            </param>
+            <param name="close">
+		 [To be supplied] 
+            </param>
+            <param name="seriesType">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.OpenHighLowCloseSeries.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.OpenHighLowCloseSeries.#ctor(DevExpress.DashboardCommon.OpenHighLowCloseSeriesType)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="seriesType">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.OpenHighLowCloseSeries.Close">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.OpenHighLowCloseSeries.High">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.OpenHighLowCloseSeries.Low">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.OpenHighLowCloseSeries.Open">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.OpenHighLowCloseSeries.SeriesType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.Localization.DashboardsResLocalizer">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Localization.DashboardsResLocalizer.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Localization.DashboardsResLocalizer.GetLocalizedString(DevExpress.DashboardCommon.Localization.DashboardStringId)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="id">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Localization.DashboardsResLocalizer.Language">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ImageDashboardItem">
+
+            <summary>
+                <para>An image dashboard element.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.ImageDashboardItem.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ImageDashboardItem.Data">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ImageDashboardItem.HorizontalAlignment">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ImageDashboardItem.SizeMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ImageDashboardItem.Url">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ImageDashboardItem.VerticalAlignment">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.HighLowCloseSeries">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.HighLowCloseSeries.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="high">
+		 [To be supplied] 
+            </param>
+            <param name="low">
+		 [To be supplied] 
+            </param>
+            <param name="close">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.HighLowCloseSeries.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.HighLowCloseSeries.Close">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.HighLowCloseSeries.High">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.HighLowCloseSeries.Low">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.RangeFilterSeriesCollection">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.RangeFilterSeriesCollection.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DataItemContainer">
+
+            <summary>
+                <para>Serves as the base class for data item containers.
+</para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemContainer.Name">
+            <summary>
+                <para>Gets or sets the name of the data item container.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> that specifies the name of the data item container.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GridMeasureColumn">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.GridMeasureColumn.#ctor(DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="measure">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.GridMeasureColumn.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridMeasureColumn.AlwaysShowZeroLevel">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridMeasureColumn.DisplayMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridMeasureColumn.Measure">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GridDimensionColumn">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.GridDimensionColumn.#ctor(DevExpress.DashboardCommon.Dimension)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="dimension">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.GridDimensionColumn.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDimensionColumn.Dimension">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDimensionColumn.DisplayMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GridDeltaColumn">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.GridDeltaColumn.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.GridDeltaColumn.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="actualValue">
+		 [To be supplied] 
+            </param>
+            <param name="targetValue">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDeltaColumn.ActualValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDeltaColumn.AlwaysShowZeroLevel">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDeltaColumn.DeltaOptions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDeltaColumn.DisplayMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDeltaColumn.TargetValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GridOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridOptions.AllowCellMerge">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridOptions.EnableBandedRows">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.DashboardCommon.GridOptions.OptionsChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridOptions.ShowColumnHeaders">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridOptions.ShowHorizontalLines">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridOptions.ShowVerticalLines">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.Gauge">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Gauge.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Gauge.#ctor(DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="actualValue">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Gauge.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="actualValue">
+		 [To be supplied] 
+            </param>
+            <param name="targetValue">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Gauge.Maximum">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Gauge.Minimum">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ChartSeries">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ChartPane">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.ChartPane.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.ChartPane.#ctor(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartPane.DefaultAxisY">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartPane.Name">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartPane.Series">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ChartAxisY">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartAxisY.AlwaysShowZeroLevel">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartAxisY.Title">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartAxisY.TitleVisible">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartAxisY.Visible">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.Card">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Card.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Card.#ctor(DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="actualValue">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Card.#ctor(DevExpress.DashboardCommon.Measure,DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="actualValue">
+		 [To be supplied] 
+            </param>
+            <param name="targetValue">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.RangeFilterDashboardItem">
+
+            <summary>
+                <para>A Range Filter dashboard element.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.RangeFilterDashboardItem.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.RangeFilterDashboardItem.Argument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.RangeFilterDashboardItem.MaxValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.RangeFilterDashboardItem.MinValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.RangeFilterDashboardItem.Series">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.RangeFilterDashboardItem.SetMinMaxValues(System.Object,System.Object)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="newMin">
+		 [To be supplied] 
+            </param>
+            <param name="newMax">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.PieDashboardItem">
+
+            <summary>
+                <para>A pie dashboard element.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.PieDashboardItem.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PieDashboardItem.ContentArrangementMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PieDashboardItem.ContentLineCount">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.PieDashboardItem.GetValueName(DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PieDashboardItem.LabelContentType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PieDashboardItem.LegendPosition">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PieDashboardItem.PieType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.PieDashboardItem.SetValueName(DevExpress.DashboardCommon.Measure,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PieDashboardItem.TooltipContentType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PieDashboardItem.Values">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GridDashboardItem">
+
+            <summary>
+                <para>A grid dashboard element.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.GridDashboardItem.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDashboardItem.Columns">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDashboardItem.GridOptions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GridDashboardItem.InteractivityOptions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GaugeDashboardItem">
+
+            <summary>
+                <para>A gauge dashboard element.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.GaugeDashboardItem.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GaugeDashboardItem.Gauges">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.GaugeDashboardItem.ViewType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.CardDashboardItem">
+
+            <summary>
+                <para>A card dashboard element.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.CardDashboardItem.#ctor">
+            <summary>
+                <para>Initializes a new instance of the CardDashboardItem class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.CardDashboardItem.Cards">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ChartDashboardItem">
+
+            <summary>
+                <para>A chart dashboard element.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.ChartDashboardItem.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ChartDashboardItem class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartDashboardItem.LegendVisible">
+            <summary>
+                <para>Gets or sets whether the legend is displayed.
+</para>
+            </summary>
+            <value><b>true</b> to display the legend; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartDashboardItem.Panes">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartDashboardItem.Rotated">
+            <summary>
+                <para>Gets or sets whether the chart is rotated.
+</para>
+            </summary>
+            <value><b>true</b> to rotate the chart; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ChartDashboardItemBase">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartDashboardItemBase.Arguments">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartDashboardItemBase.InteractivityOptions">
+            <summary>
+                <para>Provides access to interactivity options, such as Master Filtering and drill-down.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.ChartInteractivityOptions"/> object that defines interactivity options.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.SeriesDashboardItem">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.SeriesDashboardItem.SeriesDimensions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DataDashboardItem">
+
+            <summary>
+                <para>Serves as the base class for dashboard items that can act as Master Filters.
+</para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataDashboardItem.IsMasterFilterCrossDataSource">
+            <summary>
+                <para>Gets or sets whether filtering applied by this Master Filter affects dashboard items that display data from other data sources.
+</para>
+            </summary>
+            <value><b>true</b>, to apply filtering to dashboard items that display data from other data sources; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.Measure">
+
+            <summary>
+                <para>A measure which is a data item whose values are summarized to be presented in the dashboard.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Measure.#ctor">
+            <summary>
+                <para>Initializes a new instance of the Measure class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Measure.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the Measure class and binds it to the specified data member.
+</para>
+            </summary>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data member to which this Measure should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Measure.#ctor(System.String,DevExpress.DashboardCommon.SummaryType)">
+            <summary>
+                <para>Initializes a new instance of the Measure class, binds it to the specified data member and sets the summary type to the specified value.
+</para>
+            </summary>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data item to which this Measure should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+            <param name="summaryType">
+		A <see cref="T:DevExpress.DashboardCommon.SummaryType"/> enumeration member that specifies the summary function type. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.Measure.SummaryType"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Measure.#ctor(System.String,System.String,DevExpress.DashboardCommon.SummaryType)">
+            <summary>
+                <para>Initializes a new instance of the Measure class with the specified identifier, binds it to the specified data member and sets the summary type to the specified value.
+</para>
+            </summary>
+            <param name="id">
+		A <see cref="T:System.String"/> that specifies the dimension identifier. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.ID"/> property.
+
+            </param>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data item to which this Measure should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+            <param name="summaryType">
+		A <see cref="T:DevExpress.DashboardCommon.SummaryType"/> enumeration member that specifies the summary function type. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.Measure.SummaryType"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Measure.#ctor(System.String,System.String)">
+            <summary>
+                <para>Initializes a new instance of the Measure class with the specified identifier and binds it to the specified data member.
+</para>
+            </summary>
+            <param name="id">
+		A <see cref="T:System.String"/> that specifies the dimension identifier. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.ID"/> property.
+
+            </param>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data item to which this Measure should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Measure.SummaryType">
+            <summary>
+                <para>Gets or sets the type of summary function calculated against this Measure.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.SummaryType"/> enumeration member that specifies the type of summary function calculated against this Measure.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DataSource">
+
+            <summary>
+                <para>A data source that provides data for the dashboard.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataSource.#ctor(System.String,DevExpress.DashboardCommon.DB.DataProvider)">
+            <summary>
+                <para>Initializes a new instance of the DataSource class.
+</para>
+            </summary>
+            <param name="name">
+		@nbsp;
+
+            </param>
+            <param name="dataProvider">
+		@nbsp;
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataSource.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the DataSource class.
+</para>
+            </summary>
+            <param name="name">
+		A <see cref="T:System.String"/> that specifies the name for the data source.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataSource.#ctor(System.String,System.Object)">
+            <summary>
+                <para>Initializes a new instance of the DataSource class.
+</para>
+            </summary>
+            <param name="name">
+		A <see cref="T:System.String"/> that specifies the name for the data source.
+
+            </param>
+            <param name="data">
+		An object that contains data for the data source.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataSource.#ctor(System.Object)">
+            <summary>
+                <para>Initializes a new instance of the DataSource class.
+</para>
+            </summary>
+            <param name="data">
+		An object that contains data for the data source.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataSource.#ctor">
+            <summary>
+                <para>Initializes a new instance of the DataSource class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataSource.#ctor(DevExpress.DashboardCommon.DB.DataProvider)">
+            <summary>
+                <para>Initializes a new instance of the DataSource class.
+</para>
+            </summary>
+            <param name="dataProvider">
+		@nbsp;
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataSource.Data">
+            <summary>
+                <para>Gets or sets the data object for the data source.
+</para>
+            </summary>
+            <value>An object that contains data for the data source.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataSource.DataProvider">
+            <summary>
+                <para>For internal use.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataSource.ListSource">
+            <summary>
+                <para>Provides access to the collection of data source records.
+</para>
+            </summary>
+            <value>An object that implements the <see cref="T:System.Collections.IList"/> interface. Allows you to access the collection of data source records.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataSource.Name">
+            <summary>
+                <para>Gets or sets the name of the data source.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> that specifies the name of the data source.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DataItem">
+
+            <summary>
+                <para>Serves as the base class for data items - measures and dimensions.
+</para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItem.DataMember">
+            <summary>
+                <para>Gets the identifier of a corresponding data member in the data source.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> that identifies a data member that corresponds to this data item.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItem.DateTimeFormat">
+            <summary>
+                <para>Provides access to the format settings for date-time values.
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DataItemDateTimeFormat"/> object that contains format settings for date-time values.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItem.ID">
+            <summary>
+                <para>Gets the data item identifier.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> that specifies the data item identifier.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItem.NumericFormat">
+            <summary>
+                <para>Provides access to the format settings for numeric values.
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DataItemNumericFormat"/> object that contains the format settings for numeric values.
+
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.Dimension">
+
+            <summary>
+                <para>A dimension that is a data item whose values are not intended to be summarized. 
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dimension.#ctor">
+            <summary>
+                <para>Initializes a new instance of the Dimension class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dimension.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the Dimension class and binds it to the specified data member.
+</para>
+            </summary>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data member to which this Dimension should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dimension.#ctor(System.String,System.String)">
+            <summary>
+                <para>Initializes a new instance of the Dimension class with the specified identifier and binds it to the specified data member.
+</para>
+            </summary>
+            <param name="id">
+		A <see cref="T:System.String"/> that specifies the dimension identifier. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.ID"/> property.
+
+            </param>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data item to which this Dimension should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dimension.#ctor(System.String,DevExpress.DashboardCommon.TextGroupInterval)">
+            <summary>
+                <para>Initializes a new instance of the Dimension class, binds it to the specified data member and sets the group interval for textual values to the specified value.
+</para>
+            </summary>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data item to which this Dimension should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+            <param name="textGroupInterval">
+		A <see cref="T:DevExpress.DashboardCommon.TextGroupInterval"/> enumeration member that specifies the group interval for textual values. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.Dimension.TextGroupInterval"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dimension.#ctor(System.String,System.String,DevExpress.DashboardCommon.TextGroupInterval)">
+            <summary>
+                <para>Initializes a new instance of the Dimension class with the specified identifier, binds it to the specified data member and sets the group interval for textual values to the specified value.
+</para>
+            </summary>
+            <param name="id">
+		A <see cref="T:System.String"/> that specifies the dimension identifier. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.ID"/> property.
+
+            </param>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data item to which this Dimension should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+            <param name="textGroupInterval">
+		A <see cref="T:DevExpress.DashboardCommon.TextGroupInterval"/> enumeration member that specifies the group interval for textual values. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.Dimension.TextGroupInterval"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dimension.#ctor(System.String,DevExpress.DashboardCommon.DateTimeGroupInterval)">
+            <summary>
+                <para>Initializes a new instance of the Dimension class, binds it to the specified data member and sets the group interval for date-time values to the specified value.
+</para>
+            </summary>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data item to which this Dimension should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+            <param name="dateTimeGroupInterval">
+		A <see cref="T:DevExpress.DashboardCommon.DateTimeGroupInterval"/> enumeration member that specifies the group interval for date-time values. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.Dimension.DateTimeGroupInterval"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dimension.#ctor(System.String,System.String,DevExpress.DashboardCommon.DateTimeGroupInterval)">
+            <summary>
+                <para>Initializes a new instance of the Dimension class with the specified identifier, binds it to the specified data member and sets the group interval for date-time values to the specified value.
+</para>
+            </summary>
+            <param name="id">
+		A <see cref="T:System.String"/> that specifies the dimension identifier. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.ID"/> property.
+
+            </param>
+            <param name="dataMember">
+		A <see cref="T:System.String"/> that identifies the data item to which this Dimension should be bound. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.DataItem.DataMember"/> property.
+
+            </param>
+            <param name="dateTimeGroupInterval">
+		A <see cref="T:DevExpress.DashboardCommon.DateTimeGroupInterval"/> enumeration member that specifies the group interval for date-time values. This value is assigned to the <see cref="P:DevExpress.DashboardCommon.Dimension.DateTimeGroupInterval"/> property.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Dimension.DateTimeGroupInterval">
+            <summary>
+                <para>Gets or sets the group interval for date-time values.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DateTimeGroupInterval"/> enumeration member that specifies how to group date-time values.
+</value>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Dimension.DefaultDateTimeGroupInterval">
+            <summary>
+                <para>The default <see cref="P:DevExpress.DashboardCommon.Dimension.DateTimeGroupInterval"/> property value.
+<para><b>Value:</b> <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Year"/></para>
+</para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Dimension.DefaultIsDiscreteNumericScale">
+            <summary>
+                <para>The default <see cref="P:DevExpress.DashboardCommon.Dimension.IsDiscreteNumericScale"/> property value.
+<para><b>Value:</b> false</para>
+</para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Dimension.DefaultTextGroupInterval">
+            <summary>
+                <para>The default <see cref="P:DevExpress.DashboardCommon.Dimension.TextGroupInterval"/> property value.
+<para><b>Value:</b> <see cref="F:DevExpress.DashboardCommon.TextGroupInterval.None"/></para>
+</para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Dimension.IsDiscreteNumericScale">
+            <summary>
+                <para>Gets or sets whether to treat numeric dimension values as if they were defined on a discrete or continuous scale.
+</para>
+            </summary>
+            <value><b>true</b>, to treat numeric dimension values as if they were defined on a discrete scale; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Dimension.SortByMeasure">
+            <summary>
+                <para>Gets or sets a <see cref="T:DevExpress.DashboardCommon.Measure"/> by which values of this data item should be sorted.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.Measure"/> object that specifies a measure by which values of this data item should be sorted.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Dimension.SortOrder">
+            <summary>
+                <para>Gets or sets the sort order of dimension values.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DimensionSortOrder"/> enumeration member that specifies the sort order of dimension values.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Dimension.TextGroupInterval">
+            <summary>
+                <para>Gets or sets the group interval for string values.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.TextGroupInterval"/> enumeration member that specifies the group interval for string values.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Dimension.TopNOptions">
+            <summary>
+                <para>Provides access to the Top N Values settings.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DimensionTopNOptions"/> object that contains the Top N Values settings.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DataDashboardItemBase">
+
+            <summary>
+                <para>Serves as the base class for data-bound dashboard items.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataDashboardItemBase.ConvertToDimension(DevExpress.DashboardCommon.DataItem)">
+            <summary>
+                <para>Converts the specified data item to a <see cref="T:DevExpress.DashboardCommon.Dimension"/>.
+</para>
+            </summary>
+            <param name="dataItem">
+		A <see cref="T:DevExpress.DashboardCommon.DataItem"/> descendant that should be converted to a <see cref="T:DevExpress.DashboardCommon.Dimension"/> object. 
+
+            </param>
+            <returns>A <see cref="T:DevExpress.DashboardCommon.Dimension"/> object generated from the specified data item.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataDashboardItemBase.ConvertToMeasure(DevExpress.DashboardCommon.DataItem)">
+            <summary>
+                <para>Converts the specified data item to a <see cref="T:DevExpress.DashboardCommon.Measure"/>.
+</para>
+            </summary>
+            <param name="dataItem">
+		A <see cref="T:DevExpress.DashboardCommon.DataItem"/> descendant that should be converted to a <see cref="T:DevExpress.DashboardCommon.Measure"/> object. 
+
+            </param>
+            <returns>A <see cref="T:DevExpress.DashboardCommon.Measure"/> object generated from the specified data item.
+
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataDashboardItemBase.DataSource">
+            <summary>
+                <para>Gets or sets a data source to which the dashboard item is bound.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DataSource"/> object that specifies a data source to which the dashboard item is bound.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataDashboardItemBase.FilterCriteria">
+            <summary>
+                <para>Gets or sets the filter criteria applied to this dashboard item.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.Data.Filtering.CriteriaOperator"/> descendant that specifies the filter criteria for the dashboard item.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataDashboardItemBase.HiddenDimensions">
+            <summary>
+                <para>Gets a collection of hidden dimensions.
+</para>
+            </summary>
+            <value>A collection of <see cref="T:DevExpress.DashboardCommon.Dimension"/> objects appended to the dashboard item but not displayed within it.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataDashboardItemBase.HiddenMeasures">
+            <summary>
+                <para>Gets a collection of hidden measures.
+</para>
+            </summary>
+            <value>A collection of <see cref="T:DevExpress.DashboardCommon.Measure"/> objects appended to the dashboard item but not displayed within it.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataDashboardItemBase.IgnoreMasterFilters">
+            <summary>
+                <para>Gets or sets whether this dashboard item ignores filtering applied by Master Filters.
+</para>
+            </summary>
+            <value><b>true</b>, to ignore filtering applied by Master Filters; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DataItemNumericUnit">
+
+            <summary>
+                <para>Lists values that specify numeric units.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericUnit.Auto">
+            <summary>
+                <para>The unit is selected automatically, so that there are no more than <b>three</b> digits in the resulting value's integer part.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericUnit.Billions">
+            <summary>
+                <para>Values are converted to billions.
+<para>12,345,678,901 -@gt; 12.34B (in the <i>en-US</i> culture, provided that the <see cref="P:DevExpress.DashboardCommon.DataItemNumericFormat.Precision"/> is set to <b>2</b>)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericUnit.Millions">
+            <summary>
+                <para>Values are converted to millions.
+<para>123,456,789 -@gt; 123.4M (in the <i>en-US</i> culture, provided that the <see cref="P:DevExpress.DashboardCommon.DataItemNumericFormat.Precision"/> is set to <b>1</b>)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericUnit.Ones">
+            <summary>
+                <para>Values are shown "as is".
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericUnit.Thousands">
+            <summary>
+                <para>Values are converted to thousands.
+<para>1,234 -@gt; 1.234K (in the <i>en-US</i> culture, provided that the <see cref="P:DevExpress.DashboardCommon.DataItemNumericFormat.Precision"/> is set to <b>3</b>)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.TargetDimensions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.TargetDimensions.Arguments">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.TargetDimensions.Series">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DashboardItem">
+
+            <summary>
+                <para>Serves as the base class for dashboard items.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DashboardItem.CreateCopy">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DashboardItem.Dashboard">
+            <summary>
+                <para>Gets a dashboard that owns this dashboard item.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.Dashboard"/> object that specifies the dashboard that owns this item.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DashboardItem.Name">
+            <summary>
+                <para>Gets or sets the name of the dashboard item.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> that specifies the name of the dashboard item.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DashboardItem.ShowCaption">
+            <summary>
+                <para>Gets or sets whether the dashboard item's caption is displayed.
+</para>
+            </summary>
+            <value><b>true</b>, to show the caption; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.Dashboard">
+
+            <summary>
+                <para>A dashboard.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dashboard.#ctor">
+            <summary>
+                <para>Initializes a new instance of the Dashboard class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dashboard.AddDataSource(System.String,System.Object)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="data">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.DashboardCommon.Dashboard.DataSourceCollectionChanged">
+            <summary>
+                <para>Occurs after the collection of data sources has been changed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Dashboard.DataSources">
+            <summary>
+                <para>Gets the collection of dashboard data sources.
+</para>
+            </summary>
+            <value>A collection of <see cref="T:DevExpress.DashboardCommon.DataSource"/> objects that provide data for the dashboard.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.DashboardCommon.Dashboard.ItemCollectionChanged">
+            <summary>
+                <para>Occurs after the collection of dashboard items has been changed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Dashboard.Items">
+            <summary>
+                <para>Gets the collection of dashboard items.
+</para>
+            </summary>
+            <value>A collection of <see cref="T:DevExpress.DashboardCommon.DashboardItem"/> descendants. Contains dashboard items displayed within this dashboard.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dashboard.LoadFromXml(System.IO.Stream)">
+            <summary>
+                <para>Loads a dashboard from the specified stream.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> object that is a stream containing a dashboard.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dashboard.LoadFromXml(System.String)">
+            <summary>
+                <para>Loads a dashboard from the specified XML file.
+</para>
+            </summary>
+            <param name="filePath">
+		A <see cref="T:System.String"/> that specifies the path to a file that contains a dashboard.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dashboard.SaveToXml(System.IO.Stream)">
+            <summary>
+                <para>Saves the dashboard to the specified stream.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> that specifies a stream to which the dashboard should be saved.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Dashboard.SaveToXml(System.String)">
+            <summary>
+                <para>Saves the dashboard to the specified XML file.
+</para>
+            </summary>
+            <param name="filePath">
+		A <see cref="T:System.String"/> that specifies the path to a file to which the dashboard should be saved.
+
+            </param>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DeltaValueType">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaValueType.AbsoluteVariation">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaValueType.ActualValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaValueType.PercentOfTarget">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DeltaValueType.PercentVariation">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DeltaOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DeltaOptions.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DeltaOptions.Assign(DevExpress.DashboardCommon.DeltaOptions)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="deltaOptions">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DeltaOptions.Clone">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DeltaOptions.Equals(System.Object)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="obj">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DeltaOptions.GetHashCode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DeltaOptions.ResultIndicationMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DeltaOptions.ResultIndicationThreshold">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DeltaOptions.ResultIndicationThresholdType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DeltaOptions.ValueType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.PivotDashboardItem">
+
+            <summary>
+                <para>A pivot table dashboard element.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.PivotDashboardItem.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PivotDashboardItem.Columns">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.PivotDashboardItem.GetValueName(DevExpress.DashboardCommon.Measure)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PivotDashboardItem.Rows">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.PivotDashboardItem.SetValueName(DevExpress.DashboardCommon.Measure,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.PivotDashboardItem.Values">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DateTimeFormat">
+
+            <summary>
+                <para>Lists values that specify format types for date-time values.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeFormat.Default">
+            <summary>
+                <para>The default date-time formatting.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeFormat.Long">
+            <summary>
+                <para>Long date pattern, long time pattern (if applicable).
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; Monday, June 15, 2009 1:45:30 PM (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DateTimeFormat.Short">
+            <summary>
+                <para>Short date pattern, long time pattern (if applicable).
+<para>6@#47;15@#47;2009 1:45:30 PM -@gt; 6@#47;15@#47;2009 1:45:30 PM (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.Localization.DashboardStringId">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ActionClearSelection">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ActionDrillUp">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ActionOtherElements">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ActualValueCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.AxisYNameCount">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.AxisYNameValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.CloseCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ConnectingToDatabaseMessage">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DataEngineGrandTotal">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DataItemsHeader">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalDateHour">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalDateHourMinute">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalDateHourMinuteSecond">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalDay">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalDayMonthYear">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalDayOfWeek">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalDayOfYear">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalHour">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalMinute">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalMonth">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalMonthYear">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalQuarter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalQuarterYear">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalSecond">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalWeekOfMonth">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalWeekOfYear">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeGroupIntervalYear">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeQuarterFormat">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DateTimeQuarterFormatSpecifier">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNameCardItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNameChartItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNameConnection">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNameDataSource">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNameGaugeItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNameGridItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNameImageItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNamePieItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNamePivotItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNameRangeFilterItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DefaultNameTextBoxItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionArguments">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionCards">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionColumns">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionDimensions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionGauges">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionItemArgument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionItemColumn">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionItemDimension">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionItemMeasure">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionItemRow">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionItemSeries">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionItemValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionMeasures">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionPane">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionRows">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionSeries">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.DescriptionValues">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ElementNameCards">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ElementNameGauges">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ElementNamePies">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ErrorValueDisplayText">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.FormatStringDashboardItemCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.FormatStringDataItemName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.FormatStringKpiElementCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.FormatStringSeriesName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.GroupIntervalNone">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.HiddenDataItemsHeader">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.HighCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.LoadingDataSourceAborted">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.LoadingDataSourceCustomError">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.LoadingDataSourceOpeningConnectionError">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.LoadingDatasourceOutOfMemoryError">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.LoadingDataSourcePanelCounter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.LoadingDataSourcePanelText">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.LoadingDataSourceSqlError">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.LowCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.MessageDuplicatedDataItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.MessageDuplicateItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.MessageDuplicateItemName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.MessageIncorrectDataAssign">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.MessageIncorrectNumericPrecision">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.MessageIncorrectValueTopNCount">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.MessageInternalError">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.MessageInvalidItemName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.MessageInvalidStream">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.NumericFormatUnitSymbolBillions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.NumericFormatUnitSymbolMillions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.NumericFormatUnitSymbolThousands">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.NumericGroupIntervalContinuous">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.NumericGroupIntervalDiscrete">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.OpenCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.RangeFilterEmptyArgument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.RangeFilterEmptySeries">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.RangeFilterIncompatibleArgument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.RangeFilterIncompatibleArgumentSorting">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.RangeFilterIncompatibleDateTimeGroupInterval">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.RangeFilterIncompatibleNumericScale">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.RangeFilterIncompatibleSeriesType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.RangeFilterIncompatibleTopN">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeBubble">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeCandleStick">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeFullStackedArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeFullStackedBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeFullStackedLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeFullStackedSplineArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeGroupArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeGroupBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeGroupBubble">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeGroupFinancial">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeGroupPointLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeGroupRange">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeGroupRangeFilter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeHighLowClose">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeOpenHighLowClose">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypePoint">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeRangeArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeSideBySideFullStackedBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeSideBySideRangeBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeSideBySideStackedBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeSpline">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeSplineArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeStackedArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeStackedBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeStackedLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeStackedSplineArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeStepArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeStepLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SeriesTypeStock">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SummaryTypeAverage">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SummaryTypeCount">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SummaryTypeMax">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SummaryTypeMin">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SummaryTypeStdDev">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SummaryTypeStdDevp">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SummaryTypeSum">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SummaryTypeVar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.SummaryTypeVarp">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.TargetValueCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.TextGroupIntervalAlphabetical">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.TopNOthersValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.Value1Caption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.Value2Caption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.ValueCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.Localization.DashboardStringId.WeightCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DimensionTopNOptions">
+
+            <summary>
+                <para>Contains the Top N Values settings.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DimensionTopNOptions.BeginUpdate">
+            <summary>
+                <para>Locks applying Top N settings until the <see cref="M:DevExpress.DashboardCommon.DimensionTopNOptions.EndUpdate"/> method call.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DimensionTopNOptions.Count">
+            <summary>
+                <para>Gets or sets the number of top or bottom values to be displayed.
+</para>
+            </summary>
+            <value>An integer value that specifies the number of top or bottom values to be displayed.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DimensionTopNOptions.Enabled">
+            <summary>
+                <para>Gets or sets whether the Top N Values feature is enabled.
+</para>
+            </summary>
+            <value><b>true</b>, to enable the Top N Values feature; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DimensionTopNOptions.EndUpdate">
+            <summary>
+                <para>Applies changes made to Top N settings after the <see cref="M:DevExpress.DashboardCommon.DimensionTopNOptions.BeginUpdate"/> method call and unlocks further updates.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DimensionTopNOptions.Measure">
+            <summary>
+                <para>Gets or sets the <see cref="T:DevExpress.DashboardCommon.Measure"/> by whose values the dimension values are ranged.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.Measure"/> object that specifies the measure by whose values the dimension values are ranged.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DimensionTopNOptions.Mode">
+            <summary>
+                <para>Gets or sets whether the smallest or largest values should be displayed.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DimensionTopNMode"/> enumeration member that specifies whether the smallest or largest values should be displayed.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DimensionTopNOptions.ShowOthers">
+            <summary>
+                <para>Gets or sets whether to show the "Others" value.
+</para>
+            </summary>
+            <value><b>true</b>, to show the "Others" value; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DataItemNumericFormat">
+
+            <summary>
+                <para>Contains format settings for numeric values.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataItemNumericFormat.BeginUpdate">
+            <summary>
+                <para>Locks applying format settings until the <see cref="M:DevExpress.DashboardCommon.DataItemNumericFormat.EndUpdate"/> method call.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemNumericFormat.CurrencyCultureName">
+            <summary>
+                <para>Gets or sets the name of a culture that defines the currency symbol and format.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> that specifies the name of a culture that defines the currency format settings. If invalid, the <b>System.Globalization.CultureNotFoundException</b> is thrown.
+
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataItemNumericFormat.EndUpdate">
+            <summary>
+                <para>Applies changes made to format settings after the <see cref="M:DevExpress.DashboardCommon.DataItemNumericFormat.BeginUpdate"/> method call and unlocks further updates.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemNumericFormat.FormatType">
+            <summary>
+                <para>Gets or sets the format type for numeric values.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DataItemNumericFormatType"/> enumeration member that specifies the format type for numeric values.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemNumericFormat.IncludeGroupSeparator">
+            <summary>
+                <para>Gets or sets whether separators should be inserted between digit groups.
+</para>
+            </summary>
+            <value><b>true</b>, to insert separators between digit groups; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemNumericFormat.Precision">
+            <summary>
+                <para>Gets or sets the number of fractional digits that should be displayed.
+</para>
+            </summary>
+            <value>An integer value that specifies the number of fractional digits that should be displayed.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemNumericFormat.Unit">
+            <summary>
+                <para>Gets or sets the unit to which numeric values should be converted.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DataItemNumericUnit"/> enumeration member that specifies the unit to which numeric values should be converted.
+
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DataItemDateTimeFormat">
+
+            <summary>
+                <para>Contains formatting settings for date-time values.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataItemDateTimeFormat.BeginUpdate">
+            <summary>
+                <para>Locks applying format settings until the <see cref="M:DevExpress.DashboardCommon.DataItemDateTimeFormat.EndUpdate"/> method call.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemDateTimeFormat.DateFormat">
+            <summary>
+                <para>Gets or sets the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DayMonthYear"/> group interval. 
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DateTimeFormat"/> enumeration member that specifies the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DayMonthYear"/> group interval.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemDateTimeFormat.DateHourFormat">
+            <summary>
+                <para>Gets or sets format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DateHour"/> group interval. 
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DateTimeFormat"/> enumeration member that specifies the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DateHour"/> group interval.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemDateTimeFormat.DateHourMinuteFormat">
+            <summary>
+                <para>Gets or sets the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DateHourMinute"/> group interval. 
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DateTimeFormat"/> enumeration member that specifies the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DateHourMinute"/> group interval.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemDateTimeFormat.DateTimeFormat">
+            <summary>
+                <para>Gets or sets the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DateHourMinuteSecond"/> group interval. 
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DateTimeFormat"/> enumeration member that specifies the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DateHourMinuteSecond"/> group interval.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemDateTimeFormat.DayOfWeekFormat">
+            <summary>
+                <para>Gets or sets the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DayOfWeek"/> group interval. 
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DayOfWeekFormat"/> enumeration member that specifies the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.DayOfWeek"/> group interval.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.DataItemDateTimeFormat.EndUpdate">
+            <summary>
+                <para>Applies changes made to format settings after the <see cref="M:DevExpress.DashboardCommon.DataItemDateTimeFormat.BeginUpdate"/> method call and unlocks further updates.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemDateTimeFormat.MonthFormat">
+            <summary>
+                <para>Gets or sets the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Month"/> group interval. 
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.MonthFormat"/> enumeration member that specifies the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Month"/> group interval.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemDateTimeFormat.QuarterFormat">
+            <summary>
+                <para>Gets or sets format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Quarter"/> group interval. 
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.QuarterFormat"/> enumeration member that specifies the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Quarter"/> group interval.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.DataItemDateTimeFormat.YearFormat">
+            <summary>
+                <para>Gets or sets the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Year"/> group interval. 
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.YearFormat"/> enumeration member that specifies the format type associated with the <see cref="F:DevExpress.DashboardCommon.DateTimeGroupInterval.Year"/> group interval.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.ChartInteractivityOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.ChartInteractivityOptions.TargetDimensions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GridMeasureColumnDisplayMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GridMeasureColumnDisplayMode.Bar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GridMeasureColumnDisplayMode.Value">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GridDimensionColumnDisplayMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GridDimensionColumnDisplayMode.Image">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GridDimensionColumnDisplayMode.Text">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GridDeltaColumnDisplayMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GridDeltaColumnDisplayMode.Bar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GridDeltaColumnDisplayMode.Value">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DimensionTopNMode">
+
+            <summary>
+                <para>Lists values that specify whether the largest or smallest values should be displayed.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DimensionTopNMode.Bottom">
+            <summary>
+                <para>The smallest values are displayed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DimensionTopNMode.Top">
+            <summary>
+                <para>The largest values are displayed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.DataItemNumericFormatType">
+
+            <summary>
+                <para>Lists values that specify format types for numeric values.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericFormatType.Auto">
+            <summary>
+                <para>Format type is defined automatically, according to the data type and summary function (for measures).
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericFormatType.Currency">
+            <summary>
+                <para>Currency formatting.
+<para>123.456 -@gt; $123.46 (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericFormatType.General">
+            <summary>
+                <para>The most compact of either fixed-point or scientific notation. Ignores the <see cref="P:DevExpress.DashboardCommon.DataItemNumericFormat.Precision"/> value.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericFormatType.Number">
+            <summary>
+                <para> Integral and decimal digits, group separators, and a decimal separator with an optional negative sign.
+<para>1234.567 -@gt; 1,234.57 (en-US)</para>
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericFormatType.Percent">
+            <summary>
+                <para>Number multiplied by 100 and displayed with a percent symbol.
+<para>-0.39678 -@gt; -39.7 % (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.DataItemNumericFormatType.Scientific">
+            <summary>
+                <para>Exponential notation.
+<para>1052.0329112756 -@gt; 1.052033E+003 (en-US)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.GaugeViewType">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GaugeViewType.CircularFull">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GaugeViewType.CircularHalf">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GaugeViewType.CircularQuarterLeft">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GaugeViewType.CircularQuarterRight">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GaugeViewType.CircularThreeFourth">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GaugeViewType.LinearHorizontal">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.GaugeViewType.LinearVertical">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.TextBoxDashboardItem">
+
+            <summary>
+                <para>A text box dashboard element.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.TextBoxDashboardItem.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.TextBoxDashboardItem.Rtf">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.TextBoxDashboardItem.Text">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.UniqueItemCollection`1">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.UniqueItemCollection`1.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.NotifyingCollectionChangedEventArgs`1">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollectionChangedEventArgs`1.#ctor(System.Collections.Generic.IList`1,System.Collections.Generic.IList`1)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="addedItems">
+		 [To be supplied] 
+            </param>
+            <param name="removedItems">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.NotifyingCollectionChangedEventArgs`1.AddedItems">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.NotifyingCollectionChangedEventArgs`1.RemovedItems">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.NotifyingCollection`1">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.AddRange(System.Collections.Generic.IEnumerable`1)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="items">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.AddRange(DevExpress.DashboardCommon.T[])">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="items">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.BeginUpdate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.DashboardCommon.NotifyingCollection`1.CollectionChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.Contains(System.Predicate`1)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="match">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.EndUpdate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.FindFirst(System.Predicate`1)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="match">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.RemoveRange(System.Collections.Generic.IEnumerable`1)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="items">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.RemoveRange(DevExpress.DashboardCommon.T[])">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="items">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NotifyingCollection`1.ToArray">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.NamedItemCollection`1">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NamedItemCollection`1.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NamedItemCollection`1.ContainsName(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NamedItemCollection`1.GetNextUniqueName(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="namePrefix">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.NamedItemCollection`1.Remove(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.PieLegendPosition">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieLegendPosition.Bottom">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieLegendPosition.Left">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieLegendPosition.None">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieLegendPosition.Right">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieLegendPosition.Top">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.DashboardCommon.PieLegendPosition.TopRight">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.Localization.DashboardLocalizer">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Localization.DashboardLocalizer.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.Localization.DashboardLocalizer.Active">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Localization.DashboardLocalizer.CreateResXLocalizer">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.DashboardCommon.Localization.DashboardLocalizer.GetString(DevExpress.DashboardCommon.Localization.DashboardStringId)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="id">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.KpiElement">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.KpiElement.ActualValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.KpiElement.DeltaOptions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.KpiElement.TargetValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.DashboardCommon.KpiDashboardItem`1">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.KpiDashboardItem`1.ContentArrangementMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.KpiDashboardItem`1.ContentLineCount">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.DashboardCommon.KpiDashboardItem`1.InteractivityOptions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+    </members>
+</doc>

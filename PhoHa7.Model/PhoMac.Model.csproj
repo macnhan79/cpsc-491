@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2DF8326F-6B8F-445E-A12F-1280EF366EFB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhoMac.Model</RootNamespace>
+    <AssemblyName>PhoMac.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Appointment.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CardInfo.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Category.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerType.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DailyDraw.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Dao.cs" />
+    <Compile Include="Data\IDao.cs" />
+    <Compile Include="DaySale.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DelItem.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dictionary.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Error.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExpCategory.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExpProduct.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Factory\AbstractFactory.cs" />
+    <Compile Include="Factory\EntityFactory.cs" />
+    <Compile Include="GiftCert.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GiftHistory.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Message.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentType.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7ModelSystem.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhoHa7ModelSystem.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7ModelSystem.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7ModelSystem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhoHa7ModelSystem.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_Attendance.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_CardProcess.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_FilterSaleItem.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_Machine.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_ProcSaleItem.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_ProcTickets.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_ProductType.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_Sys_Object.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_Sys_Option.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_Sys_Role.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_Sys_Role_Permission.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_Sys_User_Permission.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoHa7_UserRole.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Presenter\Permission\SystemPermission.cs" />
+    <Compile Include="Presenter\Sys\SysParameterPresenter.cs" />
+    <Compile Include="Presenter\Sys\SysRolePresenter.cs" />
+    <Compile Include="Presenter\Sys\UserPresenter.cs" />
+    <Compile Include="ProcSaleItem.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProcTicket.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductType.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_Size.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_SizeDetails.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReasonItem.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SaleItem.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TabCategory.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Table.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+    <Compile Include="test.cs" />
+    <Compile Include="Ticket.cs">
+      <DependentUpon>PhoHa7ModelSystem.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <EntityDeploy Include="PhoHa7ModelSystem.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PhoHa7ModelSystem.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="PhoHa7ModelSystem.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PhoHa7ModelSystem.edmx</DependentUpon>
+      <LastGenOutput>PhoHa7ModelSystem.Context.cs</LastGenOutput>
+    </None>
+    <None Include="PhoHa7ModelSystem.edmx.diagram">
+      <DependentUpon>PhoHa7ModelSystem.edmx</DependentUpon>
+    </None>
+    <None Include="PhoHa7ModelSystem.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PhoHa7ModelSystem.edmx</DependentUpon>
+      <LastGenOutput>PhoHa7ModelSystem.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Sumen.Library\PhoHa7.Library.csproj">
+      <Project>{17d65bfe-82ef-4fda-a47e-00494e3ed53e}</Project>
+      <Name>PhoHa7.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,221 @@
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\Resources\ErrorMessages.mdb
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe.config
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.pdb
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.dll
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Business.dll
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Model.dll
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\Sumen.Library.dll
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\Chuoi.dll
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Model.pdb
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Business.pdb
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\Sumen.Library.pdb
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.xml
+D:\Aptech\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csprojResolveAssemblyReference.cache
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.MainForm.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Test.XtraForm1.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.GroupDetailPage.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.ItemDetailPage.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Properties.Resources.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.GroupItemDetailPage.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_MainView.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Event.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Guests.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Items.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TableView.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TicketView.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCFrmCashInput.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCFrm_PassCode.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCGridCategory.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCGridItemsDetails.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCGridPanel.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeyboard.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeypadItem.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPanelProduct.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPanelTable.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentButton.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentType.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.XtraForm2.resources
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csproj.GenerateResource.Cache
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe.licenses
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe
+D:\Aptech\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe.config
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\Resources\ErrorMessages.mdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Business.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Model.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\Sumen.Library.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\Chuoi.dll
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Model.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Business.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\Sumen.Library.pdb
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.xml
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csprojResolveAssemblyReference.cache
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.MainForm.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Test.XtraForm1.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.GroupDetailPage.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.ItemDetailPage.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Properties.Resources.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.GroupItemDetailPage.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_MainView.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Event.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Guests.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Items.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TableView.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TicketView.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCFrmCashInput.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCFrm_PassCode.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCGridCategory.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCGridItemsDetails.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCGridPanel.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeyboard.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeypadItem.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPanelProduct.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPanelTable.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentButton.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentType.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.XtraForm2.resources
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csproj.GenerateResource.Cache
+C:\Users\Kira-Mac\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe.licenses
+W:\PhoHa (1)\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe.config
+W:\PhoHa (1)\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe
+W:\PhoHa (1)\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.pdb
+W:\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe.config
+W:\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe
+W:\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.pdb
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe.config
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.pdb
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\Resources\ErrorMessages.mdb
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.pdb
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.dll
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Business.dll
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Model.dll
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\Sumen.Library.dll
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\Chuoi.dll
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Model.pdb
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Business.pdb
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\Sumen.Library.pdb
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.xml
+D:\Google Drive\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csprojResolveAssemblyReference.cache
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Form1.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.FrmTest.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.MainForm.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.RibbonForm1.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Test.XtraForm1.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.UCTest1.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.UCTest2.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.GroupDetailPage.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.ItemDetailPage.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Properties.Resources.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.GroupItemDetailPage.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_MainView.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Event.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Guests.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Items.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TableView.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TicketView.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.TableEditView.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCGridCategory.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCObject.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPanelLayoutTable.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeyboard.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeypadItem.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCProduct.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCTable.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentButton.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentType.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csproj.GenerateResource.Cache
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe.licenses
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCTicketView.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCCashInput.resources
+D:\Google Drive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPassCode.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\Resources\ErrorMessages.mdb
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe.config
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.exe
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Main.POS.pdb
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.dll
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.SqlServer.dll
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Business.dll
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Model.dll
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\Sumen.Library.dll
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\Chuoi.dll
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Model.pdb
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\PhoMac.Business.pdb
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\Sumen.Library.pdb
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.xml
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\bin\Debug\EntityFramework.SqlServer.xml
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csprojResolveAssemblyReference.cache
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Form1.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.FrmTest.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.RibbonForm1.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Test.XtraForm1.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.UCTest1.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.UCTest2.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Properties.Resources.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_MainView.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Event.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Guests.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Items.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TableView.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TicketView.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.TableEditView.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCCashInput.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPassCode.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCGridCategory.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCTicketView.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCObject.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPanelLayoutTable.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeyboard.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeypadItem.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCProduct.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCTable.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentButton.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentType.resources
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csproj.GenerateResource.Cache
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe.licenses
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe
+C:\GoogleDrive\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.pdb
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csprojResolveAssemblyReference.cache
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Form1.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.FrmTest.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.RibbonForm1.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Test.XtraForm1.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.UCTest1.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.UCTest2.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Properties.Resources.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_MainView.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Event.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Guests.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_Payment_Split_Items.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TableView.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.Pos_TicketView.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.TableEditView.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCCashInput.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPassCode.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCGridCategory.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCTicketView.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCObject.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPanelLayoutTable.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeyboard.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCKeypadItem.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCProduct.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCTable.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentButton.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.Views.UC.UCPaymentType.resources
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.csproj.GenerateResource.Cache
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe.licenses
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.exe
+C:\Users\Kira\Desktop\PhoHa\PhoMac.Main.POS\obj\Debug\PhoMac.Main.POS.pdb

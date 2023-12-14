@@ -1,0 +1,231 @@
+@-webkit-keyframes transform-rotate
+{
+   0% { -webkit-transform:  rotate(0deg);  }
+   100% { -webkit-transform:  rotate(359deg);  }
+}
+@-moz-keyframes transform-rotate
+{
+   0% { -moz-transform:  rotate(0deg);  }
+   100% { -moz-transform:  rotate(359deg);  }
+}
+@-o-keyframes transform-rotate
+{
+   0% { -o-transform:  rotate(0deg);  }
+   100% { -o-transform:  rotate(359deg);  }
+}
+@-ms-keyframes transform-rotate
+{
+   0% { -ms-transform:  rotate(0deg);  }
+   100% { -ms-transform:  rotate(359deg);  }
+}
+@keyframes transform-rotate
+{
+   0% { transform:  rotate(0deg);  }
+   100% { transform:  rotate(359deg);  }
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a.style1
+{
+   color: #000080;
+   text-decoration: none;
+}
+a.style1:visited
+{
+   color: #000080;
+   text-decoration: none;
+}
+a.style1:active
+{
+   color: #000080;
+   text-decoration: underline;
+}
+a.style1:hover
+{
+   color: #000080;
+   text-decoration: underline;
+}
+a.white_link
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.white_link:visited
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.white_link:active
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.white_link:hover
+{
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+a.wwb_blue
+{
+   color: #002DB8;
+   text-decoration: none;
+}
+a.wwb_blue:visited
+{
+   color: #002DB8;
+   text-decoration: none;
+}
+a.wwb_blue:active
+{
+   color: #002DB8;
+   text-decoration: none;
+}
+a.wwb_blue:hover
+{
+   color: #002DB8;
+   text-decoration: underline;
+}
+a.wwb_link
+{
+   color: #2B579A;
+   text-decoration: none;
+}
+a.wwb_link:visited
+{
+   color: #2B579A;
+   text-decoration: none;
+}
+a.wwb_link:active
+{
+   color: #2B579A;
+   text-decoration: none;
+}
+a.wwb_link:hover
+{
+   color: #2B579A;
+   text-decoration: underline;
+}
+a.wwb_red
+{
+   color: #C54949;
+   text-decoration: underline;
+}
+a.wwb_red:visited
+{
+   color: #C54949;
+   text-decoration: underline;
+}
+a.wwb_red:active
+{
+   color: #C54949;
+   text-decoration: underline;
+}
+a.wwb_red:hover
+{
+   color: #C54949;
+   text-decoration: underline;
+}
+h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 24px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000080;
+   background-color: transparent;
+}

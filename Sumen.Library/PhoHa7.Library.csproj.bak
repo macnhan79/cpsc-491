@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17D65BFE-82EF-4FDA-A47E-00494E3ED53E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhoHa7.Library</RootNamespace>
+    <AssemblyName>Sumen.Library</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CTUDebug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\CTUDebug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_HRM_BenTre|AnyCPU'">
+    <OutputPath>bin\Release_HRM_BenTre\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <DefineConstants>BenTre</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CTUDebug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\CTUDebug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_HRM_BenTre|x86'">
+    <OutputPath>bin\x86\Release_HRM_BenTre\</OutputPath>
+    <DefineConstants>BenTre</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Chuoi">
+      <HintPath>..\Lib\Chuoi.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v17.1.Extensions, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Interop.Excel">
+      <HintPath>..\Lib\Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Office">
+      <HintPath>..\Lib\Interop.Office.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.SQLDMO">
+      <HintPath>..\Lib\Interop.SQLDMO.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Word">
+      <HintPath>..\Lib\Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Common\AExportToExcel.cs" />
+    <Compile Include="Classes\Common\ClsExcel.cs" />
+    <Compile Include="Classes\Common\ClsExcelForDevExpress.cs" />
+    <Compile Include="Classes\Common\ClsException.cs" />
+    <Compile Include="Classes\Common\ClsChangeType.cs" />
+    <Compile Include="Classes\Common\ClsBaoLoi.cs" />
+    <Compile Include="Classes\Common\ClsMsgBox.cs" />
+    <Compile Include="Classes\Connection\SqlHelperWeb.cs" />
+    <Compile Include="Enum\Enum.cs" />
+    <Compile Include="Interface\IDao.cs" />
+    <Compile Include="Interface\IPermission.cs" />
+    <Compile Include="Classes\Connection\ClsConnection.cs" />
+    <Compile Include="Classes\Connection\SqlHelper.cs" />
+    <Compile Include="Froms\WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoSoLuuTru\FrmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoSoLuuTru\FrmConfig.Designer.cs">
+      <DependentUpon>FrmConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoSoLuuTru\HSLTDataAccess.cs" />
+    <Compile Include="HoSoLuuTru\UCHoSoLuuTru.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HoSoLuuTru\UCHoSoLuuTru.Designer.cs">
+      <DependentUpon>UCHoSoLuuTru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ErrorMessagesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ErrorMessagesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sockets\ClientSocket.cs" />
+    <Compile Include="Sockets\MessageSocket.cs" />
+    <Compile Include="Sockets\ScanDevices.cs" />
+    <Compile Include="Sockets\ServerSocket.cs" />
+    <Compile Include="UserControl\ButtonsArray.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ButtonsArray.Designer.cs">
+      <DependentUpon>ButtonsArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Connection\FrmCauHinhCSDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Connection\FrmCauHinhCSDL.designer.cs">
+      <DependentUpon>FrmCauHinhCSDL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\MsgBox\ClsConfig.cs" />
+    <Compile Include="Froms\MsgBox\FrmAccept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\MsgBox\FrmAccept.designer.cs">
+      <DependentUpon>FrmAccept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\MsgBox\FrmEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\MsgBox\FrmEmail.designer.cs">
+      <DependentUpon>FrmEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\MsgBox\FrmError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\MsgBox\FrmError.designer.cs">
+      <DependentUpon>FrmError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\MsgBox\MsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\MsgBox\MsgBox.designer.cs">
+      <DependentUpon>MsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\DanhMuc\ClsDanhMuc.cs" />
+    <Compile Include="UserControl\DanhMuc\FrmListUITypeEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\DanhMuc\FrmListUITypeEditor.Designer.cs">
+      <DependentUpon>FrmListUITypeEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\DanhMuc\ListUITypeEditor.cs" />
+    <Compile Include="UserControl\PopupTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopupTreeView.designer.cs">
+      <DependentUpon>PopupTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopupTree\ClsPopupTreeView.cs" />
+    <Compile Include="UserControl\PopupTree\GripBounds.cs" />
+    <Compile Include="UserControl\PopupTree\Item.cs" />
+    <Compile Include="UserControl\PopupTree\ItemCollection.cs" />
+    <Compile Include="UserControl\PopupTree\ItemCollectionEditor.cs" />
+    <Compile Include="UserControl\PopupTree\ItemControlDesigner.cs" />
+    <Compile Include="UserControl\PopupTree\ItemConverter.cs" />
+    <Compile Include="UserControl\PopupTree\NativeMethods.cs" />
+    <Compile Include="UserControl\PopupTree\Popup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopupTree\Popup.Designer.cs">
+      <DependentUpon>Popup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopupTree\PopupAnimations.cs" />
+    <Compile Include="UserControl\PopupTree\PopupControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopupTree\PopupGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopupTree\PopupGrid.Designer.cs">
+      <DependentUpon>PopupGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PopupTree\PopupTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PopupTree\PopupTree.Designer.cs">
+      <DependentUpon>PopupTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCCustomerSearchLookUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UCCustomerSearchLookUp.Designer.cs">
+      <DependentUpon>UCCustomerSearchLookUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\XtraFormKira.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\XtraUserControlKira.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\DanhMuc\UCDanhMuc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\DanhMuc\UCDanhMuc.Designer.cs">
+      <DependentUpon>UCDanhMuc.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Froms\Connection\FrmCauHinhCSDL.resx">
+      <DependentUpon>FrmCauHinhCSDL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\MsgBox\FrmAccept.resx">
+      <DependentUpon>FrmAccept.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\MsgBox\FrmEmail.resx">
+      <DependentUpon>FrmEmail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\MsgBox\FrmError.resx">
+      <DependentUpon>FrmError.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\MsgBox\MsgBox.resx">
+      <DependentUpon>MsgBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\XtraFormKira.resx">
+      <DependentUpon>XtraFormKira.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\XtraUserControlKira.resx">
+      <DependentUpon>XtraUserControlKira.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoSoLuuTru\FrmConfig.resx">
+      <DependentUpon>FrmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoSoLuuTru\UCHoSoLuuTru.resx">
+      <DependentUpon>UCHoSoLuuTru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ButtonsArray.resx">
+      <DependentUpon>ButtonsArray.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\DanhMuc\FrmListUITypeEditor.resx">
+      <DependentUpon>FrmListUITypeEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PopupTreeView.resx">
+      <DependentUpon>PopupTreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PopupTree\PopupControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PopupControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PopupTree\PopupGrid.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PopupGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PopupTree\PopupTree.resx">
+      <DependentUpon>PopupTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UCCustomerSearchLookUp.resx">
+      <DependentUpon>UCCustomerSearchLookUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\DanhMuc\UCDanhMuc.resx">
+      <DependentUpon>UCDanhMuc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\zoom_24.png" />
+    <None Include="Resources\wrench-screwdriver.png" />
+    <None Include="Resources\wand--arrow.png" />
+    <None Include="Resources\wand.png" />
+    <None Include="Resources\user-white.png" />
+    <None Include="Resources\users--arrow.png" />
+    <None Include="Resources\user-business.png" />
+    <None Include="Resources\tools_16x16.png" />
+    <None Include="Resources\Server_Config.png" />
+    <None Include="Resources\search_16x16.png" />
+    <None Include="Resources\bg_button.png" />
+    <None Include="Resources\BGR_535x252.png" />
+    <None Include="Resources\btn_bg.png" />
+    <None Include="Resources\btn_bg_blue.png" />
+    <None Include="Resources\btn_bg_vang.png" />
+    <None Include="Resources\btn_bg_vang_Cam.png" />
+    <None Include="Resources\btn_bg_yellow.png" />
+    <None Include="Resources\btn_dongy.png" />
+    <None Include="Resources\btn_dongy_over.png" />
+    <None Include="Resources\btn_thoat.png" />
+    <None Include="Resources\btn_thoat_over.png" />
+    <None Include="Resources\building-medium.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\Change_Pass.png" />
+    <None Include="Resources\databases--pencil.png" />
+    <None Include="Resources\databases-relation.png" />
+    <None Include="Resources\db_update.png" />
+    <Content Include="Resources\exit.png" />
+    <None Include="Resources\home_16x16.png" />
+    <None Include="Resources\lock_16x16.png" />
+    <None Include="Resources\Login_Form.png" />
+    <None Include="Resources\Login_Form_%28385x236%29.png" />
+    <Content Include="Resources\save.png" />
+    <None Include="Resources\ThongTin.ico" />
+    <None Include="Resources\CanhBao.ico" />
+    <Content Include="Resources\ErrorMessages.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Hoi.ico" />
+    <None Include="Resources\Loi.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\ErrorMessagesDataSet.xsc">
+      <DependentUpon>ErrorMessagesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\ErrorMessagesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ErrorMessagesDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\ErrorMessagesDataSet.xss">
+      <DependentUpon>ErrorMessagesDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Constant\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

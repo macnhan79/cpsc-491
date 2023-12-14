@@ -1,0 +1,1899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbProviderModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DbProviderModelStoreContainer">
+    <EntitySet Name="Appointments" EntityType="DbProviderModel.Store.Appointments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CardInfos" EntityType="DbProviderModel.Store.CardInfos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Categories" EntityType="DbProviderModel.Store.Categories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Customers" EntityType="DbProviderModel.Store.Customers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CustomerTypes" EntityType="DbProviderModel.Store.CustomerTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DailyDraw" EntityType="DbProviderModel.Store.DailyDraw" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DaySales" EntityType="DbProviderModel.Store.DaySales" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DelItems" EntityType="DbProviderModel.Store.DelItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Dictionary" EntityType="DbProviderModel.Store.Dictionary" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employees" EntityType="DbProviderModel.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Error" EntityType="DbProviderModel.Store.Error" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ExpCategories" EntityType="DbProviderModel.Store.ExpCategories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ExpProduct" EntityType="DbProviderModel.Store.ExpProduct" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GiftCerts" EntityType="DbProviderModel.Store.GiftCerts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GiftHistories" EntityType="DbProviderModel.Store.GiftHistories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Messages" EntityType="DbProviderModel.Store.Messages" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PaymentTypes" EntityType="DbProviderModel.Store.PaymentTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_Attendance" EntityType="DbProviderModel.Store.PhoHa7_Attendance" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_CardProcess" EntityType="DbProviderModel.Store.PhoHa7_CardProcess" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_FilterSaleItem" EntityType="DbProviderModel.Store.PhoHa7_FilterSaleItem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_Machine" EntityType="DbProviderModel.Store.PhoHa7_Machine" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_ProcSaleItem" EntityType="DbProviderModel.Store.PhoHa7_ProcSaleItem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_ProcTickets" EntityType="DbProviderModel.Store.PhoHa7_ProcTickets" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_ProductType" EntityType="DbProviderModel.Store.PhoHa7_ProductType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_Sys_Object" EntityType="DbProviderModel.Store.PhoHa7_Sys_Object" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_Sys_Option" EntityType="DbProviderModel.Store.PhoHa7_Sys_Option" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_Sys_Role" EntityType="DbProviderModel.Store.PhoHa7_Sys_Role" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_Sys_Role_Permission" EntityType="DbProviderModel.Store.PhoHa7_Sys_Role_Permission" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_Sys_User_Permission" EntityType="DbProviderModel.Store.PhoHa7_Sys_User_Permission" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoHa7_UserRole" EntityType="DbProviderModel.Store.PhoHa7_UserRole" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProcSaleItem" EntityType="DbProviderModel.Store.ProcSaleItem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProcTickets" EntityType="DbProviderModel.Store.ProcTickets" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Product_Size" EntityType="DbProviderModel.Store.Product_Size" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Product_SizeDetails" EntityType="DbProviderModel.Store.Product_SizeDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Products" EntityType="DbProviderModel.Store.Products" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProductTypes" EntityType="DbProviderModel.Store.ProductTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ReasonItems" EntityType="DbProviderModel.Store.ReasonItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SaleItem" EntityType="DbProviderModel.Store.SaleItem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TabCategories" EntityType="DbProviderModel.Store.TabCategories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tables" EntityType="DbProviderModel.Store.Tables" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tickets" EntityType="DbProviderModel.Store.Tickets" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_PhoHa7_Attendance_Employees" Association="DbProviderModel.Store.FK_PhoHa7_Attendance_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="PhoHa7_Attendance" EntitySet="PhoHa7_Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Object" Association="DbProviderModel.Store.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Object">
+      <End Role="PhoHa7_Sys_Object" EntitySet="PhoHa7_Sys_Object" />
+      <End Role="PhoHa7_Sys_Role_Permission" EntitySet="PhoHa7_Sys_Role_Permission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Role" Association="DbProviderModel.Store.FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Role">
+      <End Role="PhoHa7_Sys_Role" EntitySet="PhoHa7_Sys_Role" />
+      <End Role="PhoHa7_Sys_Role_Permission" EntitySet="PhoHa7_Sys_Role_Permission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_Sys_User_Permission_Employees" Association="DbProviderModel.Store.FK_PhoHa7_Sys_User_Permission_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="PhoHa7_Sys_User_Permission" EntitySet="PhoHa7_Sys_User_Permission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_Sys_User_Permission_PhoHa7_Sys_Object" Association="DbProviderModel.Store.FK_PhoHa7_Sys_User_Permission_PhoHa7_Sys_Object">
+      <End Role="PhoHa7_Sys_Object" EntitySet="PhoHa7_Sys_Object" />
+      <End Role="PhoHa7_Sys_User_Permission" EntitySet="PhoHa7_Sys_User_Permission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_UserRole_Employees" Association="DbProviderModel.Store.FK_PhoHa7_UserRole_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="PhoHa7_UserRole" EntitySet="PhoHa7_UserRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoHa7_UserRole_PhoHa7_Sys_Role" Association="DbProviderModel.Store.FK_PhoHa7_UserRole_PhoHa7_Sys_Role">
+      <End Role="PhoHa7_Sys_Role" EntitySet="PhoHa7_Sys_Role" />
+      <End Role="PhoHa7_UserRole" EntitySet="PhoHa7_UserRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_SizeDetails_Product_Size" Association="DbProviderModel.Store.FK_Product_SizeDetails_Product_Size">
+      <End Role="Product_Size" EntitySet="Product_Size" />
+      <End Role="Product_SizeDetails" EntitySet="Product_SizeDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_SizeDetails_Products" Association="DbProviderModel.Store.FK_Product_SizeDetails_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Product_SizeDetails" EntitySet="Product_SizeDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Appointments">
+    <Key>
+      <PropertyRef Name="AppointmentID" />
+    </Key>
+    <Property Name="AppointmentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="OnTime" Type="nvarchar" MaxLength="512" />
+    <Property Name="CustomerID" Type="int" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="512" />
+    <Property Name="CustomerPhone" Type="nvarchar" MaxLength="16" />
+    <Property Name="KitNumber" Type="int" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Description" Type="nvarchar" MaxLength="512" />
+    <Property Name="Services" Type="nvarchar" MaxLength="512" />
+    <Property Name="TimeIdx" Type="int" />
+    <Property Name="TimeSec" Type="int" />
+    <Property Name="StatusA" Type="int" />
+    <Property Name="StatusS" Type="int" />
+    <Property Name="StatusStr" Type="nvarchar" MaxLength="512" />
+    <Property Name="Locked" Type="bit" />
+    <Property Name="Email" Type="nvarchar" MaxLength="512" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="RemindedSMS" Type="bit" />
+    <Property Name="RemindedEmail" Type="bit" />
+    <Property Name="Scheduled" Type="int" />
+    <Property Name="ByEmail" Type="bit" />
+    <Property Name="BySMS" Type="bit" />
+    <Property Name="ByRequest" Type="bit" />
+    <Property Name="TechMobile" Type="nvarchar" MaxLength="16" />
+    <Property Name="TechName" Type="nvarchar" MaxLength="512" />
+    <Property Name="TechEmail" Type="nvarchar" MaxLength="512" />
+    <Property Name="ColorIdx" Type="int" />
+    <Property Name="ColorArgb" Type="int" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="CardInfos">
+    <Key>
+      <PropertyRef Name="CardInfoID" />
+    </Key>
+    <Property Name="CardInfoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="TID" Type="nvarchar" MaxLength="12" />
+    <Property Name="MID" Type="nvarchar" MaxLength="24" />
+    <Property Name="DID" Type="nvarchar" MaxLength="512" />
+    <Property Name="CardType" Type="int" />
+    <Property Name="CardName" Type="nvarchar" MaxLength="512" />
+    <Property Name="HolderName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Acc4Digit" Type="nvarchar" MaxLength="16" />
+    <Property Name="Account" Type="nvarchar" MaxLength="512" />
+    <Property Name="ExpDate" Type="nvarchar" MaxLength="512" />
+    <Property Name="ExpYear" Type="int" />
+    <Property Name="ExpMonth" Type="int" />
+    <Property Name="Track1" Type="nvarchar" MaxLength="512" />
+    <Property Name="Track2" Type="nvarchar" MaxLength="512" />
+    <Property Name="Address" Type="nvarchar" MaxLength="512" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="16" />
+    <Property Name="CardGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="Action" Type="int" />
+    <Property Name="ActionStr" Type="nvarchar" MaxLength="16" />
+    <Property Name="Settled" Type="bit" />
+    <Property Name="Reference" Type="nvarchar" MaxLength="512" />
+    <Property Name="AuthCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="TransactionID" Type="nvarchar" MaxLength="512" />
+    <Property Name="TDate" Type="nvarchar" MaxLength="12" />
+    <Property Name="ACI" Type="nvarchar" MaxLength="8" />
+    <Property Name="OrderId" Type="nvarchar" MaxLength="512" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="Tips" Type="money" />
+    <Property Name="Total" Type="money" />
+    <Property Name="StoreName" Type="nvarchar" MaxLength="512" />
+    <Property Name="StoreAddress" Type="nvarchar" MaxLength="512" />
+    <Property Name="StoreCity" Type="nvarchar" MaxLength="512" />
+    <Property Name="StoreState" Type="nvarchar" MaxLength="512" />
+    <Property Name="StoreZip" Type="nvarchar" MaxLength="16" />
+    <Property Name="StorePhone" Type="nvarchar" MaxLength="16" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="Page" Type="int" />
+    <Property Name="Col" Type="int" />
+    <Property Name="Row" Type="int" />
+    <Property Name="ChoicPage" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="iPage" Type="int" />
+    <Property Name="iRow" Type="int" />
+    <Property Name="iCol" Type="int" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="WebActive" Type="bit" />
+    <Property Name="WebName" Type="nvarchar" MaxLength="50" />
+    <Property Name="WebOrderBy" Type="int" />
+    <Property Name="WebShowType" Type="nvarchar" MaxLength="50" />
+    <Property Name="WebFlag" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="Favorite" Type="bit" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Address" Type="nvarchar" MaxLength="512" />
+    <Property Name="City" Type="nvarchar" MaxLength="512" />
+    <Property Name="State" Type="nvarchar" MaxLength="512" />
+    <Property Name="ZipCode" Type="nvarchar" MaxLength="16" />
+    <Property Name="HomePhone" Type="nvarchar" MaxLength="16" />
+    <Property Name="CellPhone" Type="nvarchar" MaxLength="16" />
+    <Property Name="KitNum" Type="int" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="EmpPreferName" Type="nvarchar" MaxLength="512" />
+    <Property Name="EmpServiceLast" Type="nvarchar" MaxLength="512" />
+    <Property Name="CustSince" Type="datetime" />
+    <Property Name="LastVisit" Type="datetime" />
+    <Property Name="NumVisit" Type="int" />
+    <Property Name="TotalSpend" Type="money" />
+    <Property Name="DriverLicense" Type="nvarchar" MaxLength="16" />
+    <Property Name="ImageFileName" Type="nvarchar" MaxLength="512" />
+    <Property Name="ReferencesNotes" Type="nvarchar(max)" />
+    <Property Name="BirthDay" Type="datetime" />
+    <Property Name="ByMail" Type="bit" />
+    <Property Name="ByEmail" Type="bit" />
+    <Property Name="BySMS" Type="bit" />
+    <Property Name="Profile1" Type="nvarchar" MaxLength="512" />
+    <Property Name="Business" Type="nvarchar" MaxLength="512" />
+    <Property Name="Email" Type="nvarchar" MaxLength="512" />
+    <Property Name="Profile2" Type="nvarchar" MaxLength="512" />
+    <Property Name="Profile3" Type="nvarchar" MaxLength="512" />
+    <Property Name="HearFromUsID" Type="int" />
+    <Property Name="UnPaid" Type="money" />
+    <Property Name="DiscountDate" Type="datetime" />
+    <Property Name="RewardPoints" Type="money" />
+    <Property Name="RewardRate" Type="real" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="PatientNum" Type="nvarchar" MaxLength="512" />
+    <Property Name="PExpireDate" Type="datetime" />
+    <Property Name="DExpireDate" Type="datetime" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="Selected" Type="bit" />
+    <Property Name="OpenBalance" Type="money" />
+    <Property Name="OpenDate" Type="datetime" />
+    <Property Name="EstimateTotal" Type="money" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="512" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="512" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="512" />
+    <Property Name="FileAs" Type="nvarchar" MaxLength="512" />
+    <Property Name="SameAsBill" Type="bit" />
+    <Property Name="AddressS" Type="nvarchar" MaxLength="512" />
+    <Property Name="CityS" Type="nvarchar" MaxLength="512" />
+    <Property Name="StateS" Type="nvarchar" MaxLength="512" />
+    <Property Name="ZipCodeS" Type="nvarchar" MaxLength="16" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="512" />
+    <Property Name="ContactNameAtl" Type="nvarchar" MaxLength="512" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="16" />
+    <Property Name="HomePhoneAtl" Type="nvarchar" MaxLength="16" />
+    <Property Name="Terms" Type="nvarchar" MaxLength="512" />
+    <Property Name="TermsID" Type="int" />
+    <Property Name="CustTypeStr" Type="nvarchar" MaxLength="512" />
+    <Property Name="CustType" Type="int" />
+    <Property Name="SaleRep" Type="nvarchar" MaxLength="512" />
+    <Property Name="SaleRepID" Type="int" />
+    <Property Name="AccountNo" Type="nvarchar" MaxLength="512" />
+    <Property Name="PayTypeStr" Type="nvarchar" MaxLength="512" />
+    <Property Name="PayType" Type="int" />
+    <Property Name="CreditCardNo" Type="nvarchar" MaxLength="512" />
+    <Property Name="ExpYear" Type="int" />
+    <Property Name="ExpMonth" Type="int" />
+    <Property Name="HolderName" Type="nvarchar" MaxLength="512" />
+    <Property Name="CardAddress" Type="nvarchar" MaxLength="512" />
+    <Property Name="CardZip" Type="nvarchar" MaxLength="16" />
+    <Property Name="ReSaleNo" Type="nvarchar" MaxLength="512" />
+    <Property Name="EditSequence" Type="nvarchar" MaxLength="32" />
+    <Property Name="AddressAddr1" Type="nvarchar" MaxLength="512" />
+    <Property Name="AddressAddr2" Type="nvarchar" MaxLength="512" />
+    <Property Name="AddressAddr3" Type="nvarchar" MaxLength="512" />
+    <Property Name="AddressAddr4" Type="nvarchar" MaxLength="512" />
+    <Property Name="AddressAddr1S" Type="nvarchar" MaxLength="512" />
+    <Property Name="AddressAddr2S" Type="nvarchar" MaxLength="512" />
+    <Property Name="AddressAddr3S" Type="nvarchar" MaxLength="512" />
+    <Property Name="AddressAddr4S" Type="nvarchar" MaxLength="512" />
+    <Property Name="AddressAddr5" Type="nvarchar" MaxLength="512" />
+    <Property Name="International" Type="bit" />
+    <Property Name="AddressAddr5S" Type="nvarchar" MaxLength="512" />
+    <Property Name="Country" Type="nvarchar" MaxLength="512" />
+    <Property Name="OMarkState" Type="int" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="CustomerTypes">
+    <Key>
+      <PropertyRef Name="CustomerTypeID" />
+    </Key>
+    <Property Name="CustomerTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="ApplyDiscount" Type="bit" />
+    <Property Name="CustTypeStr" Type="nvarchar" MaxLength="512" />
+    <Property Name="DiscountAmt" Type="money" />
+    <Property Name="DiscountRate" Type="real" />
+    <Property Name="HasExpireDate" Type="bit" />
+    <Property Name="OIndex" Type="int" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="DailyDraw">
+    <Key>
+      <PropertyRef Name="DailyDrawID" />
+    </Key>
+    <Property Name="DailyDrawID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="nvarchar" MaxLength="512" />
+    <Property Name="Withdrawer" Type="nvarchar" MaxLength="512" />
+    <Property Name="DrawDate" Type="datetime" />
+    <Property Name="Type" Type="int" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="TranID" Type="int" />
+    <Property Name="AdminID" Type="int" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="DaySales">
+    <Key>
+      <PropertyRef Name="DaySaleID" />
+    </Key>
+    <Property Name="DaySaleID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StoreID" Type="int" />
+    <Property Name="StoreName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Location" Type="nvarchar" MaxLength="512" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="NickName" Type="nvarchar" MaxLength="512" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="512" />
+    <Property Name="NumberEmp" Type="int" />
+    <Property Name="TickCount" Type="int" />
+    <Property Name="CashOnHand" Type="money" />
+    <Property Name="CashGCard" Type="money" />
+    <Property Name="CheckGCard" Type="money" />
+    <Property Name="CreditGCard" Type="money" />
+    <Property Name="GiftGCard" Type="money" />
+    <Property Name="PaidCash" Type="money" />
+    <Property Name="PaidCheck" Type="money" />
+    <Property Name="PaidCredit" Type="money" />
+    <Property Name="PaidGift" Type="money" />
+    <Property Name="PaidGCard" Type="money" />
+    <Property Name="PaidMisc" Type="money" />
+    <Property Name="Tips" Type="money" />
+    <Property Name="TotalSale" Type="money" />
+    <Property Name="GCardActivate" Type="money" />
+    <Property Name="TotalTicket" Type="money" />
+    <Property Name="GrandTotal" Type="money" />
+    <Property Name="Notes" Type="nvarchar(max)" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="EditTimestamp" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DelItems">
+    <Key>
+      <PropertyRef Name="DelItemID" />
+    </Key>
+    <Property Name="DelItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DelDate" Type="datetime" Nullable="false" />
+    <Property Name="TicketID" Type="int" />
+    <Property Name="ProductID" Type="int" />
+    <Property Name="TicketNum" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="512" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="512" />
+    <Property Name="TableID" Type="int" />
+    <Property Name="TableName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Reason" Type="nvarchar" MaxLength="512" />
+    <Property Name="Type" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="Price" Type="money" />
+    <Property Name="RewardPoints" Type="int" />
+    <Property Name="ProdNo" Type="nvarchar" MaxLength="512" />
+    <Property Name="QBuy" Type="int" />
+    <Property Name="QFree" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="EditTimestamp" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Dictionary">
+    <Key>
+      <PropertyRef Name="Dic_Keyword" />
+    </Key>
+    <Property Name="Dic_Keyword" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Dic_SourceLanguage" Type="nvarchar" MaxLength="2048" />
+    <Property Name="Dic_TargetLanguage" Type="nvarchar" MaxLength="2048" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CurTicketNum" Type="int" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="512" />
+    <Property Name="HireDate" Type="datetime" />
+    <Property Name="Address" Type="nvarchar" MaxLength="512" />
+    <Property Name="City" Type="nvarchar" MaxLength="512" />
+    <Property Name="State" Type="nvarchar" MaxLength="512" />
+    <Property Name="ZipCode" Type="nvarchar" MaxLength="12" />
+    <Property Name="HomePhone" Type="nvarchar" MaxLength="16" />
+    <Property Name="CellPhone" Type="nvarchar" MaxLength="16" />
+    <Property Name="SSN" Type="nvarchar" MaxLength="16" />
+    <Property Name="ContractType" Type="int" />
+    <Property Name="Limit" Type="money" />
+    <Property Name="CPercent" Type="real" />
+    <Property Name="ImageID" Type="int" />
+    <Property Name="ImageFPath" Type="nvarchar" MaxLength="512" />
+    <Property Name="Page" Type="int" />
+    <Property Name="Row" Type="int" />
+    <Property Name="Col" Type="int" />
+    <Property Name="ButtonColor" Type="int" />
+    <Property Name="TextColor" Type="int" />
+    <Property Name="SecurityCode" Type="nvarchar" MaxLength="16" />
+    <Property Name="BirthDay" Type="datetime" />
+    <Property Name="ShowName" Type="bit" />
+    <Property Name="CannotOpenDrawer" Type="bit" />
+    <Property Name="ApplyTipCheck" Type="bit" />
+    <Property Name="NoAppointment" Type="bit" />
+    <Property Name="NoPicture" Type="bit" />
+    <Property Name="RealName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Tittle" Type="nvarchar" MaxLength="512" />
+    <Property Name="DepartmentID" Type="int" />
+    <Property Name="ZOrder" Type="int" />
+    <Property Name="PayrollOptions" Type="int" />
+    <Property Name="WorkDays" Type="int" />
+    <Property Name="TOrder" Type="int" />
+    <Property Name="BorrowCash" Type="money" />
+    <Property Name="Rate" Type="money" />
+    <Property Name="CheckPayRate" Type="money" />
+    <Property Name="CheckPayAmt" Type="money" />
+    <Property Name="Rate2" Type="money" />
+    <Property Name="MonStartTime" Type="datetime" />
+    <Property Name="MonEndedTime" Type="datetime" />
+    <Property Name="TueStartTime" Type="datetime" />
+    <Property Name="CommPercent" Type="real" />
+    <Property Name="CurDTicketNum" Type="int" />
+    <Property Name="StartTime" Type="datetime" />
+    <Property Name="TActive" Type="bit" />
+    <Property Name="NoReceipt" Type="bit" />
+    <Property Name="YouGotMail" Type="bit" />
+    <Property Name="OtherApp" Type="bit" />
+    <Property Name="MemoMailID" Type="int" />
+    <Property Name="BatchNumber" Type="int" />
+    <Property Name="ItemsNumber" Type="int" />
+    <Property Name="LogIn" Type="bit" />
+    <Property Name="LogTimeI" Type="datetime" />
+    <Property Name="LogOut" Type="bit" />
+    <Property Name="LogTimeO" Type="datetime" />
+    <Property Name="LogTimeID" Type="int" />
+    <Property Name="Template1" Type="image" />
+    <Property Name="Template2" Type="image" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="LUserName" Type="nvarchar" MaxLength="16" />
+    <Property Name="LPassword" Type="nvarchar" MaxLength="16" />
+    <Property Name="Administrator" Type="bit" />
+    <Property Name="PayrollID" Type="int" />
+    <Property Name="OMID" Type="nvarchar" MaxLength="512" />
+    <Property Name="MID" Type="nvarchar" MaxLength="512" />
+    <Property Name="TID" Type="nvarchar" MaxLength="16" />
+    <Property Name="DeviceID" Type="nvarchar" MaxLength="32" />
+    <Property Name="DID" Type="nvarchar" MaxLength="512" />
+    <Property Name="DIDATL" Type="nvarchar" MaxLength="32" />
+    <Property Name="IsHasMerchant" Type="bit" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="512" />
+    <Property Name="MidName" Type="nvarchar" MaxLength="32" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="512" />
+    <Property Name="NickName" Type="nvarchar" MaxLength="512" />
+    <Property Name="FileAs" Type="nvarchar" MaxLength="512" />
+    <Property Name="ShowNick" Type="bit" />
+    <Property Name="ShowBirth" Type="bit" />
+    <Property Name="Email" Type="nvarchar" MaxLength="512" />
+    <Property Name="SecureLevel" Type="int" />
+    <Property Name="iPage" Type="int" />
+    <Property Name="ixPos" Type="real" />
+    <Property Name="iyPos" Type="real" />
+    <Property Name="iWidth" Type="real" />
+    <Property Name="iHeight" Type="real" />
+    <Property Name="iFontSize" Type="real" />
+    <Property Name="iButColor" Type="nvarchar" MaxLength="16" />
+    <Property Name="iTextColor" Type="nvarchar" MaxLength="16" />
+    <Property Name="TueEndedTime" Type="datetime" />
+    <Property Name="WedStartTime" Type="datetime" />
+    <Property Name="WedEndedTime" Type="datetime" />
+    <Property Name="ThuStartTime" Type="datetime" />
+    <Property Name="ThuEndedTime" Type="datetime" />
+    <Property Name="FriStartTime" Type="datetime" />
+    <Property Name="FriEndedTime" Type="datetime" />
+    <Property Name="SatStartTime" Type="datetime" />
+    <Property Name="SatEndedTime" Type="datetime" />
+    <Property Name="SunStartTime" Type="datetime" />
+    <Property Name="SunEndedTime" Type="datetime" />
+    <Property Name="IsAUGST" Type="bit" />
+    <Property Name="MarriedStatus" Type="int" />
+    <Property Name="Dependent" Type="int" />
+    <Property Name="Withheld" Type="money" />
+    <Property Name="Examption" Type="bit" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="TIDATL" Type="nvarchar" MaxLength="32" />
+    <Property Name="AddtionFee" Type="money" />
+    <Property Name="AvailableTime" Type="int" />
+    <Property Name="Username" Type="nvarchar" MaxLength="255" />
+    <Property Name="Language" Type="int" />
+  </EntityType>
+  <EntityType Name="Error">
+    <Key>
+      <PropertyRef Name="ErrorID" />
+    </Key>
+    <Property Name="ErrorID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ErrorText" Type="text" />
+    <Property Name="ErrorDetails" Type="text" />
+    <Property Name="ErrorDate" Type="datetime" />
+    <Property Name="ErrorType" Type="text" />
+    <Property Name="InnerException" Type="text" />
+    <Property Name="InnerSource" Type="text" />
+    <Property Name="InnerExceptionStackTrace" Type="text" />
+  </EntityType>
+  <EntityType Name="ExpCategories">
+    <Key>
+      <PropertyRef Name="ExpCatID" />
+    </Key>
+    <Property Name="ExpCatID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ExpCatName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="Page" Type="int" />
+    <Property Name="Col" Type="int" />
+    <Property Name="Row" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="ExpProduct">
+    <Key>
+      <PropertyRef Name="ExpenseID" />
+    </Key>
+    <Property Name="ExpenseID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ExpenseName" Type="nvarchar" MaxLength="512" />
+    <Property Name="ExpCatID" Type="int" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="ButtonColor" Type="int" />
+    <Property Name="TextColor" Type="int" />
+    <Property Name="Page" Type="int" />
+    <Property Name="Col" Type="int" />
+    <Property Name="Row" Type="int" />
+    <Property Name="ProductImage" Type="varchar" MaxLength="255" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="GiftCerts">
+    <Key>
+      <PropertyRef Name="GiftCertID" />
+    </Key>
+    <Property Name="GiftCertID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="Issued" Type="money" />
+    <Property Name="Balance" Type="money" />
+    <Property Name="IssueDate" Type="datetime" />
+    <Property Name="LastUsed" Type="datetime" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="512" />
+    <Property Name="PaidType" Type="tinyint" />
+    <Property Name="CardCode" Type="nvarchar" MaxLength="16" />
+    <Property Name="PaidCash" Type="money" />
+    <Property Name="PaidGift" Type="money" />
+    <Property Name="PaidCredit" Type="money" />
+    <Property Name="PaidCheck" Type="money" />
+    <Property Name="Voided" Type="bit" />
+    <Property Name="RetType" Type="bit" />
+    <Property Name="LostStolen" Type="bit" />
+    <Property Name="ReUsed" Type="bit" />
+    <Property Name="RecText" Type="nvarchar" MaxLength="512" />
+    <Property Name="RecType" Type="int" />
+    <Property Name="TranID" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="Discount" Type="money" />
+    <Property Name="PaidMisc" Type="money" />
+    <Property Name="PaidGCard" Type="money" />
+    <Property Name="AdminID" Type="int" />
+    <Property Name="PayrollID" Type="int" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="512" />
+    <Property Name="CoachID" Type="int" />
+    <Property Name="CoachName" Type="nvarchar" MaxLength="512" />
+    <Property Name="SaleRepID" Type="int" />
+    <Property Name="SaleRepName" Type="nvarchar" MaxLength="512" />
+    <Property Name="CardID" Type="int" />
+    <Property Name="IsExterm" Type="bit" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="GST" Type="money" />
+    <Property Name="NetSale" Type="money" />
+    <Property Name="ChainID" Type="int" />
+  </EntityType>
+  <EntityType Name="GiftHistories">
+    <Key>
+      <PropertyRef Name="GiftHistoryID" />
+    </Key>
+    <Property Name="GiftHistoryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TranID" Type="int" Nullable="false" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="UsedDate" Type="datetime" Nullable="false" />
+    <Property Name="UsedAmt" Type="money" />
+    <Property Name="AddAmt" Type="money" />
+    <Property Name="CustomerID" Type="int" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="512" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="DTicketNum" Type="int" />
+    <Property Name="TicketNum" Type="int" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="512" />
+    <Property Name="RetType" Type="bit" />
+    <Property Name="RecType" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="AdminID" Type="int" />
+    <Property Name="ChainID" Type="int" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="MessageID" />
+    </Key>
+    <Property Name="MessageID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AccountSid" Type="nvarchar" MaxLength="512" />
+    <Property Name="ApiVersion" Type="nvarchar" MaxLength="512" />
+    <Property Name="Body" Type="nvarchar(max)" />
+    <Property Name="DateCreated" Type="datetime" />
+    <Property Name="DateSent" Type="datetime" />
+    <Property Name="DateUpdated" Type="datetime" />
+    <Property Name="Direction" Type="nvarchar" MaxLength="512" />
+    <Property Name="ErrorCode" Type="int" />
+    <Property Name="ErrorMessage" Type="nvarchar" MaxLength="512" />
+    <Property Name="From" Type="nvarchar" MaxLength="512" />
+    <Property Name="NumImages" Type="int" />
+    <Property Name="NumSegments" Type="int" />
+    <Property Name="Price" Type="money" />
+    <Property Name="Sid" Type="nvarchar" MaxLength="512" />
+    <Property Name="Status" Type="nvarchar" MaxLength="512" />
+    <Property Name="To" Type="nvarchar" MaxLength="512" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="SendFrom" Type="nvarchar" MaxLength="512" />
+    <Property Name="SendTo" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="PaymentTypes">
+    <Key>
+      <PropertyRef Name="PaymentTypeID" />
+    </Key>
+    <Property Name="PaymentTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Selected" Type="bit" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="PayTypeStr" Type="nvarchar" MaxLength="512" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="ImgURL" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Attendance">
+    <Key>
+      <PropertyRef Name="Att_AttendanceID" />
+    </Key>
+    <Property Name="Att_AttendanceID" Type="int" Nullable="false" />
+    <Property Name="Att_EmployeeID" Type="int" />
+    <Property Name="Att_EmployeeName" Type="nvarchar" MaxLength="255" />
+    <Property Name="Day1" Type="float" />
+    <Property Name="Day2" Type="float" />
+    <Property Name="Day3" Type="float" />
+    <Property Name="Day4" Type="float" />
+    <Property Name="Day5" Type="float" />
+    <Property Name="Day6" Type="float" />
+    <Property Name="Day7" Type="float" />
+    <Property Name="Day8" Type="float" />
+    <Property Name="Day9" Type="float" />
+    <Property Name="Day10" Type="float" />
+    <Property Name="Day11" Type="float" />
+    <Property Name="Day12" Type="float" />
+    <Property Name="Day13" Type="float" />
+    <Property Name="Day14" Type="float" />
+    <Property Name="Day15" Type="float" />
+    <Property Name="Day16" Type="float" />
+    <Property Name="Day17" Type="float" />
+    <Property Name="Day18" Type="float" />
+    <Property Name="Day19" Type="float" />
+    <Property Name="Day20" Type="float" />
+    <Property Name="Day21" Type="float" />
+    <Property Name="Day22" Type="float" />
+    <Property Name="Day23" Type="float" />
+    <Property Name="Day24" Type="float" />
+    <Property Name="Day25" Type="float" />
+    <Property Name="Day26" Type="float" />
+    <Property Name="Day27" Type="float" />
+    <Property Name="Day28" Type="float" />
+    <Property Name="Day29" Type="float" />
+    <Property Name="Day30" Type="float" />
+    <Property Name="Day31" Type="float" />
+    <Property Name="Att_TotalDays" Type="float" />
+    <Property Name="Att_Month" Type="int" />
+    <Property Name="Att_Year" Type="int" />
+    <Property Name="Att_AmountCheck" Type="money" />
+    <Property Name="Att_AmountCash" Type="money" />
+    <Property Name="Att_AmountExtra" Type="money" />
+    <Property Name="Att_AmountSubtract" Type="money" />
+    <Property Name="Att_AmountTotal" Type="money" />
+    <Property Name="Att_Description" Type="text" />
+    <Property Name="Att_Rate" Type="money" />
+  </EntityType>
+  <EntityType Name="PhoHa7_CardProcess">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="CardNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="CardName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CardExpire" Type="nvarchar" MaxLength="50" />
+    <Property Name="CardCVV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransactionID" Type="nvarchar" MaxLength="50" />
+    <Property Name="CardType" Type="nvarchar" MaxLength="50" />
+    <Property Name="Entry" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tip" Type="money" />
+  </EntityType>
+  <EntityType Name="PhoHa7_FilterSaleItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="ProductID" Type="int" />
+    <Property Name="CategoryID" Type="int" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Machine">
+    <Key>
+      <PropertyRef Name="MachineID" />
+    </Key>
+    <Property Name="MachineID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MachineIpAdress" Type="nvarchar" MaxLength="50" />
+    <Property Name="MachineName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MachineActive" Type="bit" />
+    <Property Name="MachineType" Type="nvarchar" MaxLength="256" />
+    <Property Name="GroupTable" Type="int" />
+    <Property Name="ShowGroup" Type="bit" />
+    <Property Name="ShowFilterGroup" Type="bit" />
+    <Property Name="Timer" Type="int" />
+    <Property Name="BackgroundColorToGo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ForceColorTogo" Type="nvarchar" MaxLength="50" />
+    <Property Name="BackgroundColorChange" Type="nvarchar" MaxLength="50" />
+    <Property Name="ForceColorChange" Type="nvarchar" MaxLength="50" />
+    <Property Name="BackgroundColorEmergency" Type="nvarchar" MaxLength="50" />
+    <Property Name="FontSizePrint" Type="int" />
+    <Property Name="PaddingSizeHeader" Type="int" />
+    <Property Name="PrinterName" Type="nvarchar" MaxLength="512" />
+    <Property Name="AutoPrinter" Type="bit" />
+    <Property Name="AutoPrinterAfter" Type="int" />
+    <Property Name="PrinterBarcode" Type="bit" />
+    <Property Name="MultiInstance" Type="bit" />
+    <Property Name="SoundUrl" Type="nvarchar(max)" />
+    <Property Name="TicketWidthSize" Type="int" />
+    <Property Name="TicketHeightSize" Type="int" />
+    <Property Name="TicketFontSize" Type="int" />
+    <Property Name="ForceColor" Type="nvarchar" MaxLength="50" />
+    <Property Name="ForceColor1" Type="nvarchar" MaxLength="50" />
+    <Property Name="BackgrdColorQty" Type="nvarchar" MaxLength="50" />
+    <Property Name="ForceColorQty" Type="nvarchar" MaxLength="50" />
+    <Property Name="FontSizeQty" Type="int" />
+    <Property Name="ForceColorQty1" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PhoHa7_ProcSaleItem">
+    <Key>
+      <PropertyRef Name="SaleItemID" />
+    </Key>
+    <Property Name="SaleItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TicketID" Type="int" />
+    <Property Name="ProductID" Type="int" />
+    <Property Name="TicketNum" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="Price" Type="money" />
+    <Property Name="Extra" Type="money" />
+    <Property Name="Employee" Type="nvarchar" MaxLength="50" />
+    <Property Name="Done" Type="bit" />
+    <Property Name="ToKitchen" Type="bit" />
+    <Property Name="TakeOut" Type="bit" />
+    <Property Name="NotSaleItem" Type="bit" />
+    <Property Name="Done1" Type="bit" />
+    <Property Name="Category" Type="int" />
+    <Property Name="Cancel" Type="bit" />
+    <Property Name="IsChange" Type="bit" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ExtraName" Type="nvarchar" MaxLength="255" />
+    <Property Name="ExtraPrice" Type="nvarchar" MaxLength="255" />
+    <Property Name="OptionRequire" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsSmall" Type="bit" />
+    <Property Name="MType" Type="int" />
+    <Property Name="SaleItemID_Root" Type="int" />
+    <Property Name="ExtraWith" Type="nvarchar" MaxLength="255" />
+    <Property Name="ExtraWithout" Type="nvarchar" MaxLength="255" />
+    <Property Name="CustomSelect" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="PhoHa7_ProcTickets">
+    <Key>
+      <PropertyRef Name="TicketID" />
+    </Key>
+    <Property Name="TicketID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="TicketNum" Type="int" />
+    <Property Name="DateTimeIssue" Type="datetime" />
+    <Property Name="Tax" Type="money" />
+    <Property Name="Total" Type="money" />
+    <Property Name="Discount" Type="money" />
+    <Property Name="TableName" Type="nvarchar" MaxLength="50" />
+    <Property Name="DTicketNum" Type="int" />
+    <Property Name="TakeOut" Type="bit" />
+    <Property Name="Done" Type="bit" />
+    <Property Name="ToKitchen" Type="bit" />
+    <Property Name="IsChange" Type="bit" />
+    <Property Name="TicketID_Root" Type="int" />
+    <Property Name="TableID" Type="int" />
+    <Property Name="Emergency" Type="bit" />
+    <Property Name="transaction_id" Type="nvarchar" MaxLength="50" />
+    <Property Name="client_transaction_id" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PhoHa7_ProductType">
+    <Key>
+      <PropertyRef Name="ProductTypeID" />
+    </Key>
+    <Property Name="ProductTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductTypeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductTypeCode" Type="int" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_Object">
+    <Key>
+      <PropertyRef Name="Syso_ID" />
+    </Key>
+    <Property Name="Syso_ID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Syso_Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Syso_NameEn" Type="nvarchar" MaxLength="255" />
+    <Property Name="Syso_Parent_ID" Type="nvarchar" MaxLength="255" />
+    <Property Name="Syso_Description" Type="text" />
+    <Property Name="Syso_Actived" Type="bit" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_Option">
+    <Key>
+      <PropertyRef Name="Opt_ID" />
+    </Key>
+    <Property Name="Opt_ID" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Opt_Value" Type="nvarchar" MaxLength="255" />
+    <Property Name="Opt_System" Type="int" />
+    <Property Name="Opt_Group" Type="nvarchar" MaxLength="255" />
+    <Property Name="Opt_Description" Type="text" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_Role">
+    <Key>
+      <PropertyRef Name="Role_ID" />
+    </Key>
+    <Property Name="Role_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Role_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Role_IsSystem" Type="bit" />
+    <Property Name="Role_Description" Type="text" />
+    <Property Name="Role_Level" Type="int" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_Role_Permission">
+    <Key>
+      <PropertyRef Name="RP_Role_ID" />
+      <PropertyRef Name="RP_Object_ID" />
+    </Key>
+    <Property Name="RP_Role_ID" Type="int" Nullable="false" />
+    <Property Name="RP_Object_ID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="RP_Permission" Type="int" />
+  </EntityType>
+  <EntityType Name="PhoHa7_Sys_User_Permission">
+    <Key>
+      <PropertyRef Name="UP_User_ID" />
+      <PropertyRef Name="UP_Object_ID" />
+    </Key>
+    <Property Name="UP_User_ID" Type="int" Nullable="false" />
+    <Property Name="UP_Object_ID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="UP_Permission" Type="int" />
+  </EntityType>
+  <EntityType Name="PhoHa7_UserRole">
+    <Key>
+      <PropertyRef Name="UR_Username" />
+      <PropertyRef Name="UR_Role_Id" />
+    </Key>
+    <Property Name="UR_Username" Type="int" Nullable="false" />
+    <Property Name="UR_Role_Id" Type="int" Nullable="false" />
+    <Property Name="UR_Description" Type="text" />
+  </EntityType>
+  <EntityType Name="ProcSaleItem">
+    <Key>
+      <PropertyRef Name="SaleItemID" />
+    </Key>
+    <Property Name="SaleItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TicketID" Type="int" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="TicketNum" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="512" />
+    <Property Name="Type" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="Price" Type="money" />
+    <Property Name="TPrice" Type="money" />
+    <Property Name="Extra" Type="money" />
+    <Property Name="ByWho" Type="int" />
+    <Property Name="ProcDiscount" Type="money" />
+    <Property Name="TeenDiscount" Type="money" />
+    <Property Name="SeniorDiscount" Type="money" />
+    <Property Name="ComProd" Type="bit" />
+    <Property Name="PrintBoth" Type="bit" />
+    <Property Name="SmallSize" Type="bit" />
+    <Property Name="Done" Type="bit" />
+    <Property Name="ChociceNo" Type="bit" />
+    <Property Name="ResString0" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString1" Type="nvarchar" MaxLength="64" />
+    <Property Name="SizeChoiceTxt" Type="nvarchar" MaxLength="512" />
+    <Property Name="ResString3" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString4" Type="nvarchar" MaxLength="64" />
+    <Property Name="TranID" Type="int" />
+    <Property Name="MType" Type="int" />
+    <Property Name="WorkTimeSec" Type="int" />
+    <Property Name="ItemPos" Type="int" />
+    <Property Name="ResInt4" Type="int" />
+    <Property Name="ComTotal" Type="money" />
+    <Property Name="OrgPrice" Type="money" />
+    <Property Name="Cost" Type="money" />
+    <Property Name="TCost" Type="money" />
+    <Property Name="CoGDiscount" Type="money" />
+    <Property Name="ResDate0" Type="datetime" />
+    <Property Name="ResDate1" Type="datetime" />
+    <Property Name="ResDate2" Type="datetime" />
+    <Property Name="CPrice" Type="money" />
+    <Property Name="SPrice" Type="money" />
+    <Property Name="TakeOut" Type="bit" />
+    <Property Name="Printed" Type="bit" />
+    <Property Name="PrintStation" Type="int" />
+    <Property Name="NotSaleItem" Type="bit" />
+    <Property Name="ItemCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="KitchenName" Type="nvarchar" MaxLength="512" />
+    <Property Name="TabParty" Type="int" />
+    <Property Name="NoTax" Type="bit" />
+    <Property Name="CoG" Type="bit" />
+    <Property Name="Voided" Type="bit" />
+    <Property Name="IsHLProductSale" Type="bit" />
+    <Property Name="IsHLMemberSale" Type="bit" />
+    <Property Name="ResString5" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString6" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString7" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString8" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString9" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResMoney5" Type="money" />
+    <Property Name="ResMoney6" Type="money" />
+    <Property Name="ResMoney7" Type="money" />
+    <Property Name="ResMoney8" Type="money" />
+    <Property Name="ResMoney9" Type="money" />
+    <Property Name="MemberType" Type="int" />
+    <Property Name="MealsType" Type="int" />
+    <Property Name="ResInt7" Type="int" />
+    <Property Name="ResInt8" Type="int" />
+    <Property Name="ResInt9" Type="int" />
+    <Property Name="RewardPoints" Type="int" />
+    <Property Name="ProdNo" Type="nvarchar" MaxLength="512" />
+    <Property Name="QBuy" Type="int" />
+    <Property Name="QFree" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="OrgAmount" Type="real" />
+    <Property Name="TotAmount" Type="real" />
+    <Property Name="UnitAmount" Type="real" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="512" />
+    <Property Name="CoachID" Type="int" />
+    <Property Name="CoachName" Type="nvarchar" MaxLength="512" />
+    <Property Name="SaleRepID" Type="int" />
+    <Property Name="SaleRepName" Type="nvarchar" MaxLength="512" />
+    <Property Name="PaidType" Type="tinyint" />
+    <Property Name="QtyAdj" Type="int" />
+    <Property Name="IsGiftItem" Type="bit" />
+    <Property Name="GiftItems" Type="int" />
+    <Property Name="FreeItems" Type="int" />
+    <Property Name="VendorID" Type="int" />
+    <Property Name="VendorName" Type="nvarchar" MaxLength="512" />
+    <Property Name="PAccountType" Type="int" />
+    <Property Name="PAccountID" Type="int" />
+    <Property Name="PAccountName" Type="nvarchar" MaxLength="512" />
+    <Property Name="ProductName" Type="nvarchar" MaxLength="512" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="Location" Type="nvarchar" MaxLength="512" />
+    <Property Name="Serial" Type="nvarchar" MaxLength="512" />
+    <Property Name="SerialNeeded" Type="bit" />
+    <Property Name="StockHold" Type="int" />
+    <Property Name="QuotedItem" Type="bit" />
+    <Property Name="bReserved" Type="bit" />
+    <Property Name="bAccessory" Type="bit" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="AdminID" Type="int" />
+    <Property Name="Weight" Type="real" />
+    <Property Name="FoodTypeName" Type="nvarchar(max)" />
+    <Property Name="FoodTypeID" Type="int" />
+    <Property Name="ExtraName" Type="nvarchar" MaxLength="255" />
+    <Property Name="ExtraPrice" Type="nvarchar" MaxLength="255" />
+    <Property Name="OptionRequire" Type="nvarchar" MaxLength="255" />
+    <Property Name="ExtraWith" Type="nvarchar" MaxLength="255" />
+    <Property Name="ExtraWithout" Type="nvarchar" MaxLength="255" />
+    <Property Name="CustomSelect" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="ProcTickets">
+    <Key>
+      <PropertyRef Name="TicketID" />
+    </Key>
+    <Property Name="TicketID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="int" />
+    <Property Name="EmployeeID" Type="int" Nullable="false" />
+    <Property Name="TicketNum" Type="int" Nullable="false" />
+    <Property Name="DateTimeIssue" Type="datetime" />
+    <Property Name="PaidType" Type="tinyint" />
+    <Property Name="ContractType" Type="int" />
+    <Property Name="Tax" Type="money" />
+    <Property Name="TotalS" Type="money" />
+    <Property Name="TotalP" Type="money" />
+    <Property Name="TotalG" Type="money" />
+    <Property Name="TotalE" Type="money" />
+    <Property Name="ShareOwn" Type="money" />
+    <Property Name="ShareEmp" Type="money" />
+    <Property Name="PaidCash" Type="money" />
+    <Property Name="PaidGift" Type="money" />
+    <Property Name="Discount" Type="money" />
+    <Property Name="ByWho" Type="int" />
+    <Property Name="TimeSpan" Type="int" />
+    <Property Name="DriverLicense" Type="nvarchar" MaxLength="512" />
+    <Property Name="CardCode" Type="nvarchar" MaxLength="16" />
+    <Property Name="GiftCode" Type="nvarchar" MaxLength="16" />
+    <Property Name="Tips" Type="money" />
+    <Property Name="TotalT" Type="money" />
+    <Property Name="TotalC" Type="money" />
+    <Property Name="PaidCredit" Type="money" />
+    <Property Name="PaidCheck" Type="money" />
+    <Property Name="Voided" Type="bit" />
+    <Property Name="SkipTax" Type="bit" />
+    <Property Name="JackPot" Type="bit" />
+    <Property Name="VNDisComm" Type="bit" />
+    <Property Name="TableDone" Type="bit" />
+    <Property Name="Delivery" Type="bit" />
+    <Property Name="XferTo" Type="nvarchar" MaxLength="512" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="512" />
+    <Property Name="TableName" Type="nvarchar" MaxLength="512" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="VoiDelReason" Type="nvarchar" MaxLength="512" />
+    <Property Name="MemberType" Type="int" />
+    <Property Name="MealsType" Type="int" />
+    <Property Name="TabNum" Type="int" />
+    <Property Name="SeatNum" Type="int" />
+    <Property Name="ResInt4" Type="int" />
+    <Property Name="Tax2" Type="money" />
+    <Property Name="ProdDiscount" Type="money" />
+    <Property Name="PaidMember" Type="money" />
+    <Property Name="CoGDiscount" Type="money" />
+    <Property Name="CoGDiscountP" Type="money" />
+    <Property Name="ResDate0" Type="datetime" />
+    <Property Name="ResDate1" Type="datetime" />
+    <Property Name="ResDate2" Type="datetime" />
+    <Property Name="CommPercent" Type="real" />
+    <Property Name="CommProduct" Type="money" />
+    <Property Name="TotalO" Type="money" />
+    <Property Name="TranID" Type="int" />
+    <Property Name="DTicketNum" Type="int" />
+    <Property Name="TakeOut" Type="bit" />
+    <Property Name="TableID" Type="int" />
+    <Property Name="TabCatID" Type="int" />
+    <Property Name="TabParties" Type="int" />
+    <Property Name="SplitCheck" Type="bit" />
+    <Property Name="CoG" Type="bit" />
+    <Property Name="ServerCard" Type="bit" />
+    <Property Name="IsHLProductSale" Type="bit" />
+    <Property Name="IsHLMemberSale" Type="bit" />
+    <Property Name="ResBool9" Type="bit" />
+    <Property Name="ResString5" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString6" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString7" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString8" Type="nvarchar" MaxLength="64" />
+    <Property Name="ResString9" Type="nvarchar" MaxLength="64" />
+    <Property Name="LibProduct" Type="money" />
+    <Property Name="DHLMealCharge" Type="money" />
+    <Property Name="DHLCCardCharge" Type="money" />
+    <Property Name="DHLMCardCharge" Type="money" />
+    <Property Name="DUpGrade" Type="money" />
+    <Property Name="ResInt5" Type="int" />
+    <Property Name="ResInt6" Type="int" />
+    <Property Name="ResInt7" Type="int" />
+    <Property Name="ResInt8" Type="int" />
+    <Property Name="ResInt9" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="PaidGCard" Type="money" />
+    <Property Name="PaidMisc" Type="money" />
+    <Property Name="AdminID" Type="int" />
+    <Property Name="PayrollID" Type="int" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="512" />
+    <Property Name="CoachID" Type="int" />
+    <Property Name="CoachName" Type="nvarchar" MaxLength="512" />
+    <Property Name="SaleRepID" Type="int" />
+    <Property Name="SaleRepName" Type="nvarchar" MaxLength="512" />
+    <Property Name="ModDate" Type="datetime" />
+    <Property Name="CardID" Type="int" />
+    <Property Name="IsExterm" Type="bit" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="Done" Type="bit" />
+    <Property Name="ToGo" Type="bit" />
+  </EntityType>
+  <EntityType Name="Product_Size">
+    <Key>
+      <PropertyRef Name="Size_ID" />
+    </Key>
+    <Property Name="Size_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Size_Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Size_Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Size_Description" Type="text" />
+    <Property Name="Size_Actived" Type="bit" />
+  </EntityType>
+  <EntityType Name="Product_SizeDetails">
+    <Key>
+      <PropertyRef Name="PSize_ID" />
+    </Key>
+    <Property Name="PSize_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PSize_Size_ID" Type="int" />
+    <Property Name="PSize_Product_ID" Type="int" />
+    <Property Name="PSize_Price" Type="money" />
+    <Property Name="PSize_ExtraPrice" Type="money" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="nvarchar(max)" />
+    <Property Name="CategoryID" Type="int" />
+    <Property Name="Price" Type="money" />
+    <Property Name="UnitsInStock" Type="int" />
+    <Property Name="InStockLimit" Type="int" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="Type" Type="int" />
+    <Property Name="ToDate" Type="datetime" />
+    <Property Name="Discount" Type="money" />
+    <Property Name="TeenDiscount" Type="money" />
+    <Property Name="SeniorDiscount" Type="money" />
+    <Property Name="DiscountDays" Type="int" />
+    <Property Name="TeenSeniorDays" Type="int" />
+    <Property Name="ButtonColor" Type="int" />
+    <Property Name="TextColor" Type="int" />
+    <Property Name="Page" Type="int" />
+    <Property Name="Col" Type="int" />
+    <Property Name="Row" Type="int" />
+    <Property Name="ProductImage" Type="nvarchar(max)" />
+    <Property Name="TeenDays" Type="int" />
+    <Property Name="SeniorDays" Type="int" />
+    <Property Name="InItem" Type="bit" />
+    <Property Name="Cost" Type="money" />
+    <Property Name="InCatID" Type="int" />
+    <Property Name="StockedDate" Type="datetime" />
+    <Property Name="RecordLevel" Type="int" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="PrintBoth" Type="bit" />
+    <Property Name="NoTax" Type="bit" />
+    <Property Name="StockMatch" Type="bit" />
+    <Property Name="ChoiceProd" Type="bit" />
+    <Property Name="NoPicture" Type="bit" />
+    <Property Name="Location" Type="nvarchar(max)" />
+    <Property Name="VendorName" Type="nvarchar(max)" />
+    <Property Name="SizeChoiceTxt" Type="nvarchar" MaxLength="512" />
+    <Property Name="CategoryName" Type="nvarchar(max)" />
+    <Property Name="VendorID" Type="int" />
+    <Property Name="MType" Type="int" />
+    <Property Name="StockCount" Type="int" />
+    <Property Name="WorkTimeSec" Type="int" />
+    <Property Name="BPrice" Type="money" />
+    <Property Name="LPrice" Type="money" />
+    <Property Name="DPrice" Type="money" />
+    <Property Name="Price1" Type="money" />
+    <Property Name="Price2" Type="money" />
+    <Property Name="ComProd" Type="bit" />
+    <Property Name="CPrice" Type="money" />
+    <Property Name="NotSaleItem" Type="bit" />
+    <Property Name="PrintStation" Type="int" />
+    <Property Name="KitchenName" Type="nvarchar(max)" />
+    <Property Name="OutOrder" Type="bit" />
+    <Property Name="Price3" Type="money" />
+    <Property Name="Price4" Type="money" />
+    <Property Name="Price5" Type="money" />
+    <Property Name="Price6" Type="money" />
+    <Property Name="Price7" Type="money" />
+    <Property Name="Units" Type="int" />
+    <Property Name="LinkProduct" Type="int" />
+    <Property Name="RewardPoints" Type="int" />
+    <Property Name="ProdNo" Type="nvarchar(max)" />
+    <Property Name="QBuy" Type="int" />
+    <Property Name="QFree" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="InitAmount" Type="real" />
+    <Property Name="CurrAmount" Type="real" />
+    <Property Name="MiniAmount" Type="real" />
+    <Property Name="UnitAmount" Type="real" />
+    <Property Name="JarWeight" Type="real" />
+    <Property Name="ImageID" Type="int" />
+    <Property Name="QAccountType" Type="int" />
+    <Property Name="QAccountID" Type="int" />
+    <Property Name="QAccountName" Type="nvarchar" MaxLength="512" />
+    <Property Name="ProdImage" Type="image" />
+    <Property Name="ProdActImage" Type="image" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="OrderPending" Type="bit" />
+    <Property Name="InstallUnit" Type="bit" />
+    <Property Name="VendorNo" Type="nvarchar" MaxLength="16" />
+    <Property Name="Reserved" Type="int" />
+    <Property Name="ReservedStock" Type="int" />
+    <Property Name="SerialNeeded" Type="bit" />
+    <Property Name="ProductUrl" Type="nvarchar(max)" />
+    <Property Name="PType" Type="nvarchar" MaxLength="16" />
+    <Property Name="SubLevel" Type="int" />
+    <Property Name="ParentID" Type="int" />
+    <Property Name="ParentName" Type="nvarchar" MaxLength="512" />
+    <Property Name="EditSequence" Type="nvarchar" MaxLength="32" />
+    <Property Name="iPage" Type="int" />
+    <Property Name="ixPos" Type="real" />
+    <Property Name="iyPos" Type="real" />
+    <Property Name="iWidth" Type="real" />
+    <Property Name="iHeight" Type="real" />
+    <Property Name="iFontSize" Type="real" />
+    <Property Name="iButColor" Type="nvarchar" MaxLength="16" />
+    <Property Name="iTextColor" Type="nvarchar" MaxLength="16" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="LType" Type="int" />
+    <Property Name="FoodTypeName" Type="nvarchar(max)" />
+    <Property Name="FoodTypeID" Type="int" />
+    <Property Name="OrderBy" Type="int" />
+    <Property Name="ExpandCategoryID" Type="int" />
+  </EntityType>
+  <EntityType Name="ProductTypes">
+    <Key>
+      <PropertyRef Name="ProductTypeID" />
+    </Key>
+    <Property Name="ProductTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="PTName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Code" Type="int" />
+    <Property Name="CodeStr" Type="nvarchar" MaxLength="12" />
+    <Property Name="Selected" Type="bit" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="ReasonItems">
+    <Key>
+      <PropertyRef Name="ReasonItemID" />
+    </Key>
+    <Property Name="ReasonItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="ReasonType" Type="int" />
+    <Property Name="ReasonText" Type="nvarchar" MaxLength="512" />
+    <Property Name="ZOrder" Type="int" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="SaleItem">
+    <Key>
+      <PropertyRef Name="SaleItemID" />
+    </Key>
+    <Property Name="SaleItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TicketID" Type="int" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="TicketNum" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="512" />
+    <Property Name="Type" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="Price" Type="money" />
+    <Property Name="TPrice" Type="money" />
+    <Property Name="Extra" Type="money" />
+    <Property Name="ByWho" Type="int" />
+    <Property Name="ProcDiscount" Type="money" />
+    <Property Name="TeenDiscount" Type="money" />
+    <Property Name="SeniorDiscount" Type="money" />
+    <Property Name="ComProd" Type="bit" />
+    <Property Name="PrintBoth" Type="bit" />
+    <Property Name="SmallSize" Type="bit" />
+    <Property Name="Done" Type="bit" />
+    <Property Name="ChociceNo" Type="bit" />
+    <Property Name="SizeChoiceTxt" Type="nvarchar" MaxLength="512" />
+    <Property Name="TranID" Type="int" />
+    <Property Name="MType" Type="int" />
+    <Property Name="WorkTimeSec" Type="int" />
+    <Property Name="ItemPos" Type="int" />
+    <Property Name="ComTotal" Type="money" />
+    <Property Name="OrgPrice" Type="money" />
+    <Property Name="Cost" Type="money" />
+    <Property Name="TCost" Type="money" />
+    <Property Name="CoGDiscount" Type="money" />
+    <Property Name="CPrice" Type="money" />
+    <Property Name="SPrice" Type="money" />
+    <Property Name="TakeOut" Type="bit" />
+    <Property Name="Printed" Type="bit" />
+    <Property Name="PrintStation" Type="int" />
+    <Property Name="NotSaleItem" Type="bit" />
+    <Property Name="ItemCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="KitchenName" Type="nvarchar" MaxLength="512" />
+    <Property Name="TabParty" Type="int" />
+    <Property Name="NoTax" Type="bit" />
+    <Property Name="CoG" Type="bit" />
+    <Property Name="Voided" Type="bit" />
+    <Property Name="IsHLProductSale" Type="bit" />
+    <Property Name="IsHLMemberSale" Type="bit" />
+    <Property Name="MemberType" Type="int" />
+    <Property Name="MealsType" Type="int" />
+    <Property Name="RewardPoints" Type="int" />
+    <Property Name="ProdNo" Type="nvarchar" MaxLength="512" />
+    <Property Name="QBuy" Type="int" />
+    <Property Name="QFree" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="OrgAmount" Type="real" />
+    <Property Name="TotAmount" Type="real" />
+    <Property Name="UnitAmount" Type="real" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="512" />
+    <Property Name="CoachID" Type="int" />
+    <Property Name="CoachName" Type="nvarchar" MaxLength="512" />
+    <Property Name="SaleRepID" Type="int" />
+    <Property Name="SaleRepName" Type="nvarchar" MaxLength="512" />
+    <Property Name="PaidType" Type="tinyint" />
+    <Property Name="QtyAdj" Type="int" />
+    <Property Name="IsGiftItem" Type="bit" />
+    <Property Name="GiftItems" Type="int" />
+    <Property Name="FreeItems" Type="int" />
+    <Property Name="ProductName" Type="nvarchar" MaxLength="512" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="Location" Type="nvarchar" MaxLength="512" />
+    <Property Name="Serial" Type="nvarchar" MaxLength="512" />
+    <Property Name="SerialNeeded" Type="bit" />
+    <Property Name="StockHold" Type="int" />
+    <Property Name="QuotedItem" Type="bit" />
+    <Property Name="bReserved" Type="bit" />
+    <Property Name="bAccessory" Type="bit" />
+    <Property Name="PAccountType" Type="int" />
+    <Property Name="PAccountID" Type="int" />
+    <Property Name="PAccountName" Type="nvarchar" MaxLength="512" />
+    <Property Name="VendorName" Type="nvarchar" MaxLength="512" />
+    <Property Name="VendorID" Type="int" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="AdminID" Type="int" />
+    <Property Name="Weight" Type="real" />
+    <Property Name="FoodTypeName" Type="nvarchar(max)" />
+    <Property Name="FoodTypeID" Type="int" />
+  </EntityType>
+  <EntityType Name="TabCategories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="512" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="Page" Type="int" />
+    <Property Name="Col" Type="int" />
+    <Property Name="Row" Type="int" />
+    <Property Name="TickNumber" Type="int" />
+    <Property Name="TickNumDay" Type="int" />
+    <Property Name="Rows" Type="int" />
+    <Property Name="Cols" Type="int" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="Color" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Tables">
+    <Key>
+      <PropertyRef Name="TableID" />
+    </Key>
+    <Property Name="TableID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryID" Type="int" />
+    <Property Name="CurTicketNum" Type="int" />
+    <Property Name="CurDTicketNum" Type="int" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="TableName" Type="nvarchar" MaxLength="512" />
+    <Property Name="ImageID" Type="int" />
+    <Property Name="ImageFPath" Type="nvarchar" MaxLength="512" />
+    <Property Name="Page" Type="int" />
+    <Property Name="Row" Type="int" />
+    <Property Name="Col" Type="int" />
+    <Property Name="ButtonColor" Type="int" />
+    <Property Name="TextColor" Type="int" />
+    <Property Name="Delivery" Type="bit" />
+    <Property Name="ZOrder" Type="int" />
+    <Property Name="TabNum" Type="int" />
+    <Property Name="SeatNum" Type="int" />
+    <Property Name="TakeOut" Type="bit" />
+    <Property Name="StartTime" Type="datetime" />
+    <Property Name="TActive" Type="bit" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="BottleOff" Type="real" />
+    <Property Name="objType" Type="int" />
+    <Property Name="oName" Type="nvarchar" MaxLength="32" />
+    <Property Name="oTextAlign" Type="int" />
+    <Property Name="oFontName" Type="nvarchar" MaxLength="64" />
+    <Property Name="oFontPoint" Type="real" />
+    <Property Name="oFontStyle" Type="int" />
+    <Property Name="oForeColor" Type="int" />
+    <Property Name="oBackColor" Type="int" />
+    <Property Name="oLocX" Type="int" />
+    <Property Name="oLocY" Type="int" />
+    <Property Name="oWidth" Type="int" />
+    <Property Name="oHeight" Type="int" />
+    <Property Name="oTableStyle" Type="int" />
+    <Property Name="oUpperColor" Type="int" />
+    <Property Name="oLowerColor" Type="int" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+    <Property Name="TableType" Type="int" />
+    <Property Name="TableStatus" Type="int" />
+    <Property Name="BarTab" Type="bit" />
+    <Property Name="FastCash" Type="bit" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="512" />
+    <Property Name="OrderBy" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="512" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="Tickets">
+    <Key>
+      <PropertyRef Name="TicketID" />
+    </Key>
+    <Property Name="TicketID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="int" />
+    <Property Name="EmployeeID" Type="int" Nullable="false" />
+    <Property Name="TicketNum" Type="int" Nullable="false" />
+    <Property Name="DateTimeIssue" Type="datetime" />
+    <Property Name="PaidType" Type="tinyint" />
+    <Property Name="ContractType" Type="int" />
+    <Property Name="Tax" Type="money" />
+    <Property Name="TotalS" Type="money" />
+    <Property Name="TotalP" Type="money" />
+    <Property Name="TotalG" Type="money" />
+    <Property Name="TotalE" Type="money" />
+    <Property Name="ShareOwn" Type="money" />
+    <Property Name="ShareEmp" Type="money" />
+    <Property Name="PaidCash" Type="money" />
+    <Property Name="PaidGift" Type="money" />
+    <Property Name="Discount" Type="money" />
+    <Property Name="ByWho" Type="int" />
+    <Property Name="TimeSpan" Type="int" />
+    <Property Name="DriverLicense" Type="nvarchar" MaxLength="512" />
+    <Property Name="CardCode" Type="nvarchar" MaxLength="16" />
+    <Property Name="GiftCode" Type="nvarchar" MaxLength="16" />
+    <Property Name="Tips" Type="money" />
+    <Property Name="TotalT" Type="money" />
+    <Property Name="TotalC" Type="money" />
+    <Property Name="PaidCredit" Type="money" />
+    <Property Name="PaidCheck" Type="money" />
+    <Property Name="Voided" Type="bit" />
+    <Property Name="SkipTax" Type="bit" />
+    <Property Name="JackPot" Type="bit" />
+    <Property Name="VNDisComm" Type="bit" />
+    <Property Name="TableDone" Type="bit" />
+    <Property Name="Delivery" Type="bit" />
+    <Property Name="XferTo" Type="nvarchar" MaxLength="512" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="512" />
+    <Property Name="TableName" Type="nvarchar" MaxLength="512" />
+    <Property Name="BarCode" Type="nvarchar" MaxLength="512" />
+    <Property Name="VoiDelReason" Type="nvarchar" MaxLength="512" />
+    <Property Name="MemberType" Type="int" />
+    <Property Name="MealsType" Type="int" />
+    <Property Name="TabNum" Type="int" />
+    <Property Name="SeatNum" Type="int" />
+    <Property Name="Tax2" Type="money" />
+    <Property Name="ProdDiscount" Type="money" />
+    <Property Name="PaidMember" Type="money" />
+    <Property Name="CoGDiscount" Type="money" />
+    <Property Name="CoGDiscountP" Type="money" />
+    <Property Name="CommPercent" Type="real" />
+    <Property Name="CommProduct" Type="money" />
+    <Property Name="TotalO" Type="money" />
+    <Property Name="TranID" Type="int" />
+    <Property Name="DTicketNum" Type="int" />
+    <Property Name="TakeOut" Type="bit" />
+    <Property Name="TableID" Type="int" />
+    <Property Name="TabCatID" Type="int" />
+    <Property Name="TabParties" Type="int" />
+    <Property Name="SplitCheck" Type="bit" />
+    <Property Name="CoG" Type="bit" />
+    <Property Name="ServerCard" Type="bit" />
+    <Property Name="IsHLProductSale" Type="bit" />
+    <Property Name="IsHLMemberSale" Type="bit" />
+    <Property Name="LibProduct" Type="money" />
+    <Property Name="DHLMealCharge" Type="money" />
+    <Property Name="DHLCCardCharge" Type="money" />
+    <Property Name="DHLMCardCharge" Type="money" />
+    <Property Name="DUpGrade" Type="money" />
+    <Property Name="OnDay" Type="int" />
+    <Property Name="OnMonth" Type="int" />
+    <Property Name="OnYear" Type="int" />
+    <Property Name="OnDate" Type="datetime" />
+    <Property Name="DateKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnWeek" Type="int" />
+    <Property Name="WeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnBiWeek" Type="int" />
+    <Property Name="BiWeekKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnSimMonth" Type="int" />
+    <Property Name="SimMonthKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="OnQuarter" Type="int" />
+    <Property Name="QuarterKey" Type="nvarchar" MaxLength="10" />
+    <Property Name="NewObj" Type="bit" />
+    <Property Name="ChgeObj" Type="bit" />
+    <Property Name="SentObj" Type="bit" />
+    <Property Name="PaidMisc" Type="money" />
+    <Property Name="AdminID" Type="int" />
+    <Property Name="PaidGCard" Type="money" />
+    <Property Name="PayrollID" Type="int" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="512" />
+    <Property Name="CoachID" Type="int" />
+    <Property Name="CoachName" Type="nvarchar" MaxLength="512" />
+    <Property Name="SaleRepID" Type="int" />
+    <Property Name="SaleRepName" Type="nvarchar" MaxLength="512" />
+    <Property Name="CardID" Type="int" />
+    <Property Name="IsExterm" Type="bit" />
+    <Property Name="ModDate" Type="datetime" />
+    <Property Name="EditTimestamp" Type="datetime" />
+    <Property Name="RecordState" Type="int" />
+    <Property Name="RecordGUID" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <Association Name="FK_PhoHa7_Attendance_Employees">
+    <End Role="Employees" Type="DbProviderModel.Store.Employees" Multiplicity="0..1" />
+    <End Role="PhoHa7_Attendance" Type="DbProviderModel.Store.PhoHa7_Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Attendance">
+        <PropertyRef Name="Att_EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Object">
+    <End Role="PhoHa7_Sys_Object" Type="DbProviderModel.Store.PhoHa7_Sys_Object" Multiplicity="1" />
+    <End Role="PhoHa7_Sys_Role_Permission" Type="DbProviderModel.Store.PhoHa7_Sys_Role_Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoHa7_Sys_Object">
+        <PropertyRef Name="Syso_ID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Sys_Role_Permission">
+        <PropertyRef Name="RP_Object_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_Sys_Role_Permission_PhoHa7_Sys_Role">
+    <End Role="PhoHa7_Sys_Role" Type="DbProviderModel.Store.PhoHa7_Sys_Role" Multiplicity="1" />
+    <End Role="PhoHa7_Sys_Role_Permission" Type="DbProviderModel.Store.PhoHa7_Sys_Role_Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoHa7_Sys_Role">
+        <PropertyRef Name="Role_ID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Sys_Role_Permission">
+        <PropertyRef Name="RP_Role_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_Sys_User_Permission_Employees">
+    <End Role="Employees" Type="DbProviderModel.Store.Employees" Multiplicity="1" />
+    <End Role="PhoHa7_Sys_User_Permission" Type="DbProviderModel.Store.PhoHa7_Sys_User_Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Sys_User_Permission">
+        <PropertyRef Name="UP_User_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_Sys_User_Permission_PhoHa7_Sys_Object">
+    <End Role="PhoHa7_Sys_Object" Type="DbProviderModel.Store.PhoHa7_Sys_Object" Multiplicity="1" />
+    <End Role="PhoHa7_Sys_User_Permission" Type="DbProviderModel.Store.PhoHa7_Sys_User_Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoHa7_Sys_Object">
+        <PropertyRef Name="Syso_ID" />
+      </Principal>
+      <Dependent Role="PhoHa7_Sys_User_Permission">
+        <PropertyRef Name="UP_Object_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_UserRole_Employees">
+    <End Role="Employees" Type="DbProviderModel.Store.Employees" Multiplicity="1" />
+    <End Role="PhoHa7_UserRole" Type="DbProviderModel.Store.PhoHa7_UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="PhoHa7_UserRole">
+        <PropertyRef Name="UR_Username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoHa7_UserRole_PhoHa7_Sys_Role">
+    <End Role="PhoHa7_Sys_Role" Type="DbProviderModel.Store.PhoHa7_Sys_Role" Multiplicity="1" />
+    <End Role="PhoHa7_UserRole" Type="DbProviderModel.Store.PhoHa7_UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoHa7_Sys_Role">
+        <PropertyRef Name="Role_ID" />
+      </Principal>
+      <Dependent Role="PhoHa7_UserRole">
+        <PropertyRef Name="UR_Role_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_SizeDetails_Product_Size">
+    <End Role="Product_Size" Type="DbProviderModel.Store.Product_Size" Multiplicity="0..1" />
+    <End Role="Product_SizeDetails" Type="DbProviderModel.Store.Product_SizeDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product_Size">
+        <PropertyRef Name="Size_ID" />
+      </Principal>
+      <Dependent Role="Product_SizeDetails">
+        <PropertyRef Name="PSize_Size_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_SizeDetails_Products">
+    <End Role="Products" Type="DbProviderModel.Store.Products" Multiplicity="0..1" />
+    <End Role="Product_SizeDetails" Type="DbProviderModel.Store.Product_SizeDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="Product_SizeDetails">
+        <PropertyRef Name="PSize_Product_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

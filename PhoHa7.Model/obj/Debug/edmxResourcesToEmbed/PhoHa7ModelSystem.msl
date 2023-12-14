@@ -1,0 +1,1752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbProviderModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="DbProviderModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="WebFlag" ColumnName="WebFlag" />
+          <ScalarProperty Name="WebShowType" ColumnName="WebShowType" />
+          <ScalarProperty Name="WebOrderBy" ColumnName="WebOrderBy" />
+          <ScalarProperty Name="WebName" ColumnName="WebName" />
+          <ScalarProperty Name="WebActive" ColumnName="WebActive" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Col" ColumnName="Col" />
+          <ScalarProperty Name="Row" ColumnName="Row" />
+          <ScalarProperty Name="ChoicPage" ColumnName="ChoicPage" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="iPage" ColumnName="iPage" />
+          <ScalarProperty Name="iRow" ColumnName="iRow" />
+          <ScalarProperty Name="iCol" ColumnName="iCol" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DelItems">
+      <EntityTypeMapping TypeName="DbProviderModel.DelItem">
+        <MappingFragment StoreEntitySet="DelItems">
+          <ScalarProperty Name="DelItemID" ColumnName="DelItemID" />
+          <ScalarProperty Name="DelDate" ColumnName="DelDate" />
+          <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="TicketNum" ColumnName="TicketNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="RewardPoints" ColumnName="RewardPoints" />
+          <ScalarProperty Name="ProdNo" ColumnName="ProdNo" />
+          <ScalarProperty Name="QBuy" ColumnName="QBuy" />
+          <ScalarProperty Name="QFree" ColumnName="QFree" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="DbProviderModel.Employee">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="CurTicketNum" ColumnName="CurTicketNum" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="HireDate" ColumnName="HireDate" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+          <ScalarProperty Name="CellPhone" ColumnName="CellPhone" />
+          <ScalarProperty Name="SSN" ColumnName="SSN" />
+          <ScalarProperty Name="ContractType" ColumnName="ContractType" />
+          <ScalarProperty Name="Limit" ColumnName="Limit" />
+          <ScalarProperty Name="CPercent" ColumnName="CPercent" />
+          <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+          <ScalarProperty Name="ImageFPath" ColumnName="ImageFPath" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Row" ColumnName="Row" />
+          <ScalarProperty Name="Col" ColumnName="Col" />
+          <ScalarProperty Name="ButtonColor" ColumnName="ButtonColor" />
+          <ScalarProperty Name="TextColor" ColumnName="TextColor" />
+          <ScalarProperty Name="SecurityCode" ColumnName="SecurityCode" />
+          <ScalarProperty Name="BirthDay" ColumnName="BirthDay" />
+          <ScalarProperty Name="ShowName" ColumnName="ShowName" />
+          <ScalarProperty Name="CannotOpenDrawer" ColumnName="CannotOpenDrawer" />
+          <ScalarProperty Name="ApplyTipCheck" ColumnName="ApplyTipCheck" />
+          <ScalarProperty Name="NoAppointment" ColumnName="NoAppointment" />
+          <ScalarProperty Name="NoPicture" ColumnName="NoPicture" />
+          <ScalarProperty Name="RealName" ColumnName="RealName" />
+          <ScalarProperty Name="Tittle" ColumnName="Tittle" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+          <ScalarProperty Name="ZOrder" ColumnName="ZOrder" />
+          <ScalarProperty Name="PayrollOptions" ColumnName="PayrollOptions" />
+          <ScalarProperty Name="WorkDays" ColumnName="WorkDays" />
+          <ScalarProperty Name="TOrder" ColumnName="TOrder" />
+          <ScalarProperty Name="BorrowCash" ColumnName="BorrowCash" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="CheckPayRate" ColumnName="CheckPayRate" />
+          <ScalarProperty Name="CheckPayAmt" ColumnName="CheckPayAmt" />
+          <ScalarProperty Name="Rate2" ColumnName="Rate2" />
+          <ScalarProperty Name="MonStartTime" ColumnName="MonStartTime" />
+          <ScalarProperty Name="MonEndedTime" ColumnName="MonEndedTime" />
+          <ScalarProperty Name="TueStartTime" ColumnName="TueStartTime" />
+          <ScalarProperty Name="CommPercent" ColumnName="CommPercent" />
+          <ScalarProperty Name="CurDTicketNum" ColumnName="CurDTicketNum" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="TActive" ColumnName="TActive" />
+          <ScalarProperty Name="NoReceipt" ColumnName="NoReceipt" />
+          <ScalarProperty Name="YouGotMail" ColumnName="YouGotMail" />
+          <ScalarProperty Name="OtherApp" ColumnName="OtherApp" />
+          <ScalarProperty Name="MemoMailID" ColumnName="MemoMailID" />
+          <ScalarProperty Name="BatchNumber" ColumnName="BatchNumber" />
+          <ScalarProperty Name="ItemsNumber" ColumnName="ItemsNumber" />
+          <ScalarProperty Name="LogIn" ColumnName="LogIn" />
+          <ScalarProperty Name="LogTimeI" ColumnName="LogTimeI" />
+          <ScalarProperty Name="LogOut" ColumnName="LogOut" />
+          <ScalarProperty Name="LogTimeO" ColumnName="LogTimeO" />
+          <ScalarProperty Name="LogTimeID" ColumnName="LogTimeID" />
+          <ScalarProperty Name="Template1" ColumnName="Template1" />
+          <ScalarProperty Name="Template2" ColumnName="Template2" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="LUserName" ColumnName="LUserName" />
+          <ScalarProperty Name="LPassword" ColumnName="LPassword" />
+          <ScalarProperty Name="Administrator" ColumnName="Administrator" />
+          <ScalarProperty Name="PayrollID" ColumnName="PayrollID" />
+          <ScalarProperty Name="OMID" ColumnName="OMID" />
+          <ScalarProperty Name="MID" ColumnName="MID" />
+          <ScalarProperty Name="TID" ColumnName="TID" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="DIDATL" ColumnName="DIDATL" />
+          <ScalarProperty Name="IsHasMerchant" ColumnName="IsHasMerchant" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MidName" ColumnName="MidName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="FileAs" ColumnName="FileAs" />
+          <ScalarProperty Name="ShowNick" ColumnName="ShowNick" />
+          <ScalarProperty Name="ShowBirth" ColumnName="ShowBirth" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SecureLevel" ColumnName="SecureLevel" />
+          <ScalarProperty Name="iPage" ColumnName="iPage" />
+          <ScalarProperty Name="ixPos" ColumnName="ixPos" />
+          <ScalarProperty Name="iyPos" ColumnName="iyPos" />
+          <ScalarProperty Name="iWidth" ColumnName="iWidth" />
+          <ScalarProperty Name="iHeight" ColumnName="iHeight" />
+          <ScalarProperty Name="iFontSize" ColumnName="iFontSize" />
+          <ScalarProperty Name="iButColor" ColumnName="iButColor" />
+          <ScalarProperty Name="iTextColor" ColumnName="iTextColor" />
+          <ScalarProperty Name="TueEndedTime" ColumnName="TueEndedTime" />
+          <ScalarProperty Name="WedStartTime" ColumnName="WedStartTime" />
+          <ScalarProperty Name="WedEndedTime" ColumnName="WedEndedTime" />
+          <ScalarProperty Name="ThuStartTime" ColumnName="ThuStartTime" />
+          <ScalarProperty Name="ThuEndedTime" ColumnName="ThuEndedTime" />
+          <ScalarProperty Name="FriStartTime" ColumnName="FriStartTime" />
+          <ScalarProperty Name="FriEndedTime" ColumnName="FriEndedTime" />
+          <ScalarProperty Name="SatStartTime" ColumnName="SatStartTime" />
+          <ScalarProperty Name="SatEndedTime" ColumnName="SatEndedTime" />
+          <ScalarProperty Name="SunStartTime" ColumnName="SunStartTime" />
+          <ScalarProperty Name="SunEndedTime" ColumnName="SunEndedTime" />
+          <ScalarProperty Name="IsAUGST" ColumnName="IsAUGST" />
+          <ScalarProperty Name="MarriedStatus" ColumnName="MarriedStatus" />
+          <ScalarProperty Name="Dependent" ColumnName="Dependent" />
+          <ScalarProperty Name="Withheld" ColumnName="Withheld" />
+          <ScalarProperty Name="Examption" ColumnName="Examption" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="TIDATL" ColumnName="TIDATL" />
+          <ScalarProperty Name="AddtionFee" ColumnName="AddtionFee" />
+          <ScalarProperty Name="AvailableTime" ColumnName="AvailableTime" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_Attendance">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_Attendance">
+        <MappingFragment StoreEntitySet="PhoHa7_Attendance">
+          <ScalarProperty Name="Att_AttendanceID" ColumnName="Att_AttendanceID" />
+          <ScalarProperty Name="Att_EmployeeID" ColumnName="Att_EmployeeID" />
+          <ScalarProperty Name="Att_EmployeeName" ColumnName="Att_EmployeeName" />
+          <ScalarProperty Name="Day1" ColumnName="Day1" />
+          <ScalarProperty Name="Day2" ColumnName="Day2" />
+          <ScalarProperty Name="Day3" ColumnName="Day3" />
+          <ScalarProperty Name="Day4" ColumnName="Day4" />
+          <ScalarProperty Name="Day5" ColumnName="Day5" />
+          <ScalarProperty Name="Day6" ColumnName="Day6" />
+          <ScalarProperty Name="Day7" ColumnName="Day7" />
+          <ScalarProperty Name="Day8" ColumnName="Day8" />
+          <ScalarProperty Name="Day9" ColumnName="Day9" />
+          <ScalarProperty Name="Day10" ColumnName="Day10" />
+          <ScalarProperty Name="Day11" ColumnName="Day11" />
+          <ScalarProperty Name="Day12" ColumnName="Day12" />
+          <ScalarProperty Name="Day13" ColumnName="Day13" />
+          <ScalarProperty Name="Day14" ColumnName="Day14" />
+          <ScalarProperty Name="Day15" ColumnName="Day15" />
+          <ScalarProperty Name="Day16" ColumnName="Day16" />
+          <ScalarProperty Name="Day17" ColumnName="Day17" />
+          <ScalarProperty Name="Day18" ColumnName="Day18" />
+          <ScalarProperty Name="Day19" ColumnName="Day19" />
+          <ScalarProperty Name="Day20" ColumnName="Day20" />
+          <ScalarProperty Name="Day21" ColumnName="Day21" />
+          <ScalarProperty Name="Day22" ColumnName="Day22" />
+          <ScalarProperty Name="Day23" ColumnName="Day23" />
+          <ScalarProperty Name="Day24" ColumnName="Day24" />
+          <ScalarProperty Name="Day25" ColumnName="Day25" />
+          <ScalarProperty Name="Day26" ColumnName="Day26" />
+          <ScalarProperty Name="Day27" ColumnName="Day27" />
+          <ScalarProperty Name="Day28" ColumnName="Day28" />
+          <ScalarProperty Name="Day29" ColumnName="Day29" />
+          <ScalarProperty Name="Day30" ColumnName="Day30" />
+          <ScalarProperty Name="Day31" ColumnName="Day31" />
+          <ScalarProperty Name="Att_TotalDays" ColumnName="Att_TotalDays" />
+          <ScalarProperty Name="Att_Month" ColumnName="Att_Month" />
+          <ScalarProperty Name="Att_Year" ColumnName="Att_Year" />
+          <ScalarProperty Name="Att_AmountCheck" ColumnName="Att_AmountCheck" />
+          <ScalarProperty Name="Att_AmountCash" ColumnName="Att_AmountCash" />
+          <ScalarProperty Name="Att_AmountExtra" ColumnName="Att_AmountExtra" />
+          <ScalarProperty Name="Att_AmountSubtract" ColumnName="Att_AmountSubtract" />
+          <ScalarProperty Name="Att_AmountTotal" ColumnName="Att_AmountTotal" />
+          <ScalarProperty Name="Att_Description" ColumnName="Att_Description" />
+          <ScalarProperty Name="Att_Rate" ColumnName="Att_Rate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_FilterSaleItem">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_FilterSaleItem">
+        <MappingFragment StoreEntitySet="PhoHa7_FilterSaleItem">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_ProcSaleItem">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_ProcSaleItem">
+        <MappingFragment StoreEntitySet="PhoHa7_ProcSaleItem">
+          <ScalarProperty Name="SaleItemID" ColumnName="SaleItemID" />
+          <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="TicketNum" ColumnName="TicketNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="Employee" ColumnName="Employee" />
+          <ScalarProperty Name="Done" ColumnName="Done" />
+          <ScalarProperty Name="ToKitchen" ColumnName="ToKitchen" />
+          <ScalarProperty Name="TakeOut" ColumnName="TakeOut" />
+          <ScalarProperty Name="NotSaleItem" ColumnName="NotSaleItem" />
+          <ScalarProperty Name="Done1" ColumnName="Done1" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Cancel" ColumnName="Cancel" />
+          <ScalarProperty Name="IsChange" ColumnName="IsChange" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="ExtraName" ColumnName="ExtraName" />
+          <ScalarProperty Name="ExtraPrice" ColumnName="ExtraPrice" />
+          <ScalarProperty Name="OptionRequire" ColumnName="OptionRequire" />
+          <ScalarProperty Name="IsSmall" ColumnName="IsSmall" />
+          <ScalarProperty Name="MType" ColumnName="MType" />
+          <ScalarProperty Name="SaleItemID_Root" ColumnName="SaleItemID_Root" />
+          <ScalarProperty Name="ExtraWith" ColumnName="ExtraWith" />
+          <ScalarProperty Name="ExtraWithout" ColumnName="ExtraWithout" />
+          <ScalarProperty Name="CustomSelect" ColumnName="CustomSelect" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_ProcTickets">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_ProcTickets">
+        <MappingFragment StoreEntitySet="PhoHa7_ProcTickets">
+          <ScalarProperty Name="client_transaction_id" ColumnName="client_transaction_id" />
+          <ScalarProperty Name="transaction_id" ColumnName="transaction_id" />
+          <ScalarProperty Name="Emergency" ColumnName="Emergency" />
+          <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="TicketNum" ColumnName="TicketNum" />
+          <ScalarProperty Name="DateTimeIssue" ColumnName="DateTimeIssue" />
+          <ScalarProperty Name="Tax" ColumnName="Tax" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="DTicketNum" ColumnName="DTicketNum" />
+          <ScalarProperty Name="TakeOut" ColumnName="TakeOut" />
+          <ScalarProperty Name="Done" ColumnName="Done" />
+          <ScalarProperty Name="ToKitchen" ColumnName="ToKitchen" />
+          <ScalarProperty Name="IsChange" ColumnName="IsChange" />
+          <ScalarProperty Name="TicketID_Root" ColumnName="TicketID_Root" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_ProductType">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_ProductType">
+        <MappingFragment StoreEntitySet="PhoHa7_ProductType">
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductTypeName" ColumnName="ProductTypeName" />
+          <ScalarProperty Name="ProductTypeCode" ColumnName="ProductTypeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_Sys_Object">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_Sys_Object">
+        <MappingFragment StoreEntitySet="PhoHa7_Sys_Object">
+          <ScalarProperty Name="Syso_ID" ColumnName="Syso_ID" />
+          <ScalarProperty Name="Syso_Name" ColumnName="Syso_Name" />
+          <ScalarProperty Name="Syso_NameEn" ColumnName="Syso_NameEn" />
+          <ScalarProperty Name="Syso_Parent_ID" ColumnName="Syso_Parent_ID" />
+          <ScalarProperty Name="Syso_Description" ColumnName="Syso_Description" />
+          <ScalarProperty Name="Syso_Actived" ColumnName="Syso_Actived" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_Sys_Option">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_Sys_Option">
+        <MappingFragment StoreEntitySet="PhoHa7_Sys_Option">
+          <ScalarProperty Name="Opt_ID" ColumnName="Opt_ID" />
+          <ScalarProperty Name="Opt_Value" ColumnName="Opt_Value" />
+          <ScalarProperty Name="Opt_System" ColumnName="Opt_System" />
+          <ScalarProperty Name="Opt_Group" ColumnName="Opt_Group" />
+          <ScalarProperty Name="Opt_Description" ColumnName="Opt_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_Sys_Role">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_Sys_Role">
+        <MappingFragment StoreEntitySet="PhoHa7_Sys_Role">
+          <ScalarProperty Name="Role_Level" ColumnName="Role_Level" />
+          <ScalarProperty Name="Role_ID" ColumnName="Role_ID" />
+          <ScalarProperty Name="Role_Name" ColumnName="Role_Name" />
+          <ScalarProperty Name="Role_IsSystem" ColumnName="Role_IsSystem" />
+          <ScalarProperty Name="Role_Description" ColumnName="Role_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_Sys_Role_Permission">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_Sys_Role_Permission">
+        <MappingFragment StoreEntitySet="PhoHa7_Sys_Role_Permission">
+          <ScalarProperty Name="RP_Role_ID" ColumnName="RP_Role_ID" />
+          <ScalarProperty Name="RP_Object_ID" ColumnName="RP_Object_ID" />
+          <ScalarProperty Name="RP_Permission" ColumnName="RP_Permission" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_Sys_User_Permission">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_Sys_User_Permission">
+        <MappingFragment StoreEntitySet="PhoHa7_Sys_User_Permission">
+          <ScalarProperty Name="UP_User_ID" ColumnName="UP_User_ID" />
+          <ScalarProperty Name="UP_Object_ID" ColumnName="UP_Object_ID" />
+          <ScalarProperty Name="UP_Permission" ColumnName="UP_Permission" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_UserRole">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_UserRole">
+        <MappingFragment StoreEntitySet="PhoHa7_UserRole">
+          <ScalarProperty Name="UR_Username" ColumnName="UR_Username" />
+          <ScalarProperty Name="UR_Role_Id" ColumnName="UR_Role_Id" />
+          <ScalarProperty Name="UR_Description" ColumnName="UR_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProcSaleItems">
+      <EntityTypeMapping TypeName="DbProviderModel.ProcSaleItem">
+        <MappingFragment StoreEntitySet="ProcSaleItem">
+          <ScalarProperty Name="SaleItemID" ColumnName="SaleItemID" />
+          <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="TicketNum" ColumnName="TicketNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="TPrice" ColumnName="TPrice" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="ByWho" ColumnName="ByWho" />
+          <ScalarProperty Name="ProcDiscount" ColumnName="ProcDiscount" />
+          <ScalarProperty Name="TeenDiscount" ColumnName="TeenDiscount" />
+          <ScalarProperty Name="SeniorDiscount" ColumnName="SeniorDiscount" />
+          <ScalarProperty Name="ComProd" ColumnName="ComProd" />
+          <ScalarProperty Name="PrintBoth" ColumnName="PrintBoth" />
+          <ScalarProperty Name="SmallSize" ColumnName="SmallSize" />
+          <ScalarProperty Name="Done" ColumnName="Done" />
+          <ScalarProperty Name="ChociceNo" ColumnName="ChociceNo" />
+          <ScalarProperty Name="ResString0" ColumnName="ResString0" />
+          <ScalarProperty Name="ResString1" ColumnName="ResString1" />
+          <ScalarProperty Name="SizeChoiceTxt" ColumnName="SizeChoiceTxt" />
+          <ScalarProperty Name="ResString3" ColumnName="ResString3" />
+          <ScalarProperty Name="ResString4" ColumnName="ResString4" />
+          <ScalarProperty Name="TranID" ColumnName="TranID" />
+          <ScalarProperty Name="MType" ColumnName="MType" />
+          <ScalarProperty Name="WorkTimeSec" ColumnName="WorkTimeSec" />
+          <ScalarProperty Name="ItemPos" ColumnName="ItemPos" />
+          <ScalarProperty Name="ResInt4" ColumnName="ResInt4" />
+          <ScalarProperty Name="ComTotal" ColumnName="ComTotal" />
+          <ScalarProperty Name="OrgPrice" ColumnName="OrgPrice" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="TCost" ColumnName="TCost" />
+          <ScalarProperty Name="CoGDiscount" ColumnName="CoGDiscount" />
+          <ScalarProperty Name="ResDate0" ColumnName="ResDate0" />
+          <ScalarProperty Name="ResDate1" ColumnName="ResDate1" />
+          <ScalarProperty Name="ResDate2" ColumnName="ResDate2" />
+          <ScalarProperty Name="CPrice" ColumnName="CPrice" />
+          <ScalarProperty Name="SPrice" ColumnName="SPrice" />
+          <ScalarProperty Name="TakeOut" ColumnName="TakeOut" />
+          <ScalarProperty Name="Printed" ColumnName="Printed" />
+          <ScalarProperty Name="PrintStation" ColumnName="PrintStation" />
+          <ScalarProperty Name="NotSaleItem" ColumnName="NotSaleItem" />
+          <ScalarProperty Name="ItemCode" ColumnName="ItemCode" />
+          <ScalarProperty Name="KitchenName" ColumnName="KitchenName" />
+          <ScalarProperty Name="TabParty" ColumnName="TabParty" />
+          <ScalarProperty Name="NoTax" ColumnName="NoTax" />
+          <ScalarProperty Name="CoG" ColumnName="CoG" />
+          <ScalarProperty Name="Voided" ColumnName="Voided" />
+          <ScalarProperty Name="IsHLProductSale" ColumnName="IsHLProductSale" />
+          <ScalarProperty Name="IsHLMemberSale" ColumnName="IsHLMemberSale" />
+          <ScalarProperty Name="ResString5" ColumnName="ResString5" />
+          <ScalarProperty Name="ResString6" ColumnName="ResString6" />
+          <ScalarProperty Name="ResString7" ColumnName="ResString7" />
+          <ScalarProperty Name="ResString8" ColumnName="ResString8" />
+          <ScalarProperty Name="ResString9" ColumnName="ResString9" />
+          <ScalarProperty Name="ResMoney5" ColumnName="ResMoney5" />
+          <ScalarProperty Name="ResMoney6" ColumnName="ResMoney6" />
+          <ScalarProperty Name="ResMoney7" ColumnName="ResMoney7" />
+          <ScalarProperty Name="ResMoney8" ColumnName="ResMoney8" />
+          <ScalarProperty Name="ResMoney9" ColumnName="ResMoney9" />
+          <ScalarProperty Name="MemberType" ColumnName="MemberType" />
+          <ScalarProperty Name="MealsType" ColumnName="MealsType" />
+          <ScalarProperty Name="ResInt7" ColumnName="ResInt7" />
+          <ScalarProperty Name="ResInt8" ColumnName="ResInt8" />
+          <ScalarProperty Name="ResInt9" ColumnName="ResInt9" />
+          <ScalarProperty Name="RewardPoints" ColumnName="RewardPoints" />
+          <ScalarProperty Name="ProdNo" ColumnName="ProdNo" />
+          <ScalarProperty Name="QBuy" ColumnName="QBuy" />
+          <ScalarProperty Name="QFree" ColumnName="QFree" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="OrgAmount" ColumnName="OrgAmount" />
+          <ScalarProperty Name="TotAmount" ColumnName="TotAmount" />
+          <ScalarProperty Name="UnitAmount" ColumnName="UnitAmount" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="CoachID" ColumnName="CoachID" />
+          <ScalarProperty Name="CoachName" ColumnName="CoachName" />
+          <ScalarProperty Name="SaleRepID" ColumnName="SaleRepID" />
+          <ScalarProperty Name="SaleRepName" ColumnName="SaleRepName" />
+          <ScalarProperty Name="PaidType" ColumnName="PaidType" />
+          <ScalarProperty Name="QtyAdj" ColumnName="QtyAdj" />
+          <ScalarProperty Name="IsGiftItem" ColumnName="IsGiftItem" />
+          <ScalarProperty Name="GiftItems" ColumnName="GiftItems" />
+          <ScalarProperty Name="FreeItems" ColumnName="FreeItems" />
+          <ScalarProperty Name="VendorID" ColumnName="VendorID" />
+          <ScalarProperty Name="VendorName" ColumnName="VendorName" />
+          <ScalarProperty Name="PAccountType" ColumnName="PAccountType" />
+          <ScalarProperty Name="PAccountID" ColumnName="PAccountID" />
+          <ScalarProperty Name="PAccountName" ColumnName="PAccountName" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="SerialNeeded" ColumnName="SerialNeeded" />
+          <ScalarProperty Name="StockHold" ColumnName="StockHold" />
+          <ScalarProperty Name="QuotedItem" ColumnName="QuotedItem" />
+          <ScalarProperty Name="bReserved" ColumnName="bReserved" />
+          <ScalarProperty Name="bAccessory" ColumnName="bAccessory" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="FoodTypeName" ColumnName="FoodTypeName" />
+          <ScalarProperty Name="FoodTypeID" ColumnName="FoodTypeID" />
+          <ScalarProperty Name="ExtraName" ColumnName="ExtraName" />
+          <ScalarProperty Name="ExtraPrice" ColumnName="ExtraPrice" />
+          <ScalarProperty Name="OptionRequire" ColumnName="OptionRequire" />
+          <ScalarProperty Name="ExtraWith" ColumnName="ExtraWith" />
+          <ScalarProperty Name="ExtraWithout" ColumnName="ExtraWithout" />
+          <ScalarProperty Name="CustomSelect" ColumnName="CustomSelect" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProcTickets">
+      <EntityTypeMapping TypeName="DbProviderModel.ProcTicket">
+        <MappingFragment StoreEntitySet="ProcTickets">
+          <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="TicketNum" ColumnName="TicketNum" />
+          <ScalarProperty Name="DateTimeIssue" ColumnName="DateTimeIssue" />
+          <ScalarProperty Name="PaidType" ColumnName="PaidType" />
+          <ScalarProperty Name="ContractType" ColumnName="ContractType" />
+          <ScalarProperty Name="Tax" ColumnName="Tax" />
+          <ScalarProperty Name="TotalS" ColumnName="TotalS" />
+          <ScalarProperty Name="TotalP" ColumnName="TotalP" />
+          <ScalarProperty Name="TotalG" ColumnName="TotalG" />
+          <ScalarProperty Name="TotalE" ColumnName="TotalE" />
+          <ScalarProperty Name="ShareOwn" ColumnName="ShareOwn" />
+          <ScalarProperty Name="ShareEmp" ColumnName="ShareEmp" />
+          <ScalarProperty Name="PaidCash" ColumnName="PaidCash" />
+          <ScalarProperty Name="PaidGift" ColumnName="PaidGift" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="ByWho" ColumnName="ByWho" />
+          <ScalarProperty Name="TimeSpan" ColumnName="TimeSpan" />
+          <ScalarProperty Name="DriverLicense" ColumnName="DriverLicense" />
+          <ScalarProperty Name="CardCode" ColumnName="CardCode" />
+          <ScalarProperty Name="GiftCode" ColumnName="GiftCode" />
+          <ScalarProperty Name="Tips" ColumnName="Tips" />
+          <ScalarProperty Name="TotalT" ColumnName="TotalT" />
+          <ScalarProperty Name="TotalC" ColumnName="TotalC" />
+          <ScalarProperty Name="PaidCredit" ColumnName="PaidCredit" />
+          <ScalarProperty Name="PaidCheck" ColumnName="PaidCheck" />
+          <ScalarProperty Name="Voided" ColumnName="Voided" />
+          <ScalarProperty Name="SkipTax" ColumnName="SkipTax" />
+          <ScalarProperty Name="JackPot" ColumnName="JackPot" />
+          <ScalarProperty Name="VNDisComm" ColumnName="VNDisComm" />
+          <ScalarProperty Name="TableDone" ColumnName="TableDone" />
+          <ScalarProperty Name="Delivery" ColumnName="Delivery" />
+          <ScalarProperty Name="XferTo" ColumnName="XferTo" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="VoiDelReason" ColumnName="VoiDelReason" />
+          <ScalarProperty Name="MemberType" ColumnName="MemberType" />
+          <ScalarProperty Name="MealsType" ColumnName="MealsType" />
+          <ScalarProperty Name="TabNum" ColumnName="TabNum" />
+          <ScalarProperty Name="SeatNum" ColumnName="SeatNum" />
+          <ScalarProperty Name="ResInt4" ColumnName="ResInt4" />
+          <ScalarProperty Name="Tax2" ColumnName="Tax2" />
+          <ScalarProperty Name="ProdDiscount" ColumnName="ProdDiscount" />
+          <ScalarProperty Name="PaidMember" ColumnName="PaidMember" />
+          <ScalarProperty Name="CoGDiscount" ColumnName="CoGDiscount" />
+          <ScalarProperty Name="CoGDiscountP" ColumnName="CoGDiscountP" />
+          <ScalarProperty Name="ResDate0" ColumnName="ResDate0" />
+          <ScalarProperty Name="ResDate1" ColumnName="ResDate1" />
+          <ScalarProperty Name="ResDate2" ColumnName="ResDate2" />
+          <ScalarProperty Name="CommPercent" ColumnName="CommPercent" />
+          <ScalarProperty Name="CommProduct" ColumnName="CommProduct" />
+          <ScalarProperty Name="TotalO" ColumnName="TotalO" />
+          <ScalarProperty Name="TranID" ColumnName="TranID" />
+          <ScalarProperty Name="DTicketNum" ColumnName="DTicketNum" />
+          <ScalarProperty Name="TakeOut" ColumnName="TakeOut" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="TabCatID" ColumnName="TabCatID" />
+          <ScalarProperty Name="TabParties" ColumnName="TabParties" />
+          <ScalarProperty Name="SplitCheck" ColumnName="SplitCheck" />
+          <ScalarProperty Name="CoG" ColumnName="CoG" />
+          <ScalarProperty Name="ServerCard" ColumnName="ServerCard" />
+          <ScalarProperty Name="IsHLProductSale" ColumnName="IsHLProductSale" />
+          <ScalarProperty Name="IsHLMemberSale" ColumnName="IsHLMemberSale" />
+          <ScalarProperty Name="ResBool9" ColumnName="ResBool9" />
+          <ScalarProperty Name="ResString5" ColumnName="ResString5" />
+          <ScalarProperty Name="ResString6" ColumnName="ResString6" />
+          <ScalarProperty Name="ResString7" ColumnName="ResString7" />
+          <ScalarProperty Name="ResString8" ColumnName="ResString8" />
+          <ScalarProperty Name="ResString9" ColumnName="ResString9" />
+          <ScalarProperty Name="LibProduct" ColumnName="LibProduct" />
+          <ScalarProperty Name="DHLMealCharge" ColumnName="DHLMealCharge" />
+          <ScalarProperty Name="DHLCCardCharge" ColumnName="DHLCCardCharge" />
+          <ScalarProperty Name="DHLMCardCharge" ColumnName="DHLMCardCharge" />
+          <ScalarProperty Name="DUpGrade" ColumnName="DUpGrade" />
+          <ScalarProperty Name="ResInt5" ColumnName="ResInt5" />
+          <ScalarProperty Name="ResInt6" ColumnName="ResInt6" />
+          <ScalarProperty Name="ResInt7" ColumnName="ResInt7" />
+          <ScalarProperty Name="ResInt8" ColumnName="ResInt8" />
+          <ScalarProperty Name="ResInt9" ColumnName="ResInt9" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="PaidGCard" ColumnName="PaidGCard" />
+          <ScalarProperty Name="PaidMisc" ColumnName="PaidMisc" />
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="PayrollID" ColumnName="PayrollID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="CoachID" ColumnName="CoachID" />
+          <ScalarProperty Name="CoachName" ColumnName="CoachName" />
+          <ScalarProperty Name="SaleRepID" ColumnName="SaleRepID" />
+          <ScalarProperty Name="SaleRepName" ColumnName="SaleRepName" />
+          <ScalarProperty Name="ModDate" ColumnName="ModDate" />
+          <ScalarProperty Name="CardID" ColumnName="CardID" />
+          <ScalarProperty Name="IsExterm" ColumnName="IsExterm" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="Done" ColumnName="Done" />
+          <ScalarProperty Name="ToGo" ColumnName="ToGo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="DbProviderModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="UnitsInStock" ColumnName="UnitsInStock" />
+          <ScalarProperty Name="InStockLimit" ColumnName="InStockLimit" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ToDate" ColumnName="ToDate" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="TeenDiscount" ColumnName="TeenDiscount" />
+          <ScalarProperty Name="SeniorDiscount" ColumnName="SeniorDiscount" />
+          <ScalarProperty Name="DiscountDays" ColumnName="DiscountDays" />
+          <ScalarProperty Name="TeenSeniorDays" ColumnName="TeenSeniorDays" />
+          <ScalarProperty Name="ButtonColor" ColumnName="ButtonColor" />
+          <ScalarProperty Name="TextColor" ColumnName="TextColor" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Col" ColumnName="Col" />
+          <ScalarProperty Name="Row" ColumnName="Row" />
+          <ScalarProperty Name="ProductImage" ColumnName="ProductImage" />
+          <ScalarProperty Name="TeenDays" ColumnName="TeenDays" />
+          <ScalarProperty Name="SeniorDays" ColumnName="SeniorDays" />
+          <ScalarProperty Name="InItem" ColumnName="InItem" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="InCatID" ColumnName="InCatID" />
+          <ScalarProperty Name="StockedDate" ColumnName="StockedDate" />
+          <ScalarProperty Name="RecordLevel" ColumnName="RecordLevel" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="PrintBoth" ColumnName="PrintBoth" />
+          <ScalarProperty Name="NoTax" ColumnName="NoTax" />
+          <ScalarProperty Name="StockMatch" ColumnName="StockMatch" />
+          <ScalarProperty Name="ChoiceProd" ColumnName="ChoiceProd" />
+          <ScalarProperty Name="NoPicture" ColumnName="NoPicture" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="VendorName" ColumnName="VendorName" />
+          <ScalarProperty Name="SizeChoiceTxt" ColumnName="SizeChoiceTxt" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="VendorID" ColumnName="VendorID" />
+          <ScalarProperty Name="MType" ColumnName="MType" />
+          <ScalarProperty Name="StockCount" ColumnName="StockCount" />
+          <ScalarProperty Name="WorkTimeSec" ColumnName="WorkTimeSec" />
+          <ScalarProperty Name="BPrice" ColumnName="BPrice" />
+          <ScalarProperty Name="LPrice" ColumnName="LPrice" />
+          <ScalarProperty Name="DPrice" ColumnName="DPrice" />
+          <ScalarProperty Name="Price1" ColumnName="Price1" />
+          <ScalarProperty Name="Price2" ColumnName="Price2" />
+          <ScalarProperty Name="ComProd" ColumnName="ComProd" />
+          <ScalarProperty Name="CPrice" ColumnName="CPrice" />
+          <ScalarProperty Name="NotSaleItem" ColumnName="NotSaleItem" />
+          <ScalarProperty Name="PrintStation" ColumnName="PrintStation" />
+          <ScalarProperty Name="KitchenName" ColumnName="KitchenName" />
+          <ScalarProperty Name="OutOrder" ColumnName="OutOrder" />
+          <ScalarProperty Name="Price3" ColumnName="Price3" />
+          <ScalarProperty Name="Price4" ColumnName="Price4" />
+          <ScalarProperty Name="Price5" ColumnName="Price5" />
+          <ScalarProperty Name="Price6" ColumnName="Price6" />
+          <ScalarProperty Name="Price7" ColumnName="Price7" />
+          <ScalarProperty Name="Units" ColumnName="Units" />
+          <ScalarProperty Name="LinkProduct" ColumnName="LinkProduct" />
+          <ScalarProperty Name="RewardPoints" ColumnName="RewardPoints" />
+          <ScalarProperty Name="ProdNo" ColumnName="ProdNo" />
+          <ScalarProperty Name="QBuy" ColumnName="QBuy" />
+          <ScalarProperty Name="QFree" ColumnName="QFree" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="InitAmount" ColumnName="InitAmount" />
+          <ScalarProperty Name="CurrAmount" ColumnName="CurrAmount" />
+          <ScalarProperty Name="MiniAmount" ColumnName="MiniAmount" />
+          <ScalarProperty Name="UnitAmount" ColumnName="UnitAmount" />
+          <ScalarProperty Name="JarWeight" ColumnName="JarWeight" />
+          <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+          <ScalarProperty Name="QAccountType" ColumnName="QAccountType" />
+          <ScalarProperty Name="QAccountID" ColumnName="QAccountID" />
+          <ScalarProperty Name="QAccountName" ColumnName="QAccountName" />
+          <ScalarProperty Name="ProdImage" ColumnName="ProdImage" />
+          <ScalarProperty Name="ProdActImage" ColumnName="ProdActImage" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="OrderPending" ColumnName="OrderPending" />
+          <ScalarProperty Name="InstallUnit" ColumnName="InstallUnit" />
+          <ScalarProperty Name="VendorNo" ColumnName="VendorNo" />
+          <ScalarProperty Name="Reserved" ColumnName="Reserved" />
+          <ScalarProperty Name="ReservedStock" ColumnName="ReservedStock" />
+          <ScalarProperty Name="SerialNeeded" ColumnName="SerialNeeded" />
+          <ScalarProperty Name="ProductUrl" ColumnName="ProductUrl" />
+          <ScalarProperty Name="PType" ColumnName="PType" />
+          <ScalarProperty Name="SubLevel" ColumnName="SubLevel" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="ParentName" ColumnName="ParentName" />
+          <ScalarProperty Name="EditSequence" ColumnName="EditSequence" />
+          <ScalarProperty Name="iPage" ColumnName="iPage" />
+          <ScalarProperty Name="ixPos" ColumnName="ixPos" />
+          <ScalarProperty Name="iyPos" ColumnName="iyPos" />
+          <ScalarProperty Name="iWidth" ColumnName="iWidth" />
+          <ScalarProperty Name="iHeight" ColumnName="iHeight" />
+          <ScalarProperty Name="iFontSize" ColumnName="iFontSize" />
+          <ScalarProperty Name="iButColor" ColumnName="iButColor" />
+          <ScalarProperty Name="iTextColor" ColumnName="iTextColor" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="LType" ColumnName="LType" />
+          <ScalarProperty Name="FoodTypeName" ColumnName="FoodTypeName" />
+          <ScalarProperty Name="FoodTypeID" ColumnName="FoodTypeID" />
+          <ScalarProperty Name="OrderBy" ColumnName="OrderBy" />
+          <ScalarProperty Name="ExpandCategoryID" ColumnName="ExpandCategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductTypes">
+      <EntityTypeMapping TypeName="DbProviderModel.ProductType">
+        <MappingFragment StoreEntitySet="ProductTypes">
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="PTName" ColumnName="PTName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CodeStr" ColumnName="CodeStr" />
+          <ScalarProperty Name="Selected" ColumnName="Selected" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaleItems">
+      <EntityTypeMapping TypeName="DbProviderModel.SaleItem">
+        <MappingFragment StoreEntitySet="SaleItem">
+          <ScalarProperty Name="SaleItemID" ColumnName="SaleItemID" />
+          <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="TicketNum" ColumnName="TicketNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="TPrice" ColumnName="TPrice" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="ByWho" ColumnName="ByWho" />
+          <ScalarProperty Name="ProcDiscount" ColumnName="ProcDiscount" />
+          <ScalarProperty Name="TeenDiscount" ColumnName="TeenDiscount" />
+          <ScalarProperty Name="SeniorDiscount" ColumnName="SeniorDiscount" />
+          <ScalarProperty Name="ComProd" ColumnName="ComProd" />
+          <ScalarProperty Name="PrintBoth" ColumnName="PrintBoth" />
+          <ScalarProperty Name="SmallSize" ColumnName="SmallSize" />
+          <ScalarProperty Name="Done" ColumnName="Done" />
+          <ScalarProperty Name="ChociceNo" ColumnName="ChociceNo" />
+          <ScalarProperty Name="SizeChoiceTxt" ColumnName="SizeChoiceTxt" />
+          <ScalarProperty Name="TranID" ColumnName="TranID" />
+          <ScalarProperty Name="MType" ColumnName="MType" />
+          <ScalarProperty Name="WorkTimeSec" ColumnName="WorkTimeSec" />
+          <ScalarProperty Name="ItemPos" ColumnName="ItemPos" />
+          <ScalarProperty Name="ComTotal" ColumnName="ComTotal" />
+          <ScalarProperty Name="OrgPrice" ColumnName="OrgPrice" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="TCost" ColumnName="TCost" />
+          <ScalarProperty Name="CoGDiscount" ColumnName="CoGDiscount" />
+          <ScalarProperty Name="CPrice" ColumnName="CPrice" />
+          <ScalarProperty Name="SPrice" ColumnName="SPrice" />
+          <ScalarProperty Name="TakeOut" ColumnName="TakeOut" />
+          <ScalarProperty Name="Printed" ColumnName="Printed" />
+          <ScalarProperty Name="PrintStation" ColumnName="PrintStation" />
+          <ScalarProperty Name="NotSaleItem" ColumnName="NotSaleItem" />
+          <ScalarProperty Name="ItemCode" ColumnName="ItemCode" />
+          <ScalarProperty Name="KitchenName" ColumnName="KitchenName" />
+          <ScalarProperty Name="TabParty" ColumnName="TabParty" />
+          <ScalarProperty Name="NoTax" ColumnName="NoTax" />
+          <ScalarProperty Name="CoG" ColumnName="CoG" />
+          <ScalarProperty Name="Voided" ColumnName="Voided" />
+          <ScalarProperty Name="IsHLProductSale" ColumnName="IsHLProductSale" />
+          <ScalarProperty Name="IsHLMemberSale" ColumnName="IsHLMemberSale" />
+          <ScalarProperty Name="MemberType" ColumnName="MemberType" />
+          <ScalarProperty Name="MealsType" ColumnName="MealsType" />
+          <ScalarProperty Name="RewardPoints" ColumnName="RewardPoints" />
+          <ScalarProperty Name="ProdNo" ColumnName="ProdNo" />
+          <ScalarProperty Name="QBuy" ColumnName="QBuy" />
+          <ScalarProperty Name="QFree" ColumnName="QFree" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="OrgAmount" ColumnName="OrgAmount" />
+          <ScalarProperty Name="TotAmount" ColumnName="TotAmount" />
+          <ScalarProperty Name="UnitAmount" ColumnName="UnitAmount" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="CoachID" ColumnName="CoachID" />
+          <ScalarProperty Name="CoachName" ColumnName="CoachName" />
+          <ScalarProperty Name="SaleRepID" ColumnName="SaleRepID" />
+          <ScalarProperty Name="SaleRepName" ColumnName="SaleRepName" />
+          <ScalarProperty Name="PaidType" ColumnName="PaidType" />
+          <ScalarProperty Name="QtyAdj" ColumnName="QtyAdj" />
+          <ScalarProperty Name="IsGiftItem" ColumnName="IsGiftItem" />
+          <ScalarProperty Name="GiftItems" ColumnName="GiftItems" />
+          <ScalarProperty Name="FreeItems" ColumnName="FreeItems" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="SerialNeeded" ColumnName="SerialNeeded" />
+          <ScalarProperty Name="StockHold" ColumnName="StockHold" />
+          <ScalarProperty Name="QuotedItem" ColumnName="QuotedItem" />
+          <ScalarProperty Name="bReserved" ColumnName="bReserved" />
+          <ScalarProperty Name="bAccessory" ColumnName="bAccessory" />
+          <ScalarProperty Name="PAccountType" ColumnName="PAccountType" />
+          <ScalarProperty Name="PAccountID" ColumnName="PAccountID" />
+          <ScalarProperty Name="PAccountName" ColumnName="PAccountName" />
+          <ScalarProperty Name="VendorName" ColumnName="VendorName" />
+          <ScalarProperty Name="VendorID" ColumnName="VendorID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="FoodTypeName" ColumnName="FoodTypeName" />
+          <ScalarProperty Name="FoodTypeID" ColumnName="FoodTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TabCategories">
+      <EntityTypeMapping TypeName="DbProviderModel.TabCategory">
+        <MappingFragment StoreEntitySet="TabCategories">
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Col" ColumnName="Col" />
+          <ScalarProperty Name="Row" ColumnName="Row" />
+          <ScalarProperty Name="TickNumber" ColumnName="TickNumber" />
+          <ScalarProperty Name="TickNumDay" ColumnName="TickNumDay" />
+          <ScalarProperty Name="Rows" ColumnName="Rows" />
+          <ScalarProperty Name="Cols" ColumnName="Cols" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tables">
+      <EntityTypeMapping TypeName="DbProviderModel.Table">
+        <MappingFragment StoreEntitySet="Tables">
+          <ScalarProperty Name="Description" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerName" ColumnName="Description" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CurTicketNum" ColumnName="CurTicketNum" />
+          <ScalarProperty Name="CurDTicketNum" ColumnName="CurDTicketNum" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+          <ScalarProperty Name="ImageFPath" ColumnName="ImageFPath" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Row" ColumnName="Row" />
+          <ScalarProperty Name="Col" ColumnName="Col" />
+          <ScalarProperty Name="ButtonColor" ColumnName="ButtonColor" />
+          <ScalarProperty Name="TextColor" ColumnName="TextColor" />
+          <ScalarProperty Name="Delivery" ColumnName="Delivery" />
+          <ScalarProperty Name="ZOrder" ColumnName="ZOrder" />
+          <ScalarProperty Name="TabNum" ColumnName="TabNum" />
+          <ScalarProperty Name="SeatNum" ColumnName="SeatNum" />
+          <ScalarProperty Name="TakeOut" ColumnName="TakeOut" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="TActive" ColumnName="TActive" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="BottleOff" ColumnName="BottleOff" />
+          <ScalarProperty Name="objType" ColumnName="objType" />
+          <ScalarProperty Name="oName" ColumnName="oName" />
+          <ScalarProperty Name="oTextAlign" ColumnName="oTextAlign" />
+          <ScalarProperty Name="oFontName" ColumnName="oFontName" />
+          <ScalarProperty Name="oFontPoint" ColumnName="oFontPoint" />
+          <ScalarProperty Name="oFontStyle" ColumnName="oFontStyle" />
+          <ScalarProperty Name="oForeColor" ColumnName="oForeColor" />
+          <ScalarProperty Name="oBackColor" ColumnName="oBackColor" />
+          <ScalarProperty Name="oLocX" ColumnName="oLocX" />
+          <ScalarProperty Name="oLocY" ColumnName="oLocY" />
+          <ScalarProperty Name="oWidth" ColumnName="oWidth" />
+          <ScalarProperty Name="oHeight" ColumnName="oHeight" />
+          <ScalarProperty Name="oTableStyle" ColumnName="oTableStyle" />
+          <ScalarProperty Name="oUpperColor" ColumnName="oUpperColor" />
+          <ScalarProperty Name="oLowerColor" ColumnName="oLowerColor" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="TableType" ColumnName="TableType" />
+          <ScalarProperty Name="TableStatus" ColumnName="TableStatus" />
+          <ScalarProperty Name="BarTab" ColumnName="BarTab" />
+          <ScalarProperty Name="FastCash" ColumnName="FastCash" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="OrderBy" ColumnName="OrderBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tickets">
+      <EntityTypeMapping TypeName="DbProviderModel.Ticket">
+        <MappingFragment StoreEntitySet="Tickets">
+          <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="TicketNum" ColumnName="TicketNum" />
+          <ScalarProperty Name="DateTimeIssue" ColumnName="DateTimeIssue" />
+          <ScalarProperty Name="PaidType" ColumnName="PaidType" />
+          <ScalarProperty Name="ContractType" ColumnName="ContractType" />
+          <ScalarProperty Name="Tax" ColumnName="Tax" />
+          <ScalarProperty Name="TotalS" ColumnName="TotalS" />
+          <ScalarProperty Name="TotalP" ColumnName="TotalP" />
+          <ScalarProperty Name="TotalG" ColumnName="TotalG" />
+          <ScalarProperty Name="TotalE" ColumnName="TotalE" />
+          <ScalarProperty Name="ShareOwn" ColumnName="ShareOwn" />
+          <ScalarProperty Name="ShareEmp" ColumnName="ShareEmp" />
+          <ScalarProperty Name="PaidCash" ColumnName="PaidCash" />
+          <ScalarProperty Name="PaidGift" ColumnName="PaidGift" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="ByWho" ColumnName="ByWho" />
+          <ScalarProperty Name="TimeSpan" ColumnName="TimeSpan" />
+          <ScalarProperty Name="DriverLicense" ColumnName="DriverLicense" />
+          <ScalarProperty Name="CardCode" ColumnName="CardCode" />
+          <ScalarProperty Name="GiftCode" ColumnName="GiftCode" />
+          <ScalarProperty Name="Tips" ColumnName="Tips" />
+          <ScalarProperty Name="TotalT" ColumnName="TotalT" />
+          <ScalarProperty Name="TotalC" ColumnName="TotalC" />
+          <ScalarProperty Name="PaidCredit" ColumnName="PaidCredit" />
+          <ScalarProperty Name="PaidCheck" ColumnName="PaidCheck" />
+          <ScalarProperty Name="Voided" ColumnName="Voided" />
+          <ScalarProperty Name="SkipTax" ColumnName="SkipTax" />
+          <ScalarProperty Name="JackPot" ColumnName="JackPot" />
+          <ScalarProperty Name="VNDisComm" ColumnName="VNDisComm" />
+          <ScalarProperty Name="TableDone" ColumnName="TableDone" />
+          <ScalarProperty Name="Delivery" ColumnName="Delivery" />
+          <ScalarProperty Name="XferTo" ColumnName="XferTo" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="VoiDelReason" ColumnName="VoiDelReason" />
+          <ScalarProperty Name="MemberType" ColumnName="MemberType" />
+          <ScalarProperty Name="MealsType" ColumnName="MealsType" />
+          <ScalarProperty Name="TabNum" ColumnName="TabNum" />
+          <ScalarProperty Name="SeatNum" ColumnName="SeatNum" />
+          <ScalarProperty Name="Tax2" ColumnName="Tax2" />
+          <ScalarProperty Name="ProdDiscount" ColumnName="ProdDiscount" />
+          <ScalarProperty Name="PaidMember" ColumnName="PaidMember" />
+          <ScalarProperty Name="CoGDiscount" ColumnName="CoGDiscount" />
+          <ScalarProperty Name="CoGDiscountP" ColumnName="CoGDiscountP" />
+          <ScalarProperty Name="CommPercent" ColumnName="CommPercent" />
+          <ScalarProperty Name="CommProduct" ColumnName="CommProduct" />
+          <ScalarProperty Name="TotalO" ColumnName="TotalO" />
+          <ScalarProperty Name="TranID" ColumnName="TranID" />
+          <ScalarProperty Name="DTicketNum" ColumnName="DTicketNum" />
+          <ScalarProperty Name="TakeOut" ColumnName="TakeOut" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="TabCatID" ColumnName="TabCatID" />
+          <ScalarProperty Name="TabParties" ColumnName="TabParties" />
+          <ScalarProperty Name="SplitCheck" ColumnName="SplitCheck" />
+          <ScalarProperty Name="CoG" ColumnName="CoG" />
+          <ScalarProperty Name="ServerCard" ColumnName="ServerCard" />
+          <ScalarProperty Name="IsHLProductSale" ColumnName="IsHLProductSale" />
+          <ScalarProperty Name="IsHLMemberSale" ColumnName="IsHLMemberSale" />
+          <ScalarProperty Name="LibProduct" ColumnName="LibProduct" />
+          <ScalarProperty Name="DHLMealCharge" ColumnName="DHLMealCharge" />
+          <ScalarProperty Name="DHLCCardCharge" ColumnName="DHLCCardCharge" />
+          <ScalarProperty Name="DHLMCardCharge" ColumnName="DHLMCardCharge" />
+          <ScalarProperty Name="DUpGrade" ColumnName="DUpGrade" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="PaidMisc" ColumnName="PaidMisc" />
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="PaidGCard" ColumnName="PaidGCard" />
+          <ScalarProperty Name="PayrollID" ColumnName="PayrollID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="CoachID" ColumnName="CoachID" />
+          <ScalarProperty Name="CoachName" ColumnName="CoachName" />
+          <ScalarProperty Name="SaleRepID" ColumnName="SaleRepID" />
+          <ScalarProperty Name="SaleRepName" ColumnName="SaleRepName" />
+          <ScalarProperty Name="CardID" ColumnName="CardID" />
+          <ScalarProperty Name="IsExterm" ColumnName="IsExterm" />
+          <ScalarProperty Name="ModDate" ColumnName="ModDate" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_Machine">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_Machine">
+        <MappingFragment StoreEntitySet="PhoHa7_Machine">
+          <ScalarProperty Name="ForceColorQty1" ColumnName="ForceColorQty1" />
+          <ScalarProperty Name="FontSizeQty" ColumnName="FontSizeQty" />
+          <ScalarProperty Name="ForceColorQty" ColumnName="ForceColorQty" />
+          <ScalarProperty Name="BackgrdColorQty" ColumnName="BackgrdColorQty" />
+          <ScalarProperty Name="ForceColor1" ColumnName="ForceColor1" />
+          <ScalarProperty Name="ForceColor" ColumnName="ForceColor" />
+          <ScalarProperty Name="TicketFontSize" ColumnName="TicketFontSize" />
+          <ScalarProperty Name="TicketHeightSize" ColumnName="TicketHeightSize" />
+          <ScalarProperty Name="TicketWidthSize" ColumnName="TicketWidthSize" />
+          <ScalarProperty Name="SoundUrl" ColumnName="SoundUrl" />
+          <ScalarProperty Name="MultiInstance" ColumnName="MultiInstance" />
+          <ScalarProperty Name="PrinterBarcode" ColumnName="PrinterBarcode" />
+          <ScalarProperty Name="AutoPrinterAfter" ColumnName="AutoPrinterAfter" />
+          <ScalarProperty Name="AutoPrinter" ColumnName="AutoPrinter" />
+          <ScalarProperty Name="PrinterName" ColumnName="PrinterName" />
+          <ScalarProperty Name="PaddingSizeHeader" ColumnName="PaddingSizeHeader" />
+          <ScalarProperty Name="FontSizePrint" ColumnName="FontSizePrint" />
+          <ScalarProperty Name="BackgroundColorEmergency" ColumnName="BackgroundColorEmergency" />
+          <ScalarProperty Name="ForceColorChange" ColumnName="ForceColorChange" />
+          <ScalarProperty Name="BackgroundColorChange" ColumnName="BackgroundColorChange" />
+          <ScalarProperty Name="ForceColorTogo" ColumnName="ForceColorTogo" />
+          <ScalarProperty Name="BackgroundColorToGo" ColumnName="BackgroundColorToGo" />
+          <ScalarProperty Name="Timer" ColumnName="Timer" />
+          <ScalarProperty Name="ShowFilterGroup" ColumnName="ShowFilterGroup" />
+          <ScalarProperty Name="ShowGroup" ColumnName="ShowGroup" />
+          <ScalarProperty Name="GroupTable" ColumnName="GroupTable" />
+          <ScalarProperty Name="MachineType" ColumnName="MachineType" />
+          <ScalarProperty Name="MachineActive" ColumnName="MachineActive" />
+          <ScalarProperty Name="MachineName" ColumnName="MachineName" />
+          <ScalarProperty Name="MachineIpAdress" ColumnName="MachineIpAdress" />
+          <ScalarProperty Name="MachineID" ColumnName="MachineID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoHa7_CardProcess">
+      <EntityTypeMapping TypeName="DbProviderModel.PhoHa7_CardProcess">
+        <MappingFragment StoreEntitySet="PhoHa7_CardProcess">
+          <ScalarProperty Name="Tip" ColumnName="Tip" />
+          <ScalarProperty Name="Entry" ColumnName="Entry" />
+          <ScalarProperty Name="CardType" ColumnName="CardType" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="CardCVV" ColumnName="CardCVV" />
+          <ScalarProperty Name="CardExpire" ColumnName="CardExpire" />
+          <ScalarProperty Name="CardName" ColumnName="CardName" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Appointments">
+      <EntityTypeMapping TypeName="DbProviderModel.Appointment">
+        <MappingFragment StoreEntitySet="Appointments">
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="ColorArgb" ColumnName="ColorArgb" />
+          <ScalarProperty Name="ColorIdx" ColumnName="ColorIdx" />
+          <ScalarProperty Name="TechEmail" ColumnName="TechEmail" />
+          <ScalarProperty Name="TechName" ColumnName="TechName" />
+          <ScalarProperty Name="TechMobile" ColumnName="TechMobile" />
+          <ScalarProperty Name="ByRequest" ColumnName="ByRequest" />
+          <ScalarProperty Name="BySMS" ColumnName="BySMS" />
+          <ScalarProperty Name="ByEmail" ColumnName="ByEmail" />
+          <ScalarProperty Name="Scheduled" ColumnName="Scheduled" />
+          <ScalarProperty Name="RemindedEmail" ColumnName="RemindedEmail" />
+          <ScalarProperty Name="RemindedSMS" ColumnName="RemindedSMS" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="StatusStr" ColumnName="StatusStr" />
+          <ScalarProperty Name="StatusS" ColumnName="StatusS" />
+          <ScalarProperty Name="StatusA" ColumnName="StatusA" />
+          <ScalarProperty Name="TimeSec" ColumnName="TimeSec" />
+          <ScalarProperty Name="TimeIdx" ColumnName="TimeIdx" />
+          <ScalarProperty Name="Services" ColumnName="Services" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="KitNumber" ColumnName="KitNumber" />
+          <ScalarProperty Name="CustomerPhone" ColumnName="CustomerPhone" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="OnTime" ColumnName="OnTime" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="AppointmentID" ColumnName="AppointmentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CardInfos">
+      <EntityTypeMapping TypeName="DbProviderModel.CardInfo">
+        <MappingFragment StoreEntitySet="CardInfos">
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="StorePhone" ColumnName="StorePhone" />
+          <ScalarProperty Name="StoreZip" ColumnName="StoreZip" />
+          <ScalarProperty Name="StoreState" ColumnName="StoreState" />
+          <ScalarProperty Name="StoreCity" ColumnName="StoreCity" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="StoreName" ColumnName="StoreName" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Tips" ColumnName="Tips" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="ACI" ColumnName="ACI" />
+          <ScalarProperty Name="TDate" ColumnName="TDate" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="AuthCode" ColumnName="AuthCode" />
+          <ScalarProperty Name="Reference" ColumnName="Reference" />
+          <ScalarProperty Name="Settled" ColumnName="Settled" />
+          <ScalarProperty Name="ActionStr" ColumnName="ActionStr" />
+          <ScalarProperty Name="Action" ColumnName="Action" />
+          <ScalarProperty Name="CardGUID" ColumnName="CardGUID" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Track2" ColumnName="Track2" />
+          <ScalarProperty Name="Track1" ColumnName="Track1" />
+          <ScalarProperty Name="ExpMonth" ColumnName="ExpMonth" />
+          <ScalarProperty Name="ExpYear" ColumnName="ExpYear" />
+          <ScalarProperty Name="ExpDate" ColumnName="ExpDate" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="Acc4Digit" ColumnName="Acc4Digit" />
+          <ScalarProperty Name="HolderName" ColumnName="HolderName" />
+          <ScalarProperty Name="CardName" ColumnName="CardName" />
+          <ScalarProperty Name="CardType" ColumnName="CardType" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="MID" ColumnName="MID" />
+          <ScalarProperty Name="TID" ColumnName="TID" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="CardInfoID" ColumnName="CardInfoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="DbProviderModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="OMarkState" ColumnName="OMarkState" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="AddressAddr5S" ColumnName="AddressAddr5S" />
+          <ScalarProperty Name="International" ColumnName="International" />
+          <ScalarProperty Name="AddressAddr5" ColumnName="AddressAddr5" />
+          <ScalarProperty Name="AddressAddr4S" ColumnName="AddressAddr4S" />
+          <ScalarProperty Name="AddressAddr3S" ColumnName="AddressAddr3S" />
+          <ScalarProperty Name="AddressAddr2S" ColumnName="AddressAddr2S" />
+          <ScalarProperty Name="AddressAddr1S" ColumnName="AddressAddr1S" />
+          <ScalarProperty Name="AddressAddr4" ColumnName="AddressAddr4" />
+          <ScalarProperty Name="AddressAddr3" ColumnName="AddressAddr3" />
+          <ScalarProperty Name="AddressAddr2" ColumnName="AddressAddr2" />
+          <ScalarProperty Name="AddressAddr1" ColumnName="AddressAddr1" />
+          <ScalarProperty Name="EditSequence" ColumnName="EditSequence" />
+          <ScalarProperty Name="ReSaleNo" ColumnName="ReSaleNo" />
+          <ScalarProperty Name="CardZip" ColumnName="CardZip" />
+          <ScalarProperty Name="CardAddress" ColumnName="CardAddress" />
+          <ScalarProperty Name="HolderName" ColumnName="HolderName" />
+          <ScalarProperty Name="ExpMonth" ColumnName="ExpMonth" />
+          <ScalarProperty Name="ExpYear" ColumnName="ExpYear" />
+          <ScalarProperty Name="CreditCardNo" ColumnName="CreditCardNo" />
+          <ScalarProperty Name="PayType" ColumnName="PayType" />
+          <ScalarProperty Name="PayTypeStr" ColumnName="PayTypeStr" />
+          <ScalarProperty Name="AccountNo" ColumnName="AccountNo" />
+          <ScalarProperty Name="SaleRepID" ColumnName="SaleRepID" />
+          <ScalarProperty Name="SaleRep" ColumnName="SaleRep" />
+          <ScalarProperty Name="CustType" ColumnName="CustType" />
+          <ScalarProperty Name="CustTypeStr" ColumnName="CustTypeStr" />
+          <ScalarProperty Name="TermsID" ColumnName="TermsID" />
+          <ScalarProperty Name="Terms" ColumnName="Terms" />
+          <ScalarProperty Name="HomePhoneAtl" ColumnName="HomePhoneAtl" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="ContactNameAtl" ColumnName="ContactNameAtl" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ZipCodeS" ColumnName="ZipCodeS" />
+          <ScalarProperty Name="StateS" ColumnName="StateS" />
+          <ScalarProperty Name="CityS" ColumnName="CityS" />
+          <ScalarProperty Name="AddressS" ColumnName="AddressS" />
+          <ScalarProperty Name="SameAsBill" ColumnName="SameAsBill" />
+          <ScalarProperty Name="FileAs" ColumnName="FileAs" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="EstimateTotal" ColumnName="EstimateTotal" />
+          <ScalarProperty Name="OpenDate" ColumnName="OpenDate" />
+          <ScalarProperty Name="OpenBalance" ColumnName="OpenBalance" />
+          <ScalarProperty Name="Selected" ColumnName="Selected" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="DExpireDate" ColumnName="DExpireDate" />
+          <ScalarProperty Name="PExpireDate" ColumnName="PExpireDate" />
+          <ScalarProperty Name="PatientNum" ColumnName="PatientNum" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="RewardRate" ColumnName="RewardRate" />
+          <ScalarProperty Name="RewardPoints" ColumnName="RewardPoints" />
+          <ScalarProperty Name="DiscountDate" ColumnName="DiscountDate" />
+          <ScalarProperty Name="UnPaid" ColumnName="UnPaid" />
+          <ScalarProperty Name="HearFromUsID" ColumnName="HearFromUsID" />
+          <ScalarProperty Name="Profile3" ColumnName="Profile3" />
+          <ScalarProperty Name="Profile2" ColumnName="Profile2" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Business" ColumnName="Business" />
+          <ScalarProperty Name="Profile1" ColumnName="Profile1" />
+          <ScalarProperty Name="BySMS" ColumnName="BySMS" />
+          <ScalarProperty Name="ByEmail" ColumnName="ByEmail" />
+          <ScalarProperty Name="ByMail" ColumnName="ByMail" />
+          <ScalarProperty Name="BirthDay" ColumnName="BirthDay" />
+          <ScalarProperty Name="ReferencesNotes" ColumnName="ReferencesNotes" />
+          <ScalarProperty Name="ImageFileName" ColumnName="ImageFileName" />
+          <ScalarProperty Name="DriverLicense" ColumnName="DriverLicense" />
+          <ScalarProperty Name="TotalSpend" ColumnName="TotalSpend" />
+          <ScalarProperty Name="NumVisit" ColumnName="NumVisit" />
+          <ScalarProperty Name="LastVisit" ColumnName="LastVisit" />
+          <ScalarProperty Name="CustSince" ColumnName="CustSince" />
+          <ScalarProperty Name="EmpServiceLast" ColumnName="EmpServiceLast" />
+          <ScalarProperty Name="EmpPreferName" ColumnName="EmpPreferName" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="KitNum" ColumnName="KitNum" />
+          <ScalarProperty Name="CellPhone" ColumnName="CellPhone" />
+          <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Favorite" ColumnName="Favorite" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerTypes">
+      <EntityTypeMapping TypeName="DbProviderModel.CustomerType">
+        <MappingFragment StoreEntitySet="CustomerTypes">
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="OIndex" ColumnName="OIndex" />
+          <ScalarProperty Name="HasExpireDate" ColumnName="HasExpireDate" />
+          <ScalarProperty Name="DiscountRate" ColumnName="DiscountRate" />
+          <ScalarProperty Name="DiscountAmt" ColumnName="DiscountAmt" />
+          <ScalarProperty Name="CustTypeStr" ColumnName="CustTypeStr" />
+          <ScalarProperty Name="ApplyDiscount" ColumnName="ApplyDiscount" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="CustomerTypeID" ColumnName="CustomerTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DailyDraws">
+      <EntityTypeMapping TypeName="DbProviderModel.DailyDraw">
+        <MappingFragment StoreEntitySet="DailyDraw">
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="TranID" ColumnName="TranID" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="DrawDate" ColumnName="DrawDate" />
+          <ScalarProperty Name="Withdrawer" ColumnName="Withdrawer" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DailyDrawID" ColumnName="DailyDrawID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Errors">
+      <EntityTypeMapping TypeName="DbProviderModel.Error">
+        <MappingFragment StoreEntitySet="Error">
+          <ScalarProperty Name="InnerExceptionStackTrace" ColumnName="InnerExceptionStackTrace" />
+          <ScalarProperty Name="InnerSource" ColumnName="InnerSource" />
+          <ScalarProperty Name="InnerException" ColumnName="InnerException" />
+          <ScalarProperty Name="ErrorType" ColumnName="ErrorType" />
+          <ScalarProperty Name="ErrorDate" ColumnName="ErrorDate" />
+          <ScalarProperty Name="ErrorDetails" ColumnName="ErrorDetails" />
+          <ScalarProperty Name="ErrorText" ColumnName="ErrorText" />
+          <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpCategories">
+      <EntityTypeMapping TypeName="DbProviderModel.ExpCategory">
+        <MappingFragment StoreEntitySet="ExpCategories">
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="Row" ColumnName="Row" />
+          <ScalarProperty Name="Col" ColumnName="Col" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ExpCatName" ColumnName="ExpCatName" />
+          <ScalarProperty Name="ExpCatID" ColumnName="ExpCatID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpProducts">
+      <EntityTypeMapping TypeName="DbProviderModel.ExpProduct">
+        <MappingFragment StoreEntitySet="ExpProduct">
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="ProductImage" ColumnName="ProductImage" />
+          <ScalarProperty Name="Row" ColumnName="Row" />
+          <ScalarProperty Name="Col" ColumnName="Col" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="TextColor" ColumnName="TextColor" />
+          <ScalarProperty Name="ButtonColor" ColumnName="ButtonColor" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ExpCatID" ColumnName="ExpCatID" />
+          <ScalarProperty Name="ExpenseName" ColumnName="ExpenseName" />
+          <ScalarProperty Name="ExpenseID" ColumnName="ExpenseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiftCerts">
+      <EntityTypeMapping TypeName="DbProviderModel.GiftCert">
+        <MappingFragment StoreEntitySet="GiftCerts">
+          <ScalarProperty Name="ChainID" ColumnName="ChainID" />
+          <ScalarProperty Name="NetSale" ColumnName="NetSale" />
+          <ScalarProperty Name="GST" ColumnName="GST" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="IsExterm" ColumnName="IsExterm" />
+          <ScalarProperty Name="CardID" ColumnName="CardID" />
+          <ScalarProperty Name="SaleRepName" ColumnName="SaleRepName" />
+          <ScalarProperty Name="SaleRepID" ColumnName="SaleRepID" />
+          <ScalarProperty Name="CoachName" ColumnName="CoachName" />
+          <ScalarProperty Name="CoachID" ColumnName="CoachID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="PayrollID" ColumnName="PayrollID" />
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="PaidGCard" ColumnName="PaidGCard" />
+          <ScalarProperty Name="PaidMisc" ColumnName="PaidMisc" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="TranID" ColumnName="TranID" />
+          <ScalarProperty Name="RecType" ColumnName="RecType" />
+          <ScalarProperty Name="RecText" ColumnName="RecText" />
+          <ScalarProperty Name="ReUsed" ColumnName="ReUsed" />
+          <ScalarProperty Name="LostStolen" ColumnName="LostStolen" />
+          <ScalarProperty Name="RetType" ColumnName="RetType" />
+          <ScalarProperty Name="Voided" ColumnName="Voided" />
+          <ScalarProperty Name="PaidCheck" ColumnName="PaidCheck" />
+          <ScalarProperty Name="PaidCredit" ColumnName="PaidCredit" />
+          <ScalarProperty Name="PaidGift" ColumnName="PaidGift" />
+          <ScalarProperty Name="PaidCash" ColumnName="PaidCash" />
+          <ScalarProperty Name="CardCode" ColumnName="CardCode" />
+          <ScalarProperty Name="PaidType" ColumnName="PaidType" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="LastUsed" ColumnName="LastUsed" />
+          <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Issued" ColumnName="Issued" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="GiftCertID" ColumnName="GiftCertID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiftHistories">
+      <EntityTypeMapping TypeName="DbProviderModel.GiftHistory">
+        <MappingFragment StoreEntitySet="GiftHistories">
+          <ScalarProperty Name="ChainID" ColumnName="ChainID" />
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="SentObj" ColumnName="SentObj" />
+          <ScalarProperty Name="ChgeObj" ColumnName="ChgeObj" />
+          <ScalarProperty Name="NewObj" ColumnName="NewObj" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="RecType" ColumnName="RecType" />
+          <ScalarProperty Name="RetType" ColumnName="RetType" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="TicketNum" ColumnName="TicketNum" />
+          <ScalarProperty Name="DTicketNum" ColumnName="DTicketNum" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="AddAmt" ColumnName="AddAmt" />
+          <ScalarProperty Name="UsedAmt" ColumnName="UsedAmt" />
+          <ScalarProperty Name="UsedDate" ColumnName="UsedDate" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="TranID" ColumnName="TranID" />
+          <ScalarProperty Name="GiftHistoryID" ColumnName="GiftHistoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="DbProviderModel.Message">
+        <MappingFragment StoreEntitySet="Messages">
+          <ScalarProperty Name="SendTo" ColumnName="SendTo" />
+          <ScalarProperty Name="SendFrom" ColumnName="SendFrom" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="To" ColumnName="To" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NumSegments" ColumnName="NumSegments" />
+          <ScalarProperty Name="NumImages" ColumnName="NumImages" />
+          <ScalarProperty Name="From" ColumnName="From" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="ErrorCode" ColumnName="ErrorCode" />
+          <ScalarProperty Name="Direction" ColumnName="Direction" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateSent" ColumnName="DateSent" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Body" ColumnName="Body" />
+          <ScalarProperty Name="ApiVersion" ColumnName="ApiVersion" />
+          <ScalarProperty Name="AccountSid" ColumnName="AccountSid" />
+          <ScalarProperty Name="MessageID" ColumnName="MessageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaymentTypes">
+      <EntityTypeMapping TypeName="DbProviderModel.PaymentType">
+        <MappingFragment StoreEntitySet="PaymentTypes">
+          <ScalarProperty Name="ImgURL" ColumnName="ImgURL" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="PayTypeStr" ColumnName="PayTypeStr" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Selected" ColumnName="Selected" />
+          <ScalarProperty Name="PaymentTypeID" ColumnName="PaymentTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReasonItems">
+      <EntityTypeMapping TypeName="DbProviderModel.ReasonItem">
+        <MappingFragment StoreEntitySet="ReasonItems">
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="ZOrder" ColumnName="ZOrder" />
+          <ScalarProperty Name="ReasonText" ColumnName="ReasonText" />
+          <ScalarProperty Name="ReasonType" ColumnName="ReasonType" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ReasonItemID" ColumnName="ReasonItemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DaySales">
+      <EntityTypeMapping TypeName="DbProviderModel.DaySale">
+        <MappingFragment StoreEntitySet="DaySales">
+          <ScalarProperty Name="EditTimestamp" ColumnName="EditTimestamp" />
+          <ScalarProperty Name="RecordGUID" ColumnName="RecordGUID" />
+          <ScalarProperty Name="RecordState" ColumnName="RecordState" />
+          <ScalarProperty Name="QuarterKey" ColumnName="QuarterKey" />
+          <ScalarProperty Name="OnQuarter" ColumnName="OnQuarter" />
+          <ScalarProperty Name="SimMonthKey" ColumnName="SimMonthKey" />
+          <ScalarProperty Name="OnSimMonth" ColumnName="OnSimMonth" />
+          <ScalarProperty Name="BiWeekKey" ColumnName="BiWeekKey" />
+          <ScalarProperty Name="OnBiWeek" ColumnName="OnBiWeek" />
+          <ScalarProperty Name="WeekKey" ColumnName="WeekKey" />
+          <ScalarProperty Name="OnWeek" ColumnName="OnWeek" />
+          <ScalarProperty Name="DateKey" ColumnName="DateKey" />
+          <ScalarProperty Name="OnDate" ColumnName="OnDate" />
+          <ScalarProperty Name="OnYear" ColumnName="OnYear" />
+          <ScalarProperty Name="OnMonth" ColumnName="OnMonth" />
+          <ScalarProperty Name="OnDay" ColumnName="OnDay" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="GrandTotal" ColumnName="GrandTotal" />
+          <ScalarProperty Name="TotalTicket" ColumnName="TotalTicket" />
+          <ScalarProperty Name="GCardActivate" ColumnName="GCardActivate" />
+          <ScalarProperty Name="TotalSale" ColumnName="TotalSale" />
+          <ScalarProperty Name="Tips" ColumnName="Tips" />
+          <ScalarProperty Name="PaidMisc" ColumnName="PaidMisc" />
+          <ScalarProperty Name="PaidGCard" ColumnName="PaidGCard" />
+          <ScalarProperty Name="PaidGift" ColumnName="PaidGift" />
+          <ScalarProperty Name="PaidCredit" ColumnName="PaidCredit" />
+          <ScalarProperty Name="PaidCheck" ColumnName="PaidCheck" />
+          <ScalarProperty Name="PaidCash" ColumnName="PaidCash" />
+          <ScalarProperty Name="GiftGCard" ColumnName="GiftGCard" />
+          <ScalarProperty Name="CreditGCard" ColumnName="CreditGCard" />
+          <ScalarProperty Name="CheckGCard" ColumnName="CheckGCard" />
+          <ScalarProperty Name="CashGCard" ColumnName="CashGCard" />
+          <ScalarProperty Name="CashOnHand" ColumnName="CashOnHand" />
+          <ScalarProperty Name="TickCount" ColumnName="TickCount" />
+          <ScalarProperty Name="NumberEmp" ColumnName="NumberEmp" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="StoreName" ColumnName="StoreName" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="DaySaleID" ColumnName="DaySaleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dictionaries">
+      <EntityTypeMapping TypeName="DbProviderModel.Dictionary">
+        <MappingFragment StoreEntitySet="Dictionary">
+          <ScalarProperty Name="Dic_TargetLanguage" ColumnName="Dic_TargetLanguage" />
+          <ScalarProperty Name="Dic_SourceLanguage" ColumnName="Dic_SourceLanguage" />
+          <ScalarProperty Name="Dic_Keyword" ColumnName="Dic_Keyword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product_Size">
+      <EntityTypeMapping TypeName="DbProviderModel.Product_Size">
+        <MappingFragment StoreEntitySet="Product_Size">
+          <ScalarProperty Name="Size_Actived" ColumnName="Size_Actived" />
+          <ScalarProperty Name="Size_Description" ColumnName="Size_Description" />
+          <ScalarProperty Name="Size_Name" ColumnName="Size_Name" />
+          <ScalarProperty Name="Size_Code" ColumnName="Size_Code" />
+          <ScalarProperty Name="Size_ID" ColumnName="Size_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product_SizeDetails">
+      <EntityTypeMapping TypeName="DbProviderModel.Product_SizeDetails">
+        <MappingFragment StoreEntitySet="Product_SizeDetails">
+          <ScalarProperty Name="PSize_ExtraPrice" ColumnName="PSize_ExtraPrice" />
+          <ScalarProperty Name="PSize_Price" ColumnName="PSize_Price" />
+          <ScalarProperty Name="PSize_Product_ID" ColumnName="PSize_Product_ID" />
+          <ScalarProperty Name="PSize_Size_ID" ColumnName="PSize_Size_ID" />
+          <ScalarProperty Name="PSize_ID" ColumnName="PSize_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

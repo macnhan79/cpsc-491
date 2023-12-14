@@ -1,0 +1,40 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PhoHa7.Library.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DBConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=localhost;database=sumen;Uid=root;Pwd=123456</Value>
+    </Setting>
+    <Setting Name="default_account" Type="System.String" Scope="User">
+      <Value Profile="(Default)">xTMQ7jpnjQc=</Value>
+    </Setting>
+    <Setting Name="default_account_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YbVtttrYFYhGjtP6mHP6XQ==</Value>
+    </Setting>
+    <Setting Name="m_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">123456</Value>
+    </Setting>
+    <Setting Name="m_database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DbProvider</Value>
+    </Setting>
+    <Setting Name="m_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">nhan</Value>
+    </Setting>
+    <Setting Name="m_server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="ErrorMessagesConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Resources\ErrorMessages.mdb;Persist Security Info=True&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Resources\ErrorMessages.mdb;Persist Security Info=True</Value>
+    </Setting>
+    <Setting Name="LocationSave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">e:/Thuc Tap/Hinh1</Value>
+    </Setting>
+    <Setting Name="DefaultSave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:/Sumen</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

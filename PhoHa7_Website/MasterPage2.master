@@ -1,0 +1,142 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" class="gr__restaurant_sansoftwareindia_com">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pho Minh</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/components-md.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
+    <script src="js/hide-address-bar.js"></script>
+
+    <link rel="stylesheet" href="table_responsive/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style_table.css" />
+    <link href="css/style_002.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+        .btnLogout {
+            border: 1px solid #FFF;
+            border-radius: 14px;
+            top: 0px;
+            right: 8px;
+            background: #3598db;
+            height: 39px;
+            color: #FFF;
+            padding: 9px 7px 8px 9px;
+        }
+    </style>
+</head>
+<body class="page-container-bg-solid page-md" data-gr-c-s-loaded="true">
+    <form id="form1" runat="server" enctype="multipart/form-data">
+    <%--    <asp:ScriptManager ID="ScriptManager1" runat="server" />--%>
+
+        <dx:ASPxLoadingPanel ID="LoadingPanel1" Modal="true" runat="server" ClientInstanceName="LoadingPanel1"></dx:ASPxLoadingPanel>
+        <div id="overlay">
+            <div id="modalcontainer"></div>
+        </div>
+        <div class="clearfix ">
+            <div id="main_panel_container" class="left">
+                <div id="dashboard" style="padding: 0px!important;">
+                    <div class="btn-group btn-group-justified" style="height: 60px;">
+                        <a class="btn btn-primary" style="background: #3598db; border: #00c0ef; font-size: 17px" href="/table.aspx">Tables</a>
+                        <a class="btn btn-primary" style="background: #3598db; border: #00c0ef; font-size: 17px" href="/MyOrders.aspx">My Order</a>
+                        <a class="btn btn-primary" style="background: #3598db; border: #00c0ef; font-size: 17px" href="/MyAccount.aspx">My Account</a>
+                        <a class="btn btn-primary" style="background: #3598db!important; border: none;">
+                            <div class="input-group-btn">
+                                <asp:Button ID="btnLogout" runat="server" CssClass="btn btn-default btnLogout"
+                                    Text='HI' OnClick="btnLogout_Click" UseSubmitBehavior="False" />
+                            </div>
+                        </a>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div id="tabledata" class="section ui-resizable" style="border: none; margin-top: 0px;">
+                        <div id="venue_table" style="margin-bottom: 5%;" class="col-md-12 col-sm-12 col-centered">
+                            <div style="float: left; width: 20%; margin-right: 2%; height: 350px;">
+                                <dx:ASPxNavBar Theme="Metropolis" ID="ASPxNavBar1" runat="server" AllowSelectItem="True"
+                                    EnableAnimation="True" Font-Size="Medium">
+                                    <Groups>
+                                        <dx:NavBarGroup ItemStyle-Height="32px" HeaderStyle-Height="32px" Name="gAccount" Text="Account">
+                                            <Items>
+                                                <dx:NavBarItem NavigateUrl="TicketManagement.aspx" Name="accountInfo" Text="Tickets">
+                                                </dx:NavBarItem>
+                                                <dx:NavBarItem NavigateUrl="MyAccount.aspx" Name="accountInfo" Text="Account Information">
+                                                </dx:NavBarItem>
+                                                <dx:NavBarItem NavigateUrl="UsersManagement.aspx" Name="accountMana" Text="Users Management">
+                                                </dx:NavBarItem>
+                                                
+                                            </Items>
+                                            <HeaderStyle Height="32px"></HeaderStyle>
+                                            <ItemStyle Height="32px"></ItemStyle>
+                                        </dx:NavBarGroup>
+                                        <dx:NavBarGroup Name="gAdmin" Text="Admin">
+                                            <Items>
+                                                <dx:NavBarItem NavigateUrl="Attendance.aspx" Name="attendance" Text="Attendance">
+                                                </dx:NavBarItem>
+                                                <dx:NavBarItem NavigateUrl="Payroll.aspx" Name="Payroll" Text="Payroll">
+                                                </dx:NavBarItem>
+                                                <dx:NavBarItem NavigateUrl="Permission.aspx" Name="permission" Text="Users Permission">
+                                                </dx:NavBarItem>
+                                                <dx:NavBarItem NavigateUrl="UsersManagementAdmin.aspx" Name="accountManaAdmin" Text="Users Management Admin">
+                                                </dx:NavBarItem>
+                                                <dx:NavBarItem NavigateUrl="Products.aspx" Name="Products" Text="Products Management">
+                                                </dx:NavBarItem>
+                                                 <dx:NavBarItem NavigateUrl="MachineManagement.aspx" Name="machineManagement" Text="Machine Management">
+                                                </dx:NavBarItem>
+                                                 <dx:NavBarItem NavigateUrl="Dictionary.aspx" Name="dictionary" Text="Dictionary Management">
+                                                </dx:NavBarItem>
+                                                 <dx:NavBarItem NavigateUrl="ErrorsView.aspx" Name="errorView" Text="System Errors">
+                                                </dx:NavBarItem>
+                                                 <dx:NavBarItem NavigateUrl="InterfaceManagement.aspx" Name="interfaceManagement" Text="Interface Management">
+                                                </dx:NavBarItem>
+                                                 <dx:NavBarItem NavigateUrl="CategoriesTab.aspx" Name="CategoriesTab" Text="Categories Tab Management">
+                                                </dx:NavBarItem>
+                                                <dx:NavBarItem NavigateUrl="TicketViewer.aspx" Name="TicketViewer" Text="Ticket Viewer">
+                                                </dx:NavBarItem>
+                                            </Items>
+                                            <HeaderStyle Height="32px"></HeaderStyle>
+                                            <ItemStyle Height="32px"></ItemStyle>
+                                        </dx:NavBarGroup>
+                                        <dx:NavBarGroup Name="gReport" Text="Report">
+                                            <Items>
+                                                <dx:NavBarItem NavigateUrl="ReportSale.aspx" Name="daySale" Text="Day Sale">
+                                                </dx:NavBarItem>
+                                                <dx:NavBarItem NavigateUrl="ReportSaleWeek.aspx" Name="weekSale" Text="Week Sale">
+                                                </dx:NavBarItem>
+                                                <dx:NavBarItem NavigateUrl="ReportSaleMonth.aspx" Name="MonthSale" Text="Month Sale">
+                                                </dx:NavBarItem>
+                                            </Items>
+                                            <HeaderStyle Height="32px"></HeaderStyle>
+                                            <ItemStyle Height="32px"></ItemStyle>
+                                        </dx:NavBarGroup>
+                                    </Groups>
+                                    <ItemStyle>
+                                        <SelectedStyle BackColor="#FF8800">
+                                        </SelectedStyle>
+                                    </ItemStyle>
+                                    <LinkStyle>
+                                        <Font Underline="False"></Font>
+                                    </LinkStyle>
+                                </dx:ASPxNavBar>
+                            </div>
+                            <div style="float: left; width: 78%; height: 100%">
+                                <asp:ContentPlaceHolder ID="ContentPlace1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: left;"></div>
+    </form>
+</body>
+
+</html>
